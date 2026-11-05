@@ -1,0 +1,369 @@
+{
+  "revision": "Seizo Mini R5",
+  "checked_date": "2026-11-04",
+  "currency": "USD",
+  "pricing_kind": "Public distributor pages, not a binding quote or saved cart",
+  "csv_file": "DigiKey_Import.csv",
+  "csv_columns": [
+    "CustomerReference",
+    "ManufacturerPartNumber",
+    "Quantity"
+  ],
+  "csv_line_items": 18,
+  "csv_item_subtotal_USD": 46.73,
+  "includes_shipping": false,
+  "includes_tax": false,
+  "includes_tariffs": false,
+  "cart_created": false,
+  "order_placed": false,
+  "assembly_service_included": false,
+  "exact_quantity_carrier_parts_and_five_pots_USD": 16.84,
+  "carrier_parts_and_five_pots_with_cheaper_10piece_resistor_breaks_and_one_male_strip_USD": 16.65,
+  "carrier_parts_five_pots_mux_three_sensors_one_male_strip_USD": 41.45,
+  "conditional_second_male_strip_USD": 1.23,
+  "provisional_150mm_sensor_cables_USD": 2.85,
+  "provisional_three_6mm_magnets_USD": 1.2,
+  "rows": [
+    {
+      "customer_reference": "R19 R20 R21 R22",
+      "manufacturer_part_number": "MFR-25FBF52-100R",
+      "needed_quantity": 4,
+      "buy_quantity": 4,
+      "unit_price_USD": 0.1,
+      "extended_USD": 0.4,
+      "public_page_stock": 65513,
+      "digikey_part_number": "100XBK-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-100R/12795",
+      "notes": "",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "R1 R3 R5 R7 R9 - 5 REQUIRED 5 SPARE",
+      "manufacturer_part_number": "MFR-25FBF52-100K",
+      "needed_quantity": 5,
+      "buy_quantity": 10,
+      "unit_price_USD": 0.042,
+      "extended_USD": 0.42,
+      "public_page_stock": 3462,
+      "digikey_part_number": "100KXBK-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-100K/13473",
+      "notes": "Buy 10 for $0.42 instead of 5 for $0.50; five unused spares.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "R2 R4 R6 R8 R10 - 5 REQUIRED 5 SPARE",
+      "manufacturer_part_number": "MFR-25FBF52-200K",
+      "needed_quantity": 5,
+      "buy_quantity": 10,
+      "unit_price_USD": 0.044,
+      "extended_USD": 0.44,
+      "public_page_stock": 10238,
+      "digikey_part_number": "200KXBK-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-200K/13547",
+      "notes": "Buy 10 for $0.44 instead of 5 for $0.55; five unused spares.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "R11 R12 R15 R25",
+      "manufacturer_part_number": "MFR-25FBF52-10K",
+      "needed_quantity": 4,
+      "buy_quantity": 4,
+      "unit_price_USD": 0.1,
+      "extended_USD": 0.4,
+      "public_page_stock": 33664,
+      "digikey_part_number": "10.0KXBK-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219",
+      "notes": "",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "R16 R24",
+      "manufacturer_part_number": "MFR-25FBF52-1K",
+      "needed_quantity": 2,
+      "buy_quantity": 2,
+      "unit_price_USD": 0.1,
+      "extended_USD": 0.2,
+      "public_page_stock": 40749,
+      "digikey_part_number": "1.00KXBK-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-1K/13011",
+      "notes": "",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "R13 R14 - CUT TAPE",
+      "manufacturer_part_number": "MFR-25FTF52-4K7",
+      "needed_quantity": 2,
+      "buy_quantity": 2,
+      "unit_price_USD": 0.11,
+      "extended_USD": 0.22,
+      "public_page_stock": 60557,
+      "digikey_part_number": "13-MFR-25FTF52-4K7CT-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/yageo/MFR-25FTF52-4K7/9140940",
+      "notes": "Packaging-only substitute for the out-of-stock MFR-25FBF52-4K7; same 4.7k 1% 0.25W 6.3x2.4mm body. Select cut tape, not 5000-piece box.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "C1 C2 C3 C4 C5 C7 C8 C9 C10 C12 - CUT TAPE",
+      "manufacturer_part_number": "FG18X7R1H104KNT06",
+      "needed_quantity": 10,
+      "buy_quantity": 10,
+      "unit_price_USD": 0.155,
+      "extended_USD": 1.55,
+      "public_page_stock": 39181,
+      "digikey_part_number": "445-173265-1-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/tdk-corporation/FG18X7R1H104KNT06/5802879",
+      "notes": "All ten are required in R5; no spare. 4.0x2.5mm maximum body; 2.5mm pitch; 5.5mm maximum height.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "C6",
+      "manufacturer_part_number": "ESK106M050AC3AA",
+      "needed_quantity": 1,
+      "buy_quantity": 1,
+      "unit_price_USD": 0.19,
+      "extended_USD": 0.19,
+      "public_page_stock": 44452,
+      "digikey_part_number": "399-6599-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/kemet/ESK106M050AC3AA/3083014",
+      "notes": "Polarized; 5mm diameter, 2mm pitch; 12.5mm maximum height.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "RV1 AND FOUR REMOTE POTS",
+      "manufacturer_part_number": "PTV09A-1020F-B203",
+      "needed_quantity": 5,
+      "buy_quantity": 5,
+      "unit_price_USD": 1.49,
+      "extended_USD": 7.45,
+      "public_page_stock": 992,
+      "digikey_part_number": "118-PTV09A-1020F-B203-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-1020F-B203/6153475",
+      "notes": "One soldered base pot and four wired remote pots; 20k linear, 280deg, 20mm flatted 6mm shaft.",
+      "scope": "carrier_and_remote_teacher"
+    },
+    {
+      "customer_reference": "D1",
+      "manufacturer_part_number": "WP710A10GD",
+      "needed_quantity": 1,
+      "buy_quantity": 1,
+      "unit_price_USD": 0.22,
+      "extended_USD": 0.22,
+      "public_page_stock": 42494,
+      "digikey_part_number": "754-1603-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/kingbright/WP710A10GD/2769808",
+      "notes": "Green 3mm T-1, 2.54mm lead pitch.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "SW1 SW2 SW3",
+      "manufacturer_part_number": "B3F-1000",
+      "needed_quantity": 3,
+      "buy_quantity": 3,
+      "unit_price_USD": 0.35,
+      "extended_USD": 1.05,
+      "public_page_stock": 21180,
+      "digikey_part_number": "SW400-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150",
+      "notes": "Omron-origin part now listed under Aratas; same B3F-1000 part, 6mm tactile body, 6.5x4.5mm contact grid.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "J1 J2",
+      "manufacturer_part_number": "PPTC091LFBN-RC",
+      "needed_quantity": 2,
+      "buy_quantity": 2,
+      "unit_price_USD": 0.69,
+      "extended_USD": 1.38,
+      "public_page_stock": 4347,
+      "digikey_part_number": "S7007-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC091LFBN-RC/810148",
+      "notes": "Vertical female 1x9, 2.54mm pitch; 23.36x2.54mm body, 8.5mm height; 0.75x0.40mm PCB posts.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "J6 J12",
+      "manufacturer_part_number": "PPTC121LFBN-RC",
+      "needed_quantity": 2,
+      "buy_quantity": 2,
+      "unit_price_USD": 0.75,
+      "extended_USD": 1.5,
+      "public_page_stock": 18544,
+      "digikey_part_number": "S6100-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC121LFBN-RC/807231",
+      "notes": "Vertical female 1x12; 30.98x2.54mm body, 8.5mm height; 0.75x0.40mm PCB posts.",
+      "scope": "carrier"
+    },
+    {
+      "customer_reference": "MALE STRIPS - 28 CARRIER PLUS MODULE PINS IF NEEDED",
+      "manufacturer_part_number": "PRPC040SAAN-RC",
+      "needed_quantity": 2,
+      "buy_quantity": 2,
+      "unit_price_USD": 1.23,
+      "extended_USD": 2.46,
+      "public_page_stock": 65330,
+      "digikey_part_number": "S1011EC-40-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214",
+      "notes": "Two breakaway 40-contact strips supply 80 contacts: 28 carrier (4x3 and4x4), 18 S3 module and24 mux module =70 maximum. Reduce to ONE strip if both module kits supply their own headers. 2.54mm pitch, square 0.64mm contacts, 2.5mm insulator, 5.84mm mating length and3.05mm solder post.",
+      "scope": "carrier_and_conditional_module_headers",
+      "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/386/xRxCzzzSxxN-RC_ST_11635-B.pdf"
+    },
+    {
+      "customer_reference": "MUX MODULE",
+      "manufacturer_part_number": "2717",
+      "needed_quantity": 1,
+      "buy_quantity": 1,
+      "unit_price_USD": 6.95,
+      "extended_USD": 6.95,
+      "public_page_stock": 1659,
+      "digikey_part_number": "1528-1363-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/adafruit-industries-llc/2717/5604376",
+      "notes": "Exact Adafruit2717 two-row12-pin module, not a similarly named different-format PCA9548 board.",
+      "scope": "feedback"
+    },
+    {
+      "customer_reference": "AS5600 SENSOR HEADS - BASE MAIN FRONT",
+      "manufacturer_part_number": "6357",
+      "needed_quantity": 3,
+      "buy_quantity": 3,
+      "unit_price_USD": 5.95,
+      "extended_USD": 17.85,
+      "public_page_stock": 194,
+      "digikey_part_number": "1528-6357-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/adafruit-industries-llc/6357/26832926",
+      "notes": "Exact Adafruit assembled module; header(s) not installed, magnets and cables separate.",
+      "scope": "feedback"
+    },
+    {
+      "customer_reference": "SENSOR CABLES - 150mm LENGTH MUST BE CHECKED",
+      "manufacturer_part_number": "4397",
+      "needed_quantity": 3,
+      "buy_quantity": 3,
+      "unit_price_USD": 0.95,
+      "extended_USD": 2.85,
+      "public_page_stock": 5045,
+      "digikey_part_number": "1528-4397-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/adafruit-industries-llc/4397/10824270",
+      "notes": "Quote assumption only: 150mm QT-to-individual0.1inch female sockets; length has NOT been established for actual motor mounts. Adafruit description confirms compatibility with0.1inch headers. Do not substitute the QT-to-QT cable.",
+      "scope": "feedback_harness_length_provisional"
+    },
+    {
+      "customer_reference": "MAGNETS - 6x2.5mm MOUNT MUST BE DESIGNED",
+      "manufacturer_part_number": "8995",
+      "needed_quantity": 3,
+      "buy_quantity": 3,
+      "unit_price_USD": 0.4,
+      "extended_USD": 1.2,
+      "public_page_stock": 24085,
+      "digikey_part_number": "469-1024-ND",
+      "source_url": "https://www.digikey.com/en/products/detail/radial-magnets-inc/8995/5126077",
+      "notes": "Diametric N35 6.00x2.50mm magnet candidate. Brackets, on-axis alignment, sensor gap and magnetic-strength checks remain unverified; not a verified motor clip-on assembly.",
+      "scope": "feedback_mount_provisional"
+    }
+  ],
+  "packaging_substitution": {
+    "reference": "R13 R14",
+    "original": "MFR-25FBF52-4K7",
+    "original_public_stock": 0,
+    "original_expected_restock": "2026-12-29",
+    "selected": "MFR-25FTF52-4K7",
+    "reason": "Same resistor construction/value/rating/body, cut-tape packaging available in small quantities; no native schematic or PCB change required."
+  },
+  "mechanical_fit_review": {
+    "supplier_female_socket_datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf",
+    "female_socket_pitch_mm": 2.54,
+    "female_socket_body_width_mm": 2.54,
+    "female_socket_height_mm": 8.5,
+    "female_socket_post_mm": [
+      0.75,
+      0.4
+    ],
+    "female_socket_recommended_hole_mm": 1.02,
+    "native_stock_footprint_drill_mm": 1,
+    "female_9_body_length_mm": 23.36,
+    "female_12_body_length_mm": 30.98,
+    "body_extends_past_native_FFab_each_end_mm": 0.25,
+    "body_fits_native_courtyard": true,
+    "selected_12pin_body_envelope_mm": [
+      0.48,
+      30.73,
+      31.46,
+      48.51
+    ],
+    "clearance_to_6mm_H5_head_mm": 0.54,
+    "solderless_fit_of_actual_supplier_parts_tested": false,
+    "note": "The supplier bodies are0.5mm longer overall than nominal stock F.Fab, inside the stock courtyard. Pin pitch and contact/post dimensions match the hole grid. Confirm actual delivered parts and mechanical supports before assembly.",
+    "male_header_datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/386/xRxCzzzSxxN-RC_ST_11635-B.pdf",
+    "male_header_square_pin_mm": 0.64,
+    "male_header_recommended_hole_mm": 1.0
+  },
+  "excluded_from_import": [
+    {
+      "item": "Waveshare ESP32-S3-Zero",
+      "quantity": 1,
+      "manufacturer_part_number": "ESP32-S3-Zero",
+      "primary_url": "https://www.waveshare.com/esp32-s3-zero.htm",
+      "digikey_availability": "Not verified; do not silently substitute a differently sized ESP32 board.",
+      "price_USD": null,
+      "known_previous_advertised_floor_USD": 5.49,
+      "price_status": "Selected memory/header variant and live external quote still required."
+    },
+    {
+      "item": "100x100mm two-layer blue carrier PCB",
+      "quantity_needed": 1,
+      "quantity_batch_quote": 5,
+      "price_USD": null,
+      "reason": "Fabrication options and delivered quote not checked."
+    },
+    {
+      "item": "Four remote potentiometer wire harnesses",
+      "quantity": 4,
+      "price_USD": null,
+      "reason": "Required lengths, female carrier terminations, insulation and strain relief not selected."
+    },
+    {
+      "item": "USB-A to USB-C DATA cable",
+      "quantity": 1,
+      "price_USD": null,
+      "reason": "Length/ownership/selected model not established."
+    },
+    {
+      "item": "M3 insulated standoffs, screws, washers and mini-arm bearing/couplers",
+      "price_USD": null,
+      "reason": "Final CAD/fastener lengths and quantities not established."
+    },
+    {
+      "item": "Three encoder brackets/couplers and magnet retention",
+      "quantity": 3,
+      "price_USD": null,
+      "reason": "Front-only motor-shaft geometry and safe sensor/magnet mounting not yet measured/designed."
+    },
+    {
+      "item": "Shipping, local tax and any import charges",
+      "price_USD": null,
+      "reason": "Only the final reviewed checkout can calculate these."
+    }
+  ],
+  "no_purchase_items": [
+    "TP1 throughTP9 are bare PCB test pads, not fitted purchased components.",
+    "No motor driver, servo, battery charger or independent emergency-stop hardware is present on this carrier."
+  ],
+  "remaining_purchase_checks": [
+    "Review matched cut-tape SKUs for capacitors and4.7k resistors; avoid full reels/boxes.",
+    "Check whether the selected S3 and mux kits include male header strips; reduce the40pin-strip quantity to1 if both do.",
+    "Confirm the150mm sensor harness length or replace it with a verified suitable harness before purchase.",
+    "Design and check the6mm magnet mounts, alignment and sensor gap before treating the feedback assembly as ready.",
+    "Confirm current price/stock, shipping/tax/tariffs and exact quantities in the imported list before placing an order."
+  ],
+  "full_delivered_30_USD_budget_verified": false,
+  "full_purchase_ready": false,
+  "native_project_modified": false,
+  "source_inventory_note": "Stock counts are observations of public pages returned during this review and may be cached/change before checkout. They are not reserved stock.",
+  "validation": {
+    "csv_rows": 18,
+    "csv_exact_three_columns": true,
+    "all_positive_integer_quantities": true,
+    "csv_matches_review_rows": true,
+    "decimal_subtotal_verified_USD": 46.73,
+    "import_to_distributor_not_executed": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "project": "Seizo Mini",
+  "program": "Half-Life",
+  "repository": "gmaxdragon/Seizo-Mini",
+  "revision": "R5",
+  "rows": 24,
+  "item_limit": 80,
+  "distributor_priced_rows": 18,
+  "distributor_subtotal_USD": 46.73,
+  "external_module_advertised_floor_USD": 5.49,
+  "unquoted_rows": 5,
+  "shipping_tax_excluded_from_parts": true,
+  "zero_means_pending_not_free": true,
+  "complete_delivered_total_verified": false,
+  "not_for_TorqueNewArm": true
+}
