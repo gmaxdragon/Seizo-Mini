@@ -42,9 +42,9 @@ That adapter is allocated to this carrier. Running both this controller and the 
 - [Connections and orientation](motor-controller-r4-1/assembly/CONNECTIONS_AND_ORIENTATION.md), [repair and fallback](motor-controller-r4-1/RECOVERY_AND_FALLBACK_R41.md) and [verification summary](motor-controller-r4-1/checks/labeled-freeze-review.json)
 - [Optional partial assembly quotation files](motor-controller-r4-1/assembly/quotation-only/), [Gerbers and drills](motor-controller-r4-1/fabrication/) and [locked reference firmware](motor-controller-r4-1/firmware/)
 
-![R4.1 routing preview — CAD plot, not a physical board](motor-controller-r4-1/preview/pcb-routing.png)
+![R4.1 routing preview — CAD plot, not a physical board](readme-images/pcb-routing.png)
 
-![R4.1 KiCad 3D render — several component models are absent](motor-controller-r4-1/preview/pcb-3d.png)
+![R4.1 KiCad 3D render — several component models are absent](readme-images/pcb-3d.png)
 
 Both images come from this exact PCB. The 3D render has incomplete model coverage, including the driver modules, MCU and motor terminals; it is not a prediction of a fully assembled board.
 
