@@ -1,6 +1,6 @@
 # R4.1 connections, orientation and soldering
 
-These instructions apply only to the exact reviewed **BIGTREETECH TMC2209 V1.3 with R110 sense resistors** and **Waveshare RP2040-Zero-M**. A generic StepStick/TMC2209 or similar-looking board is not automatically pin compatible. Verify the delivered revision, shunts, markings, headers and current-sense resistors against the primary manufacturer documentation before fitting it.
+These instructions apply only to the exact reviewed **BIGTREETECH TMC2209 V1.3 with R110 sense resistors** and **genuine Waveshare RP2040-Zero (20187) with the specified added header pins**. A generic StepStick/TMC2209 or similar-looking board is not automatically pin compatible. Verify the delivered revision, shunts, markings, headers and current-sense resistors against the primary manufacturer documentation before fitting it.
 
 ## Front view: module direction
 
@@ -47,7 +47,7 @@ Motor terminals are upright DORABO5.08 mm screw terminals, not ordinary Dupont s
 
 ## Parts that are easy to reverse or confuse
 
-- **U7/U8:** fitted by the TOP2 partial factory service. Review pin 1 and placement orientation. R4.1 has no SMT-land/drill overlaps in the frozen nominal audit; factory CAM/rotation review remains necessary.
+- **U7/U8:** hand fitted in the active manual plan. Match pin1 to the native pad map and inspect all 26 joints. R4.1 has no SMT-land/drill overlaps in the frozen nominal audit. The older TOP2 factory option remains separate.
 - **F1/F2:** manually fit the 4 A and 0.5 A fuses in their correct positions. Neither is a wire link. Do not bypass them.
 - **R5:** a required fitted tinned wire link, made from a clipped resistor lead. **R4 remains 1 kΩ; R5 is not 1 kΩ.**
 - **D1:** SB560-E3/54 band/cathode to pad 1/VMOT. Leave the body about 3–5 mm above the PCB for airflow; formed lead pitch 25.4 mm.
@@ -57,7 +57,7 @@ Motor terminals are upright DORABO5.08 mm screw terminals, not ordinary Dupont s
 - **C2/C3:** 100 nF ceramics, nonpolarized. R6/R7/R9 are 10 kΩ; R8 is 1 kΩ. Wrong divider values change the reset threshold.
 - **U6:** program the bare Zero with the supplied locked three-driver UF2 before directly soldering its 23 male pins. VSYS is intentionally unused. Do not connect motor power to it.
 
-Use [Solder_List.csv](../cost/Solder_List.csv) for exact fitted quantities and joints. TOP2 fits only 26 of the 32 SMD joints per carrier; F1, F2, D2 and all 200 through-hole joints still require manual assembly. Plug-in modules are inserted after inspection with all power disconnected; they are not soldered directly to the carrier.
+Use [Solder_List.csv](../cost/Solder_List.csv) for exact fitted quantities and joints. The active build has 230 carrier joints plus 23 extra MCU header joints and separate reset-harness terminations. J8 is not fitted as a plastic header; solder the blower black wire to J8.1 and red wire to J8.2 with strain relief, leaving pads3/4 unused. Plug-in modules are inserted after inspection with all power disconnected; they are not soldered directly to the carrier.
 
 ## Reading the drawings
 

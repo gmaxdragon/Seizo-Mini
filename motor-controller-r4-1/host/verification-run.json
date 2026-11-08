@@ -1,0 +1,12 @@
+{
+  "tests_run": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "all_passed_without_skips": true,
+  "firmware_core_sha256": "d806645811b5cb8795e9d65ede17dc5cbad2d792851868cc3601e6c6b698447e",
+  "physical_testing": false,
+  "hardware_serial_ports_opened": 0,
+  "firmware_flashed": false,
+  "live_application_changed": false
+}

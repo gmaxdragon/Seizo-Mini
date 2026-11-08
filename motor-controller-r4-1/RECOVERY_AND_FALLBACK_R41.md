@@ -28,7 +28,7 @@ The stepper drivers plug into sockets, so a failed driver can be replaced after 
 
 R4.1 moves the former five U7 escape vias outside the solder lands. Its frozen digital layout audit reports **no drill overlaps with any of the 32 SMT pads**, with a minimum via-annulus-to-U7-land gap of **0.175 mm**. The old R4 instruction to prefill U7 pads 7, 9, 16, 18 and 19 does **not** apply to this R4.1 board. Do not prefill those chip pads.
 
-Under the **TOP2 assembly plan, U7 and U8 are factory fitted**, so you do not need to place or solder those two chips yourself. Inspect their factory joints and orientation using the current assembly drawings. Manufacturer CAM review and placement-rotation approval are still pending; the digital gap/overlap check is not factory acceptance. If a factory chip joint needs repair, get help if you cannot inspect and rework the small leads reliably.
+In the **active manual build, U7 and U8 are hand soldered**. The preserved TOP2 alternative factory-fits only those two chips and exceeds this budget. Inspect their factory joints and orientation using the current assembly drawings. Manufacturer CAM review and placement-rotation approval are still pending; the digital gap/overlap check is not factory acceptance. If a factory chip joint needs repair, get help if you cannot inspect and rework the small leads reliably.
 
 After any repair, repeat the assembly guide's unpowered checks, then its no-driver and no-motor power checks. A meter continuity beep alone does not prove a rail is shorted because capacitors can charge during the measurement. Stop on unexpected current, heat, odor, sound or voltage; do not keep retrying power.
 

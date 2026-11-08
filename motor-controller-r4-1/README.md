@@ -1,20 +1,21 @@
-# Seizo Mini — Motor Controller R4.1
+# Seizo Mini — R4.1 manual build
 
-This separate prototype revises R4 for **three fitted TMC2209 V1.3 drivers** in U1/U2/U3: two suitable NEMA 23 motors and one suitable NEMA 17 pancake motor. Frame size alone does not establish electrical or torque compatibility. All five native sockets and ten socket rows remain; U4/U5 driver modules stay absent. The existing CNC shield handles three full-size NEMA 17 motors separately.
+This is a three-driver motor-controller design: U1/U2 for suitably rated NEMA23 motors, U3 for one suitably rated pancake motor, and U4/U5 empty future slots. The separate existing CNC shield stays unchanged. One USB-C data cable connects to a Pi USB-A port; a reused regulated 12 V adapter supplies the motor rail. Frame size alone does not prove motor compatibility.
 
-R4.1 moves U7 escape vias away from its solder lands, adds clearer motor/future-slot and USB-C labels, and uses matching three-driver reference firmware. The through-hole motor terminals stand vertically. USB-C connects to a Pi USB-A port for control; a separate reused 12 V supply powers motors. This is not an encoder, universal NEMA 23 driver or closed-loop controller.
+The native PCB, schematic, manufacturing exports and locked firmware are unchanged from the reviewed R4.1 freeze. ERC and DRC report zero errors, warnings, unconnected nets and schematic mismatches. Firmware has 6,987 regression checks plus 651 three-driver checks; the new isolated Python host has 50 passing tests, ten against the actual firmware core. No real board or motor was tested.
 
-The Pi can access the USB serial protocol, but the existing Seizo application has not been integrated or hardware-tested with this controller. The application adapter, joint mapping, heartbeat/fault coordination and calibration remain to be implemented/tested.
+## Current build option
 
-The factory quotation fits **U7/U8 only** on two carriers from a five-board batch. Fuses, rear TVS, through-hole components, MCU, ten socket rows, three plug-in drivers, cooling and RUN/GND harness still need assembly. The supplied firmware is movement-locked and has not been flashed or tested on the real hardware.
+**$98.94 estimated with allowances.** Use [Final_BOM.csv](cost/Final_BOM.csv), [Budget.csv](cost/Budget.csv), the [20-line LCSC importer](cost/LCSC_import.csv) and [cost explanation](cost/READ_FIRST.md). No coupon is required for the planning total. Actual final duties, taxes, accessory contents and checkout charges remain unconfirmed; $12.50 contingency is not a liability ceiling. Motors/tools are excluded and the owned adapter is reused.
 
-The conservative four-vendor planning total is **$110.21 before unquoted import/checkout charges**. The $100 cap is **not met**. The cheaper $108.46 variant excludes two spare ICs and crosses LCSC's $15 small-order threshold before unknown handling/import charges. Neither is permission to order.
+**All carrier parts are hand soldered**, including U7/U8. The genuine bare Waveshare Zero gets 23 added header pins. J8's plastic header is not purchased: the specified SUNON blower wires solder to protected pads1/2 and need a retained bracket/duct. Start with [BUY_AND_SOLDER_MANUAL.md](BUY_AND_SOLDER_MANUAL.md), then [ASSEMBLY_AND_FIRST_POWER.md](ASSEMBLY_AND_FIRST_POWER.md). The earlier factory option is preserved under cost/factory-alternative; it is not the active purchase plan.
 
-Use [the native project](project/big%20motor%20controller.kicad_pro), [BOM](cost/Final_BOM.csv), [cost explanation](cost/READ_FIRST.md), [assembly plan](ASSEMBLY_AND_FIRST_POWER.md), [quotation inputs](assembly/quotation-only/QUOTE_SCOPE.md) and [checks](checks/labeled-freeze-review.json). Earlier R4 and teaching-arm/encoder designs remain separate and preserved in the repository.
+The [Python host](host/) implements the USB protocol, but it is not deployed to the Pi or integrated into the existing GRBL/Uno web application. Firmware remains motion-locked. Exact motor current, gearing, direction and joint mapping are not measured.
 
-Digital consistency and software tests passed. Supplier DFM review, actual soldering, supply/current/torque, thermal, USB/UART, protection and regeneration tests remain. HOLD is not an independent emergency stop or brake; a gravity-loaded arm may fall after power/torque loss. This is a reviewed design prototype, not a qualified production product.
+## Files
 
+- [Native project](project/big%20motor%20controller.kicad_pro), [schematic](project/big%20motor%20controller.kicad_sch), [PCB](project/big%20motor%20controller.kicad_pcb), and [Gerbers/drills](fabrication/).
+- [Orientation/pin map](assembly/CONNECTIONS_AND_ORIENTATION.md), [recovery/fallback](RECOVERY_AND_FALLBACK_R41.md), [status](release-status.json), [submission file guide](SUBMISSION_FILES.md).
+- [Cart evidence](cart-proof/): actual unpaid screenshots, cropped to omit personal details. They are price evidence rather than paid orders or final landed quotes.
 
-## Power budget scope
-
-The reused 12 V/4 A adapter is allocated to the **new carrier plan**. The existing CNC shield also needs motor power. This BOM does **not** establish that one adapter can safely power the combined six-motor arm, and actual motor winding currents are unknown. Concurrent CNC-plus-carrier operation, shared adapter wiring and combined peak/continuous demand are unqualified. A separate appropriately sized supply and rated distribution may be necessary and would cost extra. Do not parallel adapter outputs. This is a carrier-component budget, not a guaranteed complete new-arm motor/power budget.
+The owned adapter is allocated to this carrier; combined power with the CNC controller has not been qualified. HOLD is not an independent emergency stop or brake. A gravity-loaded arm may fall on power loss. Physical soldering, protection, cooling, supply, USB/UART and regeneration tests remain before loaded-arm operation. This is a documented design prototype, not a production-qualified product.

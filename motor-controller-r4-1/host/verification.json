@@ -1,0 +1,85 @@
+{
+  "scope": "Isolated USB host protocol/session adapter, not a deployed GRBL/Seizo backend or hardware qualification",
+  "tests_run": 50,
+  "unit_transport_and_CLI_tests": 40,
+  "actual_firmware_core_integration_tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "native_core_compile_flags": [
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic"
+  ],
+  "native_compiler": "Existing Zig0.15.2 C compiler",
+  "firmware_core_sha256": "d806645811b5cb8795e9d65ede17dc5cbad2d792851868cc3601e6c6b698447e",
+  "hardware_serial_ports_opened": 0,
+  "USB_metadata_enumerated": false,
+  "physical_testing": false,
+  "firmware_flashed": false,
+  "firmware_source_changed": false,
+  "live_Seizo_application_changed": false,
+  "default_motion_policy": false,
+  "diagnostic_CLI_ARM_MOVE_DISARM_unlock_options": false,
+  "automatic_reconnect_or_command_replay": false,
+  "software_hold_is_not_a_brake_or_certified_stop": true,
+  "package_source_files": [
+    {
+      "path": "r41_host.py",
+      "sha256": "17f4fe9561c06c7d6319d2ade5bb5a5e6acd340e5b191f006b85cbeb59d19ee5",
+      "bytes": 21501
+    },
+    {
+      "path": "README.md",
+      "sha256": "5986b3c40590ae8a57d3162bab0a4a67e61b449a9463924bacf74e927dcdb40f",
+      "bytes": 6315
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9",
+      "bytes": 14
+    },
+    {
+      "path": "verify_host.py",
+      "sha256": "3179f73356373bb209e2f62d0400401ce5008a8e68c3a48ce8a4ddd177afbf3f",
+      "bytes": 2706
+    },
+    {
+      "path": "tests/test_r41_host.py",
+      "sha256": "2f2d337d561c7180d00912eb0e9c859754356f1397e6ee92f9475307e6416202",
+      "bytes": 16697
+    },
+    {
+      "path": "tests/firmware_protocol_sim.c",
+      "sha256": "c46f8275167a48a9f11f5969158a58b7c002a8f8b5d7c29b56671547c509c3ef",
+      "bytes": 2673
+    },
+    {
+      "path": "verification-run.json",
+      "sha256": "2dff057dec1550438f9152c73750b8ea2b82f9ed0d78c2843c1ff0f7c89117b8",
+      "bytes": 344
+    }
+  ],
+  "exclude_from_public_package": [
+    "tests/firmware_protocol_sim.exe",
+    "tests/firmware_protocol_sim.pdb",
+    "tests/.zig-global-cache",
+    "tests/.zig-local-cache",
+    "__pycache__",
+    "tests/__pycache__"
+  ],
+  "remaining_integration": [
+    "No real controller or motor tests",
+    "No Pi deployment or active Seizo/GRBL replacement",
+    "Physical joint-to-slot calibration and direction/gearing measurements absent",
+    "Separate Uno/CNC coordination not integrated",
+    "Physical stop, brake, thermal, supply and regenerative qualification remain"
+  ],
+  "verification_runner_passed": true,
+  "verification_runner_results": "verification-run.json",
+  "cached_status_is_not_live": true,
+  "normal_close_attempts_HOLD_without_DISARM": true
+}

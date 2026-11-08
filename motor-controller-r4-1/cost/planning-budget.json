@@ -1,77 +1,24 @@
 {
-  "revision": "R4.1 three fitted drivers / TOP2 partial assembly planning route",
-  "checked_date": "2026-11-08",
-  "purchase_ready": false,
-  "under100_verified": false,
-  "full_checkout_verified": false,
-  "fitted_driver_slots": [
-    "U1",
-    "U2",
-    "U3"
-  ],
-  "future_empty_driver_slots": [
-    "U4",
-    "U5"
-  ],
-  "female_socket_rows_fitted": 10,
-  "vendor_merchandise_usd": {
-    "West3D": 11.97,
-    "Waveshare": 8.87,
-    "LCSC_including_two_IC_spares": 15.59,
-    "JLCPCB_partial_batch": 26.76,
-    "unselected_heatsink_adhesive_reserve": 2.0
-  },
-  "merchandise_and_reserve_usd": 65.19,
-  "shipping_allowances_usd": {
-    "West3D": 6.89,
-    "Waveshare": 10,
-    "LCSC": 11.85,
-    "JLCPCB": 16.03
-  },
-  "shipping_total_usd": 44.77,
-  "conditional_JLC_new_user_coupon_usd": 10,
-  "coupon_expires": "2026-11-10",
-  "pretax_planning_total_usd": 99.96,
-  "tax_allowance_rate": 0.1025,
-  "tax_allowance_usd": 10.25,
-  "planning_total_before_unquoted_imports_usd": 110.21,
-  "over100_usd": 10.21,
-  "additional_imports_or_checkout_charges_usd": null,
-  "unknown_charge_policy": "Unknown is not zero. Final freight, tax, duties, brokerage and coupon eligibility need current checkout verification.",
-  "partial_assembly_quote": {
-    "boards": 5,
-    "partially_assembled_boards": 2,
-    "ICs_per_assembled_board": 2,
-    "references": [
-      "U7",
-      "U8"
-    ],
-    "merchandise_usd": 26.76,
-    "shipping_usd": 16.03,
-    "conditional_coupon_usd": 10,
-    "observed_total_usd": 32.79,
-    "full_soldering": false,
-    "final_R41_DFM_approval": false,
-    "current_saved_unpaid_cart_verified": true,
-    "fresh_CPL_viewer_pin1_alignment_verified": true,
-    "quote_checked_date": "2026-11-08",
-    "current_cart_total_usd": 32.79,
-    "matched_LCSC_SKUs": {
-      "U7": "C6757",
-      "U8": "C19653"
-    }
-  },
-  "remove_spares_variant": {
-    "LCSC_merchandise_usd": 14.01,
-    "planning_total_before_small_order_handling_or_imports_usd": 108.46,
-    "small_order_handling_usd": null,
-    "under15_threshold_triggered": true,
-    "approved_lower_cost_solution": false
-  },
-  "motors_and_tools_included": false,
-  "supply": "Reuse user-owned regulated12V4A adapter subject to physical label,plug,polarity,regulation/current checks",
-  "spare_capacity": "One controller receives other parts; second carrier has onlyU7/U8; three remaining PCBs are bare. No complete assembled backup.",
-  "rows": [
+  "revision": "R4.1",
+  "active_plan": "manual/consolidated",
+  "currency": "USD",
+  "date_checked": "2026-11-08",
+  "estimated_total_usd": 98.94,
+  "actual_LCSC_cart_usd": 41.54,
+  "LCSC_before_discount_usd": 41.82,
+  "JLC_bare_before_coupon_usd": 14.5,
+  "JLC_bare_current_conditional_coupon_total_usd": 9.2,
+  "West3D_goods_usd": 11.97,
+  "West3D_freight_allowance_usd": 6.89,
+  "cooling_accessory_reserve_usd": 2,
+  "subtotal_before_tax_contingency_usd": 77.18,
+  "tax_allowance_percent": 12,
+  "tax_allowance_usd": 9.26,
+  "import_hardware_price_contingency_usd": 12.5,
+  "final_landed_total_verified": false,
+  "no_order_placed": true,
+  "all_PCB_protections_retained": true,
+  "purchase_rows": [
     {
       "section": "Native PCB",
       "references": "U1 U2 U3",
@@ -90,7 +37,7 @@
       "source_url": "https://west3d.com/products/tmc2209-stepper-motor-driver-drivers-btt",
       "native_mpns": "BIGTREETECH TMC2209 V1.3",
       "footprints": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
-      "notes": "Fit U1/U2/U3 only. U4/U5 remain empty. Exact V1.3/R110/shunts, heatsinks and current compatibility require delivery inspection; motors excluded."
+      "notes": "Fit only U1/U2/U3. U4/U5 remain empty and inactive in locked firmware. Exact BTT V1.3/R110/shunt configuration, heatsinks and thermal interface need verification against delivery; West3D listing does not explicitly guarantee all of these. No substitute driver is qualified. Motors excluded."
     },
     {
       "section": "Native PCB",
@@ -98,59 +45,59 @@
       "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "Native USB-C MCU module with23 male header pins pre-soldered",
+      "description": "Genuine bare USB-C RP2040-Zero module; add 23 header pins manually",
       "manufacturer": "Waveshare",
-      "mpn": "RP2040-Zero-M",
-      "seller": "Waveshare",
-      "sku": "20335",
-      "unit_usd": "4.99",
-      "line_usd": "4.99",
-      "price_status": "Root observed exact-M unpaid basket2026-11-06",
-      "stock_status": "",
-      "source_url": "https://www.waveshare.com/rp2040-zero.htm?sku=20335",
+      "mpn": "RP2040-Zero (bare, 20187)",
+      "seller": "LCSC",
+      "sku": "C5350143",
+      "unit_usd": "6.01",
+      "line_usd": "6.01",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
+      "source_url": "https://www.lcsc.com/product-detail/C5350143.html",
       "native_mpns": "Waveshare RP2040-Zero-M",
       "footprints": "SeizoMotorController:Waveshare_RP2040_Zero_Headers_9_9_5_P2.54",
-      "notes": "Included headers solder directly through carrier. No separately removable MCU socket purchased. Required separate RUN/GND harness to actual Key2pads is accounted below; RUN is not an edge-header pin."
+      "notes": "Bare module replaces preheadered 20335 Zero-M. Fit 23 straight male pins in 9+9+5 rows, then solder through carrier. Same reviewed Zero signal map. Required J9 RUN/GND service harness remains. Native CAD metadata may still say Zero-M; geometry/electrical map is unchanged."
     },
     {
-      "section": "Spare stock; factory fits board IC",
+      "section": "Native PCB",
       "references": "U7",
-      "quantity_used": "0",
+      "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "Octal STEP buffer / HOLD output enable,wideSOIC20 (one loose spare)",
+      "description": "Octal STEP buffer / HOLD output enable, wide SOIC20",
       "manufacturer": "Texas Instruments",
       "mpn": "SN74HC541DWR",
       "seller": "LCSC",
       "sku": "C6757",
       "unit_usd": "1.1224",
       "line_usd": "1.12",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C6757.html",
       "native_mpns": "SN74HC541DWR",
       "footprints": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
-      "notes": "Retained as one loose spare in the LCSC basket to keep merchandise above15USD. The partial factory service fits this IC; do not solder a second IC onto that board. The second factory-assembled board also remains a partial spare."
+      "notes": "Fit manually; no factory assembly in this budget. Match pin 1 and inspect every lead for bridges. R4.1 has no in-pad escape vias requiring the old R4 manual via-fill instruction. One purchased chip is fitted, not a loose spare."
     },
     {
-      "section": "Spare stock; factory fits board IC",
+      "section": "Native PCB",
       "references": "U8",
-      "quantity_used": "0",
+      "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "Motor-rail reset supervisor,SOT23-6 (one loose spare)",
+      "description": "Motor-rail reset supervisor, SOT23-6",
       "manufacturer": "Texas Instruments",
       "mpn": "TPS3808G01DBVR",
       "seller": "LCSC",
       "sku": "C19653",
       "unit_usd": "0.4628",
       "line_usd": "0.46",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C19653.html",
       "native_mpns": "TPS3808G01DBVR",
       "footprints": "Package_TO_SOT_SMD:SOT-23-6",
-      "notes": "Retained as one loose spare in the LCSC basket to keep merchandise above15USD. The partial factory service fits this IC; do not solder a second IC onto that board. The second factory-assembled board also remains a partial spare."
+      "notes": "Fit manually; no factory assembly in this budget. Match pin 1 and inspect every lead for bridges. R4.1 has no in-pad escape vias requiring the old R4 manual via-fill instruction. One purchased chip is fitted, not a loose spare."
     },
     {
       "section": "Native PCB",
@@ -165,12 +112,12 @@
       "sku": "C1519255",
       "unit_usd": "0.0198",
       "line_usd": "0.99",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C1519255.html",
       "native_mpns": "MFR-25FBF52-10K",
       "footprints": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
-      "notes": "18fitted,32spares; includes newR6,R7,R9. Body6.3\u00d72.4mm formed to7.62mmpitch. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "18fitted,32spares; includes newR6,R7,R9. Body6.3\u00d72.4mm formed to7.62mmpitch. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -185,12 +132,12 @@
       "sku": "C172978",
       "unit_usd": "0.0152",
       "line_usd": "0.76",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C172978.html",
       "native_mpns": "MFR-25FTE52-1K",
       "footprints": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
-      "notes": "4fitted,46spares; includes newR8. Body6.3\u00d72.4mm formed to7.62mmpitch. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "4fitted,46spares; includes newR8. Body6.3\u00d72.4mm formed to7.62mmpitch. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB assembly link",
@@ -225,12 +172,12 @@
       "sku": "C524651",
       "unit_usd": "0.0966",
       "line_usd": "0.48",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C524651.html",
       "native_mpns": "RDER71H104K0S1H03A",
       "footprints": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
-      "notes": "2fitted,3spares. Includes newC3. Body5\u00d72.5mm/P2.5. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "2fitted,3spares. Includes newC3. Body5\u00d72.5mm/P2.5. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -245,12 +192,12 @@
       "sku": "C109392",
       "unit_usd": "0.0681",
       "line_usd": "0.68",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C109392.html",
       "native_mpns": "35ZLH100MEFC6.3X11",
       "footprints": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
-      "notes": "5fitted,5spares. Body6.3\u00d711mm/P2.5;540mA100kHzripple;6000h105C. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "5fitted,5spares. Body6.3\u00d711mm/P2.5;540mA100kHzripple;6000h105C. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -265,12 +212,12 @@
       "sku": "C178708",
       "unit_usd": "0.8139",
       "line_usd": "0.81",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C178708.html",
       "native_mpns": "EEU-FR1H471",
       "footprints": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
-      "notes": "12.5mmdiameter/P5. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "12.5mmdiameter/P5. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -285,12 +232,12 @@
       "sku": "C2915641",
       "unit_usd": "0.4256",
       "line_usd": "2.13",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C2915641.html",
       "native_mpns": "DB128V-5.08-4P-GN-S",
       "footprints": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
-      "notes": "Native custom reviewed1.60mmdrill footprint; verify physical fit. Undiscounted quoted2.13USDline used. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "Native custom reviewed1.60mmdrill footprint; verify physical fit. Undiscounted quoted2.13USDline used. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -305,12 +252,12 @@
       "sku": "C3096093",
       "unit_usd": "1.0637",
       "line_usd": "1.06",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C3096093.html",
       "native_mpns": "PJ-102AH",
       "footprints": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
-      "notes": "Mates nominal5.5OD/2.1IDplug; owned adapter plug/polarity must be checked. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "Mates nominal5.5OD/2.1IDplug; owned adapter plug/polarity must be checked. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -325,32 +272,32 @@
       "sku": "C124375",
       "unit_usd": "0.0281",
       "line_usd": "0.56",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C124375.html",
       "native_mpns": "B-2100S02P-A110",
       "footprints": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
-      "notes": "2fitted,18spares. J7HOLDdryNCcontact; newJ9requiredRUN/GNDharness. Square0.64mmpins,6mmmating/3mmtail. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "2fitted,18spares. J7HOLDdryNCcontact; newJ9requiredRUN/GNDharness. Square0.64mmpins,6mmmating/3mmtail. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
-      "section": "Native PCB",
+      "section": "Unpopulated footprint",
       "references": "J8",
-      "quantity_used": "1",
-      "purchase_required": "true",
-      "purchase_quantity": "5",
+      "quantity_used": "0",
+      "purchase_required": "false",
+      "purchase_quantity": "0",
       "description": "Keyed four-pin2.54mm PC fan header",
       "manufacturer": "Molex",
       "mpn": "470531000",
       "seller": "LCSC",
       "sku": "C240840",
-      "unit_usd": "0.181",
-      "line_usd": "0.91",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "unit_usd": "0.00",
+      "line_usd": "0.00",
+      "price_status": "Not purchased; excluded from this build budget",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C240840.html",
       "native_mpns": "470531000",
       "footprints": "Connector:FanPinHeader_1x04_P2.54mm_Vertical",
-      "notes": "1fitted,4spares. Official4A/contact rating is component rating, not system qualification. Fan1GND2fused12V3tachNC4PWMNC. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "Do not buy C240840 for this build. Leave plastic header unpopulated. Solder blower black lead to J8 pad1/GND and red lead to pad2/FAN_VMOT, leaving pads3/4 unused. Retain F2/D3. Provide independent printed strain relief and insulated underside clearance."
     },
     {
       "section": "Native PCB",
@@ -365,12 +312,12 @@
       "sku": "C179006",
       "unit_usd": "0.2902",
       "line_usd": "1.45",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C179006.html",
       "native_mpns": "0454004.MR",
       "footprints": "Fuse:Fuse_Littelfuse-NANO2-451_453",
-      "notes": "1fitted,4spares. Soldered fuse,no holder. Fuse rating does not establish a2.5Acontinuous board qualification. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "1fitted,4spares. Soldered fuse,no holder. Fuse rating does not establish a2.5Acontinuous board qualification. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -385,12 +332,12 @@
       "sku": "C179003",
       "unit_usd": "0.2094",
       "line_usd": "1.05",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C179003.html",
       "native_mpns": "0454.500MR",
       "footprints": "Fuse:Fuse_Littelfuse-NANO2-451_453",
-      "notes": "1fitted,4spares. Thin fan-lead branch protection; inrush/ambientderating require test. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "1fitted,4spares. Thin fan-lead branch protection; inrush/ambientderating require test. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -405,12 +352,12 @@
       "sku": "C3719503",
       "unit_usd": "0.6821",
       "line_usd": "0.68",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C3719503.html",
       "native_mpns": "SMCJ15A",
       "footprints": "Diode_SMD:D_SMC",
-      "notes": "24.4Vclamp at specified61.5Apulse is not a continuous braking-energy rating or proof each module stays below29V. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "24.4Vclamp at specified61.5Apulse is not a continuous braking-energy rating or proof each module stays below29V. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -425,12 +372,12 @@
       "sku": "C506560",
       "unit_usd": "0.5418",
       "line_usd": "0.54",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C506560.html",
       "native_mpns": "SB560-E3/54",
       "footprints": "SeizoMotorController:D_DO-201AD_P25.40mm_Horizontal_D1.60",
-      "notes": "DO201AD,1.60mmdrill/25.4mmformedpitch. Thermal loss/leadconditions/airflow require physical validation. Initial total-input qualification envelope\u22642.5A, not certified continuous rating. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "DO201AD,1.60mmdrill/25.4mmformedpitch. Thermal loss/leadconditions/airflow require physical validation. Initial total-input qualification envelope\u22642.5A, not certified continuous rating. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Native PCB",
@@ -445,12 +392,12 @@
       "sku": "C145202",
       "unit_usd": "0.1434",
       "line_usd": "0.72",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C145202.html",
       "native_mpns": "1N5819-E3/54",
       "footprints": "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal",
-      "notes": "Fan branch before mainD1, throughF2andD3.1fitted,4spares. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "Fan branch before mainD1, throughF2andD3.1fitted,4spares. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Assembly accessory / external",
@@ -465,12 +412,12 @@
       "sku": "C27438",
       "unit_usd": "0.1193",
       "line_usd": "1.19",
-      "price_status": "Exact saved unpaid cart unit price and displayed undiscounted line extension",
-      "stock_status": "Saved actual unpaid cart: all17 exactSKUs in stock",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
       "source_url": "https://www.lcsc.com/product-detail/C27438.html",
       "native_mpns": "",
       "footprints": "",
-      "notes": "Two socket rows per each of five modules, additional physical parts beyond five logical module footprints. Validate actual contact heating. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.24USDpromotion."
+      "notes": "Two socket rows per each of five modules, additional physical parts beyond five logical module footprints. Validate actual contact heating. Cart line_usd is authoritative displayed cents; unit_usd is separately displayed four-decimal precision. Ignore automatic0.28USDpromotion."
     },
     {
       "section": "Assembly accessory / external",
@@ -478,19 +425,19 @@
       "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "12V40\u00d740\u00d710mm cooling fan with screw pack",
-      "manufacturer": "Waveshare",
-      "mpn": "Fan-4010-PWM-12V",
-      "seller": "Waveshare",
-      "sku": "19193",
-      "unit_usd": "2.69",
-      "line_usd": "2.69",
-      "price_status": "Root observed unpaid basket2026-11-06",
-      "stock_status": "",
-      "source_url": "https://www.waveshare.com/fan-4010-pwm-12v.htm",
+      "description": "Two-wire 12V centrifugal blower; different mounting from 40mm fan",
+      "manufacturer": "SUNON",
+      "mpn": "MF50151VX-1B00C-A99",
+      "seller": "LCSC",
+      "sku": "C49308057",
+      "unit_usd": "3.1746",
+      "line_usd": "3.17",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
+      "source_url": "https://www.lcsc.com/product-detail/C49308057.html",
       "native_mpns": "",
       "footprints": "",
-      "notes": "Official0.48W/40mA\u00b120mA/5000rpm. Full-speed operation withPWMunconnected and cooling across three fitted modules require physical tests; bracket/duct not supplied."
+      "notes": "51.7x51.6x15mm nominal; two 4.5mm mounting holes; needs new printed bracket/duct. Red positive to J8.2, black negative to J8.1; no fan header fitted. 12V rated, 4.5-13.8V operating, 0.155A average/0.179A max, 26AWG leads. Continuous DC: do not PWM power/ground. F2/D3 retained. Startup/fault/thermal performance requires physical tests. No included screw pack assumed."
     },
     {
       "section": "Assembly accessory / external",
@@ -498,19 +445,19 @@
       "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "USB2A-male toC-male data cable,1m",
-      "manufacturer": "Waveshare",
-      "mpn": "USB-A-TO-USB-C-Cable-1M",
-      "seller": "Waveshare",
-      "sku": "35944",
-      "unit_usd": "1.19",
-      "line_usd": "1.19",
-      "price_status": "Exact root-observed unpaid cart; shipping remains10.00USD",
-      "stock_status": "",
-      "source_url": "https://www.waveshare.com/usb-a-to-usb-c-cable-1m.htm",
+      "description": "USB-A male to USB-C male 1m data cable",
+      "manufacturer": "Ckmtw",
+      "mpn": "S100920007",
+      "seller": "LCSC",
+      "sku": "C430908",
+      "unit_usd": "3.2389",
+      "line_usd": "3.24",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
+      "source_url": "https://www.lcsc.com/product-detail/C430908.html",
       "native_mpns": "",
       "footprints": "",
-      "notes": "OfficialUSB2datatransmission description. Rechecked cart after cable addition."
+      "notes": "Manufacturer drawing confirms four conductors, D+/D-, USB-A male and Type-C male with 56k plug resistor. Pi data/control connection only; motor power uses owned adapter. Do not substitute two-core charging cable."
     },
     {
       "section": "Assembly accessory / external",
@@ -578,19 +525,19 @@
       "quantity_used": "1",
       "purchase_required": "true",
       "purchase_quantity": "1",
-      "description": "Five bare carriers, two receiving U7/U8 partial factory assembly",
+      "description": "One batch of five bare R4.1 carrier boards; no factory fitting",
       "manufacturer": "JLCPCB",
-      "mpn": "R4.1 TOP2 partial assembly quote",
+      "mpn": "R4.1 bare PCB batch",
       "seller": "JLCPCB",
-      "sku": "TOP2 draft quote",
-      "unit_usd": "26.76",
-      "line_usd": "26.76",
-      "price_status": "Root verified current saved unpaid R4.1 TOP2 cart on2026-11-08; final destination tax/imports/CAM approval pending",
-      "stock_status": "",
+      "sku": "Bare-board prototype quote",
+      "unit_usd": "5.30",
+      "line_usd": "5.30",
+      "price_status": "Root verified saved unpaid JLC bare-board cart on 2026-11-08: $5.30 goods; no PCBA",
+      "stock_status": "Current bare fabrication quotation saved; manufacturer CAM/DFM acceptance remains pending",
       "source_url": "https://jlcpcb.com/",
       "native_mpns": "",
       "footprints": "",
-      "notes": "One batch:5PCBs,2partially assembled boards,U7/U8 only on each. Currentcart26.76USD merchandise+16.03freight-10coupon=32.79USD before unconfirmed destination tax/imports. One coupon expires2026-11-10. Both corrected0/0CPL parts verified in fresh quote preview; manufacturer CAM acceptance remains pending. Other parts and assembly are separate."
+      "notes": "Five 100x100mm, two-layer, 1.6mm FR4, 1oz, green/white, LeadFree HASL, tented-via boards with electrical test. Assemble one; four bare spares. Current saved Global Standard freight $9.20 separately; no address entered and final destination fees unconfirmed. Actual cart displays $9.20 after automatic $5.30 PCB coupon. Conservative budget ignores coupon and uses $14.50 goods+freight. No stencil or assembly counted. Manufacturer CAM/DFM acceptance and physical qualification remain pending."
     },
     {
       "section": "Assembly accessory / external",
@@ -643,16 +590,34 @@
       "mpn": "TMC2209 V1.3",
       "seller": "Not in current purchase",
       "sku": "",
-      "unit_usd": "3.99",
+      "unit_usd": "0.00",
       "line_usd": "0.00",
-      "price_status": "Explicitly excluded from current purchase; unit price indicative only",
+      "price_status": "Not purchased; excluded from this build budget",
       "stock_status": "",
       "source_url": "",
       "native_mpns": "",
       "footprints": "",
       "notes": "Both native StepStick footprints retain two female header rows each. No driver module is fitted in U4/U5. Firmware forces their outputs inactive."
+    },
+    {
+      "section": "Assembly accessory / external",
+      "references": "U6 header rows",
+      "quantity_used": "23",
+      "purchase_required": "true",
+      "purchase_quantity": "5",
+      "description": "Five 40-position straight male header strips; one provides MCU rows 9+9+5",
+      "manufacturer": "ZHOURI",
+      "mpn": "2.54-1*40",
+      "seller": "LCSC",
+      "sku": "C2977586",
+      "unit_usd": "0.1736",
+      "line_usd": "0.87",
+      "price_status": "Root verified current consolidated unpaid basket on 2026-11-08; displayed undiscounted line",
+      "stock_status": "Current consolidated basket: all 20 SKUs in stock on 2026-11-08",
+      "source_url": "https://www.lcsc.com/product-detail/C2977586.html",
+      "native_mpns": "",
+      "footprints": "",
+      "notes": "Buy quantity is FIVE complete 40-pin strips due to MOQ. Use 23 pins (9+9+5) from one strip; 177 pins remain spare. Straight 2.54mm pitch, square pins, 2.54mm plastic height, 6mm mating length, 3mm tails. Short tails through MCU, long pins toward carrier. Keep rows aligned; fit before carrier soldering. Contact rating is not system current rating."
     }
-  ],
-  "current_JLC_saved_cart_quote_verified": true,
-  "actual_final_destination_tax_imports_verified": false
+  ]
 }

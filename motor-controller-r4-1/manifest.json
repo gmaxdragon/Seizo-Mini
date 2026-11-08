@@ -1,27 +1,38 @@
 {
   "revision": "R4.1",
-  "scope": "Explicit public prototype files; manifest and outerZIP excluded from list",
-  "file_count": 81,
+  "assembly": "manual/consolidated",
+  "scope": "Explicit public prototype files; manifest and outer ZIP excluded",
+  "file_count": 106,
   "files": [
     {
       "path": "ASSEMBLY_AND_FIRST_POWER.md",
-      "bytes": 4958,
-      "sha256": "ec811b3ba6255dde556fa029440e44a47076639c3a53a001425b4e7ff82fca06"
+      "bytes": 5001,
+      "sha256": "da2ba3ff7e52e026066f58f7c5f81ffcdf9f3ecbb7b27a3182c4e3f9f5fe4e2d"
+    },
+    {
+      "path": "BUY_AND_SOLDER_MANUAL.md",
+      "bytes": 9487,
+      "sha256": "b6d745ac18c36b693a0b741ca85a346f581e946b9d3da00df183545068f42671"
     },
     {
       "path": "README.md",
-      "bytes": 3060,
-      "sha256": "1b978b7d69ad510c044f37489ccca4f3b54eeeae3b7e0068056168fe8921b48a"
+      "bytes": 3009,
+      "sha256": "8b7a841beaa8ff631b22221f540ca3ceb166b3a338c04f312e2e3c8e78532b31"
     },
     {
       "path": "RECOVERY_AND_FALLBACK_R41.md",
-      "bytes": 7352,
-      "sha256": "0fbe8bfe70c6ef9f4a5c768fd8158394dbef3f18de507dc3466e222c8a0c71f2"
+      "bytes": 7375,
+      "sha256": "ad8d34979c803ee19fe40f5fff65e031c294c25c0356b7babde5bf1d8dadae78"
+    },
+    {
+      "path": "SUBMISSION_FILES.md",
+      "bytes": 2112,
+      "sha256": "1c4f522d44fccc9a21d0561304d7e61c1ff4bdb6bc7d54408fd9d4d9c969ea15"
     },
     {
       "path": "assembly/CONNECTIONS_AND_ORIENTATION.md",
-      "bytes": 6005,
-      "sha256": "2749183d886da0f26f1911c61bbddc4cba1765fcd6e4d599e1fe5efec5055b52"
+      "bytes": 6199,
+      "sha256": "56a57555b9bec9bbef15beedef932e91c83a3c9e4da99833360bc6991c9c34b9"
     },
     {
       "path": "assembly/R41-pad-map.csv",
@@ -77,6 +88,26 @@
       "path": "assembly/quotation-only/Seizo_R41_Assembly_Quote_Gerbers.zip",
       "bytes": 282871,
       "sha256": "50ad9fa527ebd58683e87b6f982092905ee62b88efae027de43e7c5c4afb2f1e"
+    },
+    {
+      "path": "cart-proof/JLC-bare-Nov8.jpg",
+      "bytes": 17082,
+      "sha256": "4f32d2cbee1c813153007444cc1262b886ebe286a662b44dc86560ae4a7fb4f0"
+    },
+    {
+      "path": "cart-proof/LCSC-manual-Nov8.jpg",
+      "bytes": 84337,
+      "sha256": "a7e9983daeb374c0dc368b742a2ccfae7c3f79ca74f3400b97316fa6e390388a"
+    },
+    {
+      "path": "cart-proof/West3D-three-drivers-Nov8.jpg",
+      "bytes": 60318,
+      "sha256": "ca186fdb9065365de77fbbcd4cf57e2cd0d69ad586037f718e8e5a8c22626535"
+    },
+    {
+      "path": "checks/MANUAL_BUILD_EQUIVALENCE_REVIEW.md",
+      "bytes": 5730,
+      "sha256": "29557a2c70b7d476c570bd92a5d4ec661a2770a5ffdb6e1f5b0f1a4c487badf9"
     },
     {
       "path": "checks/R41-fresh-fabrication-comparison.json",
@@ -169,49 +200,104 @@
       "sha256": "ac059f80b21cf3daaa9c41fb1dfec9742bf3e39e9887d6304e122affc47f6393"
     },
     {
+      "path": "cost/Budget.csv",
+      "bytes": 1011,
+      "sha256": "2ca5200f2cdbcb091db5164288e93e0e20c9da9b5db685e96b451b0c3b3922a7"
+    },
+    {
       "path": "cost/Final_BOM.csv",
+      "bytes": 18506,
+      "sha256": "a2fb73f7df907a0c9b366e325f67f8154009d2970116c47e2e005a7ba618161c"
+    },
+    {
+      "path": "cost/LCSC_import.csv",
+      "bytes": 3710,
+      "sha256": "b8e05ca07c8c4bfcbde1c9f64210b41580067a3882883979fe9768f4b103f464"
+    },
+    {
+      "path": "cost/LCSC_import_spares_plan.csv",
+      "bytes": 3710,
+      "sha256": "b8e05ca07c8c4bfcbde1c9f64210b41580067a3882883979fe9768f4b103f464"
+    },
+    {
+      "path": "cost/QUOTE_RECHECK.md",
+      "bytes": 1424,
+      "sha256": "df56d74050b2e416371090138ec8125269d0b3534c780433225a07e507d5c968"
+    },
+    {
+      "path": "cost/QUOTE_TOTALS.csv",
+      "bytes": 1011,
+      "sha256": "2ca5200f2cdbcb091db5164288e93e0e20c9da9b5db685e96b451b0c3b3922a7"
+    },
+    {
+      "path": "cost/R41-purchase-BOM.csv",
+      "bytes": 18506,
+      "sha256": "a2fb73f7df907a0c9b366e325f67f8154009d2970116c47e2e005a7ba618161c"
+    },
+    {
+      "path": "cost/READ_FIRST.md",
+      "bytes": 4507,
+      "sha256": "c0c8f74c3560234701c047f6fe1b648a03ccb1705c81b34bed8762e624a0f0cd"
+    },
+    {
+      "path": "cost/Solder_List.csv",
+      "bytes": 4139,
+      "sha256": "0115412e2c003bc38313666af673d1c9f2df37286ecfd1a40b64a38d8992e84c"
+    },
+    {
+      "path": "cost/factory-alternative/Final_BOM.csv",
       "bytes": 16310,
       "sha256": "6cc6d8aa707dcfc8e991257add682b964303df3d6c9eb4db73656d21b9089957"
     },
     {
-      "path": "cost/LCSC_import_spares_plan.csv",
-      "bytes": 2152,
-      "sha256": "7b6a353c0adf0607a22b43dac5cbb2086fa35fe97d959a28332c46fd845313c5"
-    },
-    {
-      "path": "cost/QUOTE_RECHECK.md",
+      "path": "cost/factory-alternative/QUOTE_RECHECK.md",
       "bytes": 1994,
       "sha256": "49fee1a67518c03e1c43887dabbeead96dac4fa20906afa6fd8a61ef32cbbf92"
     },
     {
-      "path": "cost/QUOTE_TOTALS.csv",
+      "path": "cost/factory-alternative/QUOTE_TOTALS.csv",
       "bytes": 804,
       "sha256": "719747ed90d3f75daeee163bce4003540fbf8c0b8ac5fe82db660c31c7f308cc"
     },
     {
-      "path": "cost/R41-purchase-BOM.csv",
-      "bytes": 16310,
-      "sha256": "6cc6d8aa707dcfc8e991257add682b964303df3d6c9eb4db73656d21b9089957"
+      "path": "cost/factory-alternative/README.md",
+      "bytes": 421,
+      "sha256": "de63bf768a71f9487d7cd5b8fbbf7cab230b775c19fa4254e5c24bef3cb11362"
     },
     {
-      "path": "cost/READ_FIRST.md",
+      "path": "cost/factory-alternative/READ_FIRST.md",
       "bytes": 3150,
       "sha256": "cdd5542d6e55e8355f9086b7ebb5136f9856d84184715f52d291ce4ec4ea3046"
     },
     {
-      "path": "cost/Solder_List.csv",
+      "path": "cost/factory-alternative/Solder_List.csv",
       "bytes": 3639,
       "sha256": "d84f59266399dd725ead668249608cb448d647c2f8e99c7162f016c2222a7e70"
     },
     {
-      "path": "cost/planning-budget.json",
+      "path": "cost/factory-alternative/planning-budget.json",
       "bytes": 30442,
       "sha256": "d7a16af380a307ccfb2b74edb1850ea821baebf3107ff1b444126a0c04bdbe87"
     },
     {
-      "path": "cost/quote-recheck.json",
+      "path": "cost/factory-alternative/quote-recheck.json",
       "bytes": 2618,
       "sha256": "717865a7b96f23b076506c8060261a6fb1796694b8d433b9fd64c519875c6a4b"
+    },
+    {
+      "path": "cost/plan-validation.json",
+      "bytes": 1392,
+      "sha256": "f9c85fee1e09b55cc9d9f74de5ccb0ef5e4ed62f90cf5a730693d2d79aa518bf"
+    },
+    {
+      "path": "cost/planning-budget.json",
+      "bytes": 31157,
+      "sha256": "a564805547869b45e125462ebfb0aec6d61653e3d09cedb779f2b196044da4ca"
+    },
+    {
+      "path": "cost/quote-recheck.json",
+      "bytes": 706,
+      "sha256": "bc16fc77822be618e9295a7206f26b9e23c4c91b23b94319bd93e3c79df507a3"
     },
     {
       "path": "fabrication/big motor controller-B_Cu.gbl",
@@ -329,6 +415,46 @@
       "sha256": "3be888392fd124f99cd09f50817acb535be233b98de51e34d82d08756d9c0d06"
     },
     {
+      "path": "host/README.md",
+      "bytes": 6315,
+      "sha256": "5986b3c40590ae8a57d3162bab0a4a67e61b449a9463924bacf74e927dcdb40f"
+    },
+    {
+      "path": "host/r41_host.py",
+      "bytes": 21501,
+      "sha256": "17f4fe9561c06c7d6319d2ade5bb5a5e6acd340e5b191f006b85cbeb59d19ee5"
+    },
+    {
+      "path": "host/requirements.txt",
+      "bytes": 14,
+      "sha256": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9"
+    },
+    {
+      "path": "host/tests/firmware_protocol_sim.c",
+      "bytes": 2673,
+      "sha256": "c46f8275167a48a9f11f5969158a58b7c002a8f8b5d7c29b56671547c509c3ef"
+    },
+    {
+      "path": "host/tests/test_r41_host.py",
+      "bytes": 16697,
+      "sha256": "2f2d337d561c7180d00912eb0e9c859754356f1397e6ee92f9475307e6416202"
+    },
+    {
+      "path": "host/verification-run.json",
+      "bytes": 344,
+      "sha256": "2dff057dec1550438f9152c73750b8ea2b82f9ed0d78c2843c1ff0f7c89117b8"
+    },
+    {
+      "path": "host/verification.json",
+      "bytes": 2897,
+      "sha256": "b84989b1fd0c80466c4c1c1c77cfea1bd624a0ed9c600da73342bd1494ccf681"
+    },
+    {
+      "path": "host/verify_host.py",
+      "bytes": 2706,
+      "sha256": "3179f73356373bb209e2f62d0400401ce5008a8e68c3a48ce8a4ddd177afbf3f"
+    },
+    {
       "path": "preview/README.md",
       "bytes": 704,
       "sha256": "bdcc37a6ddea696f1d0043e0985b50a12e683ad93c5e14f001a424cbfbec5149"
@@ -405,8 +531,8 @@
     },
     {
       "path": "release-status.json",
-      "bytes": 1163,
-      "sha256": "a395ec0ce2551f3b0e6d0b97e90a991eeca9cb62b173a04aec21867b60fb2ad8"
+      "bytes": 1298,
+      "sha256": "b9d5cbd14cb8faeccdd40aed4d8f63f084a9cf21e00718219d36a3ad571b1360"
     }
   ]
 }
