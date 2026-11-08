@@ -1,0 +1,50 @@
+{
+  "revision": "R4",
+  "status": "FULLY ROUTED DIGITAL PROTOTYPE; HARDWARE QUALIFICATION REMAINS",
+  "native_files": {
+    ".kicad_sch": "93877dc2d32c885e95d039e5c5985974e55bec195549d2d3cf22cb9a7b2c4b0f",
+    ".kicad_pcb": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+    ".kicad_pro": "9603ba2bf915bad2316982f9315cf492a2365edb817c50a1ee6f1d755e1809e5"
+  },
+  "scope": {
+    "driver_slots": 5,
+    "proposed_slot_use": {
+      "1-2": "Suitably current-rated NEMA23",
+      "3-5": "Suitably current-rated NEMA17, including compatible pancake motors"
+    },
+    "USB_C_device_to_Pi_USB_A": 1,
+    "servo_outputs": false,
+    "encoder_feedback": false
+  },
+  "digital_validation": {
+    "ERC_errors": 0,
+    "ERC_warnings": 0,
+    "DRC_errors": 0,
+    "DRC_warnings": 0,
+    "unconnected_items": 0,
+    "schematic_parity_items": 0,
+    "native_DRC_exclusions": 0,
+    "independent_pin_assertions": 217,
+    "firmware_desktop_checks": 6987,
+    "firmware_compile_link_passed": true,
+    "firmware_commissioning_locked": true
+  },
+  "fabrication_files_exported": true,
+  "vendor_final_Gerber_review": false,
+  "production_ready": false,
+  "physical_motor_or_thermal_tests": false,
+  "guaranteed_delivered_below_100_USD": false,
+  "planning_cost_before_unquoted_imports_USD": 98.84,
+  "material_limits": [
+    "Owned regulated12V4A adapter must be physically verified; shared initial input design envelope2.5A/30W is not electronically enforced.",
+    "Motor winding ratings, delivered module revision, cooling, USB/UART operation and regenerative transients are untested.",
+    "TMC2209 current capability does not cover every NEMA23 motor or guarantee required arm torque.",
+    "Required supervisor-to-RUN harness improves qualifying common-bus power-drop recovery; very brief dips and individual module reset behavior remain physically unverified.",
+    "USB/power loss can release holding torque; HOLD is not a safety-rated E-stop.",
+    "Final uploaded-Gerber calculator quote is verified, but manufacturer engineering approval and import fees remain unconfirmed; budget margin is small."
+  ],
+  "assembly_guide": "ASSEMBLY_AND_FIRST_POWER.md",
+  "BOM": "cost/R4-purchase-BOM.csv",
+  "updated_date_local": "2026-11-08",
+  "factory_assembly_quote_complete": false
+}

@@ -1,0 +1,57 @@
+{
+  "revision": "R4",
+  "checked_date": "2026-11-07",
+  "canonical_CAD_unchanged": true,
+  "additional_electrical_error_found": false,
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "BOM_reference_coverage": 53,
+  "fitted_carrier_items": 58,
+  "carrier_solder_joints": 232,
+  "THT_solder_joints": 200,
+  "SMD_solder_joints": 32,
+  "SMD_parts": [
+    "U7",
+    "U8",
+    "F1",
+    "F2",
+    "D2"
+  ],
+  "five_U7_manual_prefill_points": [
+    7,
+    9,
+    16,
+    18,
+    19
+  ],
+  "via_reroute_attempt": "Disposable only; did not pass connectivity/DRC. Rejected and not promoted. Frozen valid R4 remains canonical.",
+  "purchasing_change": "Owned insulated HOLD jumper replaces unselected0.20USD shunt; saves0.22USD with tax allowance.",
+  "planning_total_USD": 98.62,
+  "additional_import_fees": "Unquoted; not assumed zero",
+  "heatsink_allowance_USD": 2,
+  "heatsink_exact_purchase_or_bundle_confirmed": false,
+  "ordering_budget_cap_USD": 100,
+  "purchase_ready": false,
+  "production_ready": false,
+  "no_live_hardware_or_purchases": true,
+  "why_not_cleared": [
+    "Landed supplier charges are unbounded by current quotes.",
+    "Exact module revision and heatsink contents still require vendor confirmation.",
+    "Actual motor current/torque, soldering, power sequencing, cooling and regeneration require hardware qualification."
+  ],
+  "delivery_documents": [
+    "cost/Final_BOM.csv",
+    "cost/R4-LCSC-import.csv",
+    "cost/Solder_List.csv",
+    "BUY_AND_SOLDER_R4.md"
+  ],
+  "additional_firmware_errors_found_and_fixed": 2,
+  "UART_fixes_implemented": [
+    "Both configure_all and poll_drivers prepare ALL5 modules with write-only SENDDELAY2 before any read batch. This includes ARM/MOVE checks beforeCHECK and refreshes a node reset between batches.",
+    "read_register rejects requests before bootstrap and waits150us after accepted replies or failed timeout, then drains on failure.",
+    "The write-only SLAVECONF0x03 is written again after IFCNTbaseline; delta7 covers all7 configuration writes, including SENDDELAY. No nonexistent readback is invented.",
+    "Runtime uses shared UART baud/idle/send-delay constants and tested IFCNTwrap helper."
+  ],
+  "firmware_build_checks_passed": 6987,
+  "firmware_UF2_sha256": "4ecfb5ec07ce5fe98c39fe5c7502dbb2ae1e1c6263b0ff013e56928d14facf2a",
+  "CSV_import_note": "LCSC import CSV has no UTF8 BOM; all four CSV exports round-trip cell-for-cell through the spreadsheet library."
+}

@@ -1,0 +1,72 @@
+{
+  "date_local": "2026-11-08",
+  "currency": "USD",
+  "status": "Unpaid quotes; incomplete landed totals; no purchase or production authorized",
+  "LCSC": {
+    "merchandise": 15.59,
+    "shipping": 11.85,
+    "discount": 0.24,
+    "displayed_total": 27.2,
+    "incoterm": "FCA",
+    "duty_customs_tax_included": false,
+    "scope": "17 purchase SKUs for DIY carrier; do not also buy these when included in a factory assembly order"
+  },
+  "West3D": {
+    "drivers": 5,
+    "merchandise": 19.95,
+    "shipping": 6.89,
+    "displayed_tax": 0,
+    "displayed_total": 26.84,
+    "bundle_revision_and_heatsinks_confirmed": false,
+    "source": "Current unpaid website checkout; no supplier contact"
+  },
+  "Waveshare": {
+    "project_merchandise": 8.87,
+    "shipping_option": 10,
+    "shipping_selected_and_final": false,
+    "project_subtotal_with_option": 18.87,
+    "unrelated_shared_cart_item_excluded": 5.49,
+    "scope": "Zero-M4.99 + fan2.69 + USBdata1.19; shared10.00freight fully allocated; duties/tax not bounded"
+  },
+  "JLCPCB_factory": {
+    "bare_board_quantity": 5,
+    "assembled_carrier_quantity": 2,
+    "detected_fitted_items_per_board": 58,
+    "matched_items": 56,
+    "unmatched_manual_items": [
+      "U6 exact RP2040-Zero-M",
+      "R5 fitted wire link"
+    ],
+    "PCB_price": 10.7,
+    "assembly_price": 126.3,
+    "merchandise_total": 137,
+    "cart_shipping_estimate": 38.39,
+    "cart_coupon_estimate": 10,
+    "cart_subtotal_estimate": 165.39,
+    "final_delivery_address_quote_verified": false,
+    "coupon_final_eligibility_verified": false,
+    "source": "Uploaded exact R4 assembly Gerbers/BOM/CPL, matched17SKUs. Saved unpaid cart; final checkout requests delivery address."
+  },
+  "DIY_baseline": {
+    "goods_and_reserves": 51.71,
+    "shipping": 37.94,
+    "conservative_tax_allowance": 9.19,
+    "planning_total_before_unquoted_imports": 98.84,
+    "below100_delivered_verified": false,
+    "factory_assembly_included": false,
+    "note": "Uses prior9.20bareboard freight; current assembly freight is different. Discount ignored conservatively."
+  },
+  "factory_project_planning": {
+    "JLC_estimate": 165.39,
+    "West3D_checkout": 26.84,
+    "Waveshare_goods_and_freight_option": 18.87,
+    "heatsink_reserve": 2,
+    "combined_before_other_unquoted_charges": 213.1,
+    "full_final_landed_total": null,
+    "includes_duplicate_LCSC_purchase": false,
+    "note": "One finished controller with second partly assembled carrier; U6,R5,RUN harness still manual. No extra LCSC DIY basket. Coupon and delivery are not final."
+  },
+  "factory_DFM_accepted": false,
+  "production_ready": false,
+  "purchase_ready": false
+}

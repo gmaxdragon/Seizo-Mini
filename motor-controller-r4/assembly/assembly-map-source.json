@@ -1,0 +1,496 @@
+{
+  "revision": "R4",
+  "status": "FROZEN NATIVE SNAPSHOT",
+  "canonical_native_modified": false,
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "views": {
+    "front": "Look down on front-mounted components.",
+    "back": "Look up at underside; mirrored so back parts are readable. D2 is rear-mounted; other visible references identify front-side through-hole leads."
+  },
+  "mounting_holes": [
+    {
+      "reference": "H1",
+      "x_mm": 4.0,
+      "y_mm": 4.0,
+      "hole_diameter_mm": 3.2
+    },
+    {
+      "reference": "H2",
+      "x_mm": 96.0,
+      "y_mm": 4.0,
+      "hole_diameter_mm": 3.2
+    },
+    {
+      "reference": "H3",
+      "x_mm": 96.0,
+      "y_mm": 96.0,
+      "hole_diameter_mm": 3.2
+    },
+    {
+      "reference": "H4",
+      "x_mm": 4.0,
+      "y_mm": 49.1,
+      "hole_diameter_mm": 3.2
+    }
+  ],
+  "placements": [
+    {
+      "ref": "C1",
+      "value": "470u /50V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 61.5,
+      "anchor_y_from_top_left_mm": 92.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C11",
+      "value": "100u /35V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 28.75,
+      "anchor_y_from_top_left_mm": 13.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C12",
+      "value": "100u /35V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 55.75,
+      "anchor_y_from_top_left_mm": 13.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C13",
+      "value": "100u /35V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 88.75,
+      "anchor_y_from_top_left_mm": 13.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C14",
+      "value": "100u /35V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 28.75,
+      "anchor_y_from_top_left_mm": 55.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C15",
+      "value": "100u /35V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 55.75,
+      "anchor_y_from_top_left_mm": 55.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C2",
+      "value": "100n /50V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 73.5,
+      "anchor_y_from_top_left_mm": 76.25,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "C3",
+      "value": "100n /50V",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 69.5,
+      "anchor_y_from_top_left_mm": 32.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "D1",
+      "value": "SB560-E3/54 / input isolation",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 52.7,
+      "anchor_y_from_top_left_mm": 94.0,
+      "rotation_deg": 180.0
+    },
+    {
+      "ref": "D2",
+      "value": "SMCJ15A / transient clamp",
+      "side": "B",
+      "anchor_x_from_top_left_mm": 67.0,
+      "anchor_y_from_top_left_mm": 86.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "D3",
+      "value": "1N5819-E3/54 / fan isolation",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 90.81,
+      "anchor_y_from_top_left_mm": 89.5,
+      "rotation_deg": 180.0
+    },
+    {
+      "ref": "F1",
+      "value": "4A 125VDC SLO-BLO",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 22.0,
+      "anchor_y_from_top_left_mm": 88.8,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "F2",
+      "value": "0.5A 125VDC FAN",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 21.2,
+      "anchor_y_from_top_left_mm": 96.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "H1",
+      "value": "M3 mounting",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 4.0,
+      "anchor_y_from_top_left_mm": 4.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "H2",
+      "value": "M3 mounting",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 96.0,
+      "anchor_y_from_top_left_mm": 4.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "H3",
+      "value": "M3 mounting",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 96.0,
+      "anchor_y_from_top_left_mm": 96.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "H4",
+      "value": "M3 mounting",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 4.0,
+      "anchor_y_from_top_left_mm": 49.1,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J1",
+      "value": "MOTOR1 / A1 A2 B1 B2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 8.0,
+      "anchor_y_from_top_left_mm": 40.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J2",
+      "value": "MOTOR2 / A1 A2 B1 B2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 35.0,
+      "anchor_y_from_top_left_mm": 40.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J3",
+      "value": "MOTOR3 / A1 A2 B1 B2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 68.0,
+      "anchor_y_from_top_left_mm": 40.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J4",
+      "value": "MOTOR4 / A1 A2 B1 B2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 8.0,
+      "anchor_y_from_top_left_mm": 79.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J5",
+      "value": "MOTOR5 / A1 A2 B1 B2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 35.0,
+      "anchor_y_from_top_left_mm": 79.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J6",
+      "value": "PJ-102AH / 5.5mm plug,2.0mm centerpin",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 15.2,
+      "anchor_y_from_top_left_mm": 92.25,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "J7",
+      "value": "HOLD NC / dry contact only",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 95.0,
+      "anchor_y_from_top_left_mm": 84.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J8",
+      "value": "12 V PC FAN / 1 GND, 2 +12 V, 3 TACH NC, 4 PWM NC",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 95.0,
+      "anchor_y_from_top_left_mm": 22.0,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "J9",
+      "value": "RUN HARNESS / 1 RESET_N, 2 GND",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 68.0,
+      "anchor_y_from_top_left_mm": 48.0,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 94.73,
+      "anchor_y_from_top_left_mm": 46.37,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 65.41,
+      "anchor_y_from_top_left_mm": 72.185,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 69.0,
+      "anchor_y_from_top_left_mm": 61.875,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 65.385,
+      "anchor_y_from_top_left_mm": 56.9025,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 65.385,
+      "anchor_y_from_top_left_mm": 53.3125,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 83.97,
+      "anchor_y_from_top_left_mm": 53.54,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R21",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 6.38,
+      "anchor_y_from_top_left_mm": 18.0425,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 33.38,
+      "anchor_y_from_top_left_mm": 18.0425,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 93.045,
+      "anchor_y_from_top_left_mm": 32.99,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 6.38,
+      "anchor_y_from_top_left_mm": 56.68,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R25",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 2.55,
+      "anchor_y_from_top_left_mm": 66.99,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 72.59,
+      "anchor_y_from_top_left_mm": 60.0425,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R31",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 10.785,
+      "anchor_y_from_top_left_mm": 6.39,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R32",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 65.41,
+      "anchor_y_from_top_left_mm": 61.875,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R33",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 96.455,
+      "anchor_y_from_top_left_mm": 36.06,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R34",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 2.79,
+      "anchor_y_from_top_left_mm": 56.68,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R35",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 2.55,
+      "anchor_y_from_top_left_mm": 77.3,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 77.5,
+      "anchor_y_from_top_left_mm": 93.1,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R5",
+      "value": "0R / FITTED WIRE LINK",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 82.0,
+      "anchor_y_from_top_left_mm": 96.5,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 64.2,
+      "anchor_y_from_top_left_mm": 5.0,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 64.2,
+      "anchor_y_from_top_left_mm": 17.5,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 58.2,
+      "anchor_y_from_top_left_mm": 33.5,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 58.2,
+      "anchor_y_from_top_left_mm": 18.3,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "U1",
+      "value": "BTT TMC2209 V1.3 / address 0",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 10.0,
+      "anchor_y_from_top_left_mm": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U2",
+      "value": "BTT TMC2209 V1.3 / address 1",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 37.0,
+      "anchor_y_from_top_left_mm": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U3",
+      "value": "BTT TMC2209 V1.3 / address 2",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 70.0,
+      "anchor_y_from_top_left_mm": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U4",
+      "value": "BTT TMC2209 V1.3 / address 3",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 10.0,
+      "anchor_y_from_top_left_mm": 52.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U5",
+      "value": "BTT TMC2209 V1.3 / address 0",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 37.0,
+      "anchor_y_from_top_left_mm": 52.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U6",
+      "value": "Waveshare RP2040-Zero-M / native USB-C",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 98.0,
+      "anchor_y_from_top_left_mm": 72.5,
+      "rotation_deg": -90.0
+    },
+    {
+      "ref": "U7",
+      "value": "SN74HC541DWR",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 84.0,
+      "anchor_y_from_top_left_mm": 80.9,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "U8",
+      "value": "TPS3808G01DBVR",
+      "side": "F",
+      "anchor_x_from_top_left_mm": 65.3,
+      "anchor_y_from_top_left_mm": 29.5,
+      "rotation_deg": 180.0
+    }
+  ],
+  "limits": "2D native footprint/lead references, not an assembled 3D fit or safety qualification.",
+  "public_export_note": "Local execution commands and private supplier evidence are omitted. Engineering results are retained."
+}

@@ -1,0 +1,329 @@
+{
+  "revision": "R4",
+  "native_file": "checks/parts.json",
+  "sha256": "37b6dd4fa30860acc68a5c80f028bb61940cd4ace3513e981ca59fcda71641dc",
+  "native_reference_count": 53,
+  "covered_reference_count": 53,
+  "coverage_complete": true,
+  "missing_references": [],
+  "native_metadata_check": [
+    {
+      "ref": "U6",
+      "native_mpn": "Waveshare RP2040-Zero-M",
+      "purchase_mpn": "RP2040-Zero-M",
+      "match": true
+    },
+    {
+      "ref": "R2",
+      "native_mpn": "MFR-25FTE52-1K",
+      "purchase_mpn": "MFR-25FTE52-1K",
+      "match": true
+    },
+    {
+      "ref": "R3",
+      "native_mpn": "MFR-25FTE52-1K",
+      "purchase_mpn": "MFR-25FTE52-1K",
+      "match": true
+    },
+    {
+      "ref": "U7",
+      "native_mpn": "SN74HC541DWR",
+      "purchase_mpn": "SN74HC541DWR",
+      "match": true
+    },
+    {
+      "ref": "C2",
+      "native_mpn": "RDER71H104K0S1H03A",
+      "purchase_mpn": "RDER71H104K0S1H03A",
+      "match": true
+    },
+    {
+      "ref": "J7",
+      "native_mpn": "B-2100S02P-A110",
+      "purchase_mpn": "B-2100S02P-A110",
+      "match": true
+    },
+    {
+      "ref": "R4",
+      "native_mpn": "MFR-25FTE52-1K",
+      "purchase_mpn": "MFR-25FTE52-1K",
+      "match": true
+    },
+    {
+      "ref": "R5",
+      "native_mpn": "Assembly link - tinned resistor-lead offcut",
+      "purchase_mpn": "Assembly link - tinned resistor-lead offcut",
+      "match": true
+    },
+    {
+      "ref": "R11",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R12",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R13",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R14",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R15",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "U8",
+      "native_mpn": "TPS3808G01DBVR",
+      "purchase_mpn": "TPS3808G01DBVR",
+      "match": true
+    },
+    {
+      "ref": "C3",
+      "native_mpn": "RDER71H104K0S1H03A",
+      "purchase_mpn": "RDER71H104K0S1H03A",
+      "match": true
+    },
+    {
+      "ref": "R6",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R7",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R8",
+      "native_mpn": "MFR-25FTE52-1K",
+      "purchase_mpn": "MFR-25FTE52-1K",
+      "match": true
+    },
+    {
+      "ref": "R9",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "J9",
+      "native_mpn": "B-2100S02P-A110",
+      "purchase_mpn": "B-2100S02P-A110",
+      "match": true
+    },
+    {
+      "ref": "U1",
+      "native_mpn": "BIGTREETECH TMC2209 V1.3",
+      "purchase_mpn": "TMC2209 V1.3",
+      "match": true
+    },
+    {
+      "ref": "J1",
+      "native_mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_mpn": "DB128V-5.08-4P-GN-S",
+      "match": true
+    },
+    {
+      "ref": "C11",
+      "native_mpn": "35ZLH100MEFC6.3X11",
+      "purchase_mpn": "35ZLH100MEFC6.3X11",
+      "match": true
+    },
+    {
+      "ref": "R21",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R31",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "U2",
+      "native_mpn": "BIGTREETECH TMC2209 V1.3",
+      "purchase_mpn": "TMC2209 V1.3",
+      "match": true
+    },
+    {
+      "ref": "J2",
+      "native_mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_mpn": "DB128V-5.08-4P-GN-S",
+      "match": true
+    },
+    {
+      "ref": "C12",
+      "native_mpn": "35ZLH100MEFC6.3X11",
+      "purchase_mpn": "35ZLH100MEFC6.3X11",
+      "match": true
+    },
+    {
+      "ref": "R22",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R32",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "U3",
+      "native_mpn": "BIGTREETECH TMC2209 V1.3",
+      "purchase_mpn": "TMC2209 V1.3",
+      "match": true
+    },
+    {
+      "ref": "J3",
+      "native_mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_mpn": "DB128V-5.08-4P-GN-S",
+      "match": true
+    },
+    {
+      "ref": "C13",
+      "native_mpn": "35ZLH100MEFC6.3X11",
+      "purchase_mpn": "35ZLH100MEFC6.3X11",
+      "match": true
+    },
+    {
+      "ref": "R23",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R33",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "U4",
+      "native_mpn": "BIGTREETECH TMC2209 V1.3",
+      "purchase_mpn": "TMC2209 V1.3",
+      "match": true
+    },
+    {
+      "ref": "J4",
+      "native_mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_mpn": "DB128V-5.08-4P-GN-S",
+      "match": true
+    },
+    {
+      "ref": "C14",
+      "native_mpn": "35ZLH100MEFC6.3X11",
+      "purchase_mpn": "35ZLH100MEFC6.3X11",
+      "match": true
+    },
+    {
+      "ref": "R24",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R34",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "U5",
+      "native_mpn": "BIGTREETECH TMC2209 V1.3",
+      "purchase_mpn": "TMC2209 V1.3",
+      "match": true
+    },
+    {
+      "ref": "J5",
+      "native_mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_mpn": "DB128V-5.08-4P-GN-S",
+      "match": true
+    },
+    {
+      "ref": "C15",
+      "native_mpn": "35ZLH100MEFC6.3X11",
+      "purchase_mpn": "35ZLH100MEFC6.3X11",
+      "match": true
+    },
+    {
+      "ref": "R25",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "R35",
+      "native_mpn": "MFR-25FBF52-10K",
+      "purchase_mpn": "MFR-25FBF52-10K",
+      "match": true
+    },
+    {
+      "ref": "J6",
+      "native_mpn": "PJ-102AH",
+      "purchase_mpn": "PJ-102AH",
+      "match": true
+    },
+    {
+      "ref": "F1",
+      "native_mpn": "0454004.MR",
+      "purchase_mpn": "0454004.MR",
+      "match": true
+    },
+    {
+      "ref": "D1",
+      "native_mpn": "SB560-E3/54",
+      "purchase_mpn": "SB560-E3/54",
+      "match": true
+    },
+    {
+      "ref": "D2",
+      "native_mpn": "SMCJ15A",
+      "purchase_mpn": "SMCJ15A",
+      "match": true
+    },
+    {
+      "ref": "C1",
+      "native_mpn": "EEU-FR1H471",
+      "purchase_mpn": "EEU-FR1H471",
+      "match": true
+    },
+    {
+      "ref": "F2",
+      "native_mpn": "0454.500MR",
+      "purchase_mpn": "0454.500MR",
+      "match": true
+    },
+    {
+      "ref": "D3",
+      "native_mpn": "1N5819-E3/54",
+      "purchase_mpn": "1N5819-E3/54",
+      "match": true
+    },
+    {
+      "ref": "J8",
+      "native_mpn": "470531000",
+      "purchase_mpn": "470531000",
+      "match": true
+    }
+  ]
+}

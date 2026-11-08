@@ -1,0 +1,288 @@
+{
+  "date_local": "2026-11-08",
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "read_only_native_CAD": true,
+  "pass_name": "Independent actual-copper power/phase/return audit",
+  "phase_terminal_to_module_paths": [
+    {
+      "net": "A1_1",
+      "terminal": "J1.1",
+      "module": "U1.13",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A2_1",
+      "terminal": "J1.2",
+      "module": "U1.14",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B1_1",
+      "terminal": "J1.3",
+      "module": "U1.12",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B2_1",
+      "terminal": "J1.4",
+      "module": "U1.11",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A1_2",
+      "terminal": "J2.1",
+      "module": "U2.13",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A2_2",
+      "terminal": "J2.2",
+      "module": "U2.14",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B1_2",
+      "terminal": "J2.3",
+      "module": "U2.12",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B2_2",
+      "terminal": "J2.4",
+      "module": "U2.11",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A1_3",
+      "terminal": "J3.1",
+      "module": "U3.13",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A2_3",
+      "terminal": "J3.2",
+      "module": "U3.14",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B1_3",
+      "terminal": "J3.3",
+      "module": "U3.12",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B2_3",
+      "terminal": "J3.4",
+      "module": "U3.11",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A1_4",
+      "terminal": "J4.1",
+      "module": "U4.13",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A2_4",
+      "terminal": "J4.2",
+      "module": "U4.14",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B1_4",
+      "terminal": "J4.3",
+      "module": "U4.12",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B2_4",
+      "terminal": "J4.4",
+      "module": "U4.11",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A1_5",
+      "terminal": "J5.1",
+      "module": "U5.13",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "A2_5",
+      "terminal": "J5.2",
+      "module": "U5.14",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B1_5",
+      "terminal": "J5.3",
+      "module": "U5.12",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    },
+    {
+      "net": "B2_5",
+      "terminal": "J5.4",
+      "module": "U5.11",
+      "physical_connectivity": true,
+      "minimum_track_width_mm": 1.0,
+      "vias": []
+    }
+  ],
+  "all_GND_pads_physically_connected_to_J6_return": 52,
+  "power_relevant_GND_pads_tested": [
+    "J6.2",
+    "C1.2",
+    "D2.2",
+    "U1.2",
+    "U1.3",
+    "U1.6",
+    "U1.9",
+    "U1.15",
+    "U2.3",
+    "U2.6",
+    "U2.9",
+    "U2.15",
+    "U3.2",
+    "U3.6",
+    "U3.9",
+    "U3.15",
+    "U4.6",
+    "U4.9",
+    "U4.15",
+    "U5.2",
+    "U5.3",
+    "U5.6",
+    "U5.9",
+    "U5.15",
+    "U6.22",
+    "C11.2",
+    "C12.2",
+    "C13.2",
+    "C14.2",
+    "C15.2"
+  ],
+  "supply_and_fan_branches": [
+    {
+      "from": "J6.1",
+      "to": "F1.1",
+      "net": "VIN_RAW",
+      "physical_connectivity": true
+    },
+    {
+      "from": "F1.2",
+      "to": "D1.2",
+      "net": "VIN_FUSED",
+      "physical_connectivity": true
+    },
+    {
+      "from": "D1.1",
+      "to": "C1.1",
+      "net": "VMOT",
+      "physical_connectivity": true
+    },
+    {
+      "from": "D1.1",
+      "to": "D2.1",
+      "net": "VMOT",
+      "physical_connectivity": true
+    },
+    {
+      "from": "F1.2",
+      "to": "F2.1",
+      "net": "VIN_FUSED",
+      "physical_connectivity": true
+    },
+    {
+      "from": "F2.2",
+      "to": "D3.2",
+      "net": "FAN_FUSED",
+      "physical_connectivity": true
+    },
+    {
+      "from": "D3.1",
+      "to": "J8.2",
+      "net": "FAN_VMOT",
+      "physical_connectivity": true
+    }
+  ],
+  "all_five_VMOT_and_local_bulk_capacitor_branches_connected": true,
+  "native_power_trace_width_sets_mm": {
+    "VMOT": [
+      1.2,
+      3.0
+    ],
+    "FAN_VMOT": [
+      0.6
+    ],
+    "VIN_RAW": [
+      3.0
+    ],
+    "VIN_FUSED": [
+      3.0
+    ],
+    "FAN_FUSED": [
+      0.6
+    ]
+  },
+  "power_netclass_clearance_mm": {
+    "INPUT_POWER": 0.3,
+    "MOTOR_POWER": 0.3,
+    "FAN_POWER": 0.3,
+    "GROUND": 0.3
+  },
+  "source_recorded_DRC_exclusions": 0,
+  "source_recorded_DRC_violations": 0,
+  "new_digital_defects_found": [],
+  "material_limits": [
+    "This geometric/connectivity pass does not calculate every plane neck, copper spreading or complete current density.",
+    "No actual copper thickness, connector contact heating, diode temperature, TVS/regeneration energy, ripple or motor load was measured.",
+    "2.5A/30W is an initial shared bench qualification envelope, not an enforced electronic limit or established continuous rating.",
+    "Five U7 in-pad escape vias require the documented hand prefill or an explicitly quoted factory via process; native DRC zero does not approve factory assembly.",
+    "Fuse and reverse-input/TVS parts do not make arbitrary solder bridges or incorrect external wiring harmless."
+  ],
+  "physical_qualification": false,
+  "production_ready": false,
+  "phase_power_via_count": 0,
+  "native_zone_default_thermal_bridge_widths_mm": [
+    0.5,
+    0.5
+  ],
+  "zone_defaults_note": "The two GND zone defaults are0.5mm thermal bridges and0.3mm gaps. This does not establish every pad spoke, return-plane neck or thermal/current rating."
+}

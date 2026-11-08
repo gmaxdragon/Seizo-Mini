@@ -1,0 +1,1115 @@
+[
+  {
+    "ref": "U6",
+    "lib": "SeizoMotorController:RP2040_Zero_Header23",
+    "value": "Waveshare RP2040-Zero-M / native USB-C",
+    "uuid": "39224266-1996-51d1-a051-1d1a9d6f3cbb",
+    "footprint": "SeizoMotorController:Waveshare_RP2040_Zero_Headers_9_9_5_P2.54",
+    "mpn": "Waveshare RP2040-Zero-M",
+    "datasheet": "https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf",
+    "stage": "control",
+    "nets": {
+      "1": "UART_A_TX",
+      "2": "UART_A",
+      "3": "EN1_N",
+      "4": "EN2_N",
+      "5": "UART_B_TX",
+      "6": "UART_B",
+      "7": "STEP_RAW1",
+      "8": "STEP_RAW2",
+      "9": "STEP_RAW3",
+      "10": "STEP_RAW4",
+      "11": "STEP_RAW5",
+      "12": "DIR1",
+      "13": "DIR2",
+      "14": "DIR3",
+      "15": "DIR4",
+      "16": "DIR5",
+      "17": "EN3_N",
+      "18": "EN4_N",
+      "19": "EN5_N",
+      "20": "HOLD_OPEN",
+      "21": "+3V3_USB",
+      "22": "GND"
+    },
+    "schematic_position": [
+      57.15,
+      66.04
+    ]
+  },
+  {
+    "ref": "R2",
+    "lib": "Device:R",
+    "value": "1k",
+    "uuid": "1419aa77-0348-5011-91bb-b882bb7b2c2c",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FTE52-1K",
+    "datasheet": "",
+    "stage": "control",
+    "nets": {
+      "1": "UART_A_TX",
+      "2": "UART_A"
+    },
+    "schematic_position": [
+      31.75,
+      119.38
+    ],
+    "lcsc": "C172978"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device:R",
+    "value": "1k",
+    "uuid": "99e2c872-e074-51fe-9df6-87f0ac4d8697",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FTE52-1K",
+    "datasheet": "",
+    "stage": "control",
+    "nets": {
+      "1": "UART_B_TX",
+      "2": "UART_B"
+    },
+    "schematic_position": [
+      96.52,
+      119.38
+    ],
+    "lcsc": "C172978"
+  },
+  {
+    "ref": "U7",
+    "lib": "SeizoMotorController:SN74HC541DW",
+    "value": "SN74HC541DWR",
+    "uuid": "460d7766-c1a3-548a-b5f3-25c080f58e9a",
+    "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+    "mpn": "SN74HC541DWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/sn74hc541.pdf",
+    "stage": "hold",
+    "nets": {
+      "1": "HOLD_OPEN",
+      "19": "GND",
+      "20": "+3V3_USB",
+      "10": "GND",
+      "2": "STEP_RAW1",
+      "3": "STEP_RAW2",
+      "4": "STEP_RAW3",
+      "5": "STEP_RAW4",
+      "6": "STEP_RAW5",
+      "18": "STEP1",
+      "17": "STEP2",
+      "16": "STEP3",
+      "15": "STEP4",
+      "14": "STEP5",
+      "7": "GND",
+      "8": "GND",
+      "9": "GND"
+    },
+    "schematic_position": [
+      173.99,
+      62.230000000000004
+    ],
+    "lcsc": "C6757"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device:C",
+    "value": "100n /50V",
+    "uuid": "2448782c-463a-525b-9cb2-a74c68ba8dcb",
+    "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+    "mpn": "RDER71H104K0S1H03A",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "GND"
+    },
+    "schematic_position": [
+      213.36,
+      45.72
+    ],
+    "lcsc": "C524651"
+  },
+  {
+    "ref": "J7",
+    "lib": "Connector_Generic:Conn_01x02",
+    "value": "HOLD NC / dry contact only",
+    "uuid": "f94f588c-6d91-5476-95ea-0c9b5734e303",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "mpn": "B-2100S02P-A110",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "GND",
+      "2": "HOLD_CONTACT"
+    },
+    "schematic_position": [
+      257.81,
+      39.37
+    ],
+    "lcsc": "C124375"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device:R",
+    "value": "1k",
+    "uuid": "ff2797a9-7b3c-5ee8-bf29-d04b86dd1a76",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FTE52-1K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "HOLD_OPEN"
+    },
+    "schematic_position": [
+      257.81,
+      63.5
+    ],
+    "lcsc": "C172978"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device:R",
+    "value": "0R / FITTED WIRE LINK",
+    "uuid": "685f19ca-54ec-57da-97a3-cb142f69d37b",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "Assembly link - tinned resistor-lead offcut",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "HOLD_CONTACT",
+      "2": "HOLD_OPEN"
+    },
+    "schematic_position": [
+      257.81,
+      82.55
+    ],
+    "purchase": "No separate purchase; use a clipped tinned lead from the already-purchased resistor pack.",
+    "assembly_note": "Form an insulated-clearance wire link across the two R5 holes, pitch7.62mm, and solder both ends. Trimmed resistor-lead offcut is suitable at the ~3.3mA dry-contact current. Do not fit1k here; keepR4=1k. ExternalHOLD is dryNC contact only, never an applied voltage."
+  },
+  {
+    "ref": "R11",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "fdd3c8b6-da10-58e9-89cf-59cd2f24c0fa",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "STEP_RAW1",
+      "2": "GND"
+    },
+    "schematic_position": [
+      314.96,
+      36.83
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "d2c0bb99-44cc-5a9f-995c-bfe0dda6630b",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "STEP_RAW2",
+      "2": "GND"
+    },
+    "schematic_position": [
+      363.22,
+      36.83
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "c79c34a9-89d7-5ef5-9f2d-76c033e777a5",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "STEP_RAW3",
+      "2": "GND"
+    },
+    "schematic_position": [
+      314.96,
+      50.8
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "721a4034-4f1e-5a63-9deb-744b5c90e740",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "STEP_RAW4",
+      "2": "GND"
+    },
+    "schematic_position": [
+      363.22,
+      50.8
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "c100cf47-16da-58dc-861d-404121b98dbb",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "hold",
+    "nets": {
+      "1": "STEP_RAW5",
+      "2": "GND"
+    },
+    "schematic_position": [
+      314.96,
+      64.77
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "U8",
+    "lib": "Power_Supervisor:TPS3808DBV",
+    "value": "TPS3808G01DBVR",
+    "uuid": "4a948370-d544-58bb-8bc2-02641d798d4b",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "mpn": "TPS3808G01DBVR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "VMOT_RESET_N",
+      "2": "GND",
+      "3": "+3V3_USB",
+      "5": "VMOT_SENSE",
+      "6": "+3V3_USB"
+    },
+    "schematic_position": [
+      462.28000000000003,
+      50.8
+    ],
+    "lcsc": "C19653"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device:C",
+    "value": "100n /50V",
+    "uuid": "db6c968d-af03-5461-9520-35d7929afc99",
+    "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+    "mpn": "RDER71H104K0S1H03A",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "GND"
+    },
+    "schematic_position": [
+      535.94,
+      39.37
+    ],
+    "lcsc": "C524651"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "ca69af7a-345c-5d17-a6e7-fda4f38e26c1",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "VMOT",
+      "2": "VMOT_DIV_MID"
+    },
+    "schematic_position": [
+      420.37,
+      86.36
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "2a10bdc1-b985-5bfa-87f5-e9e2cec4e9a2",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "VMOT_DIV_MID",
+      "2": "VMOT_SENSE"
+    },
+    "schematic_position": [
+      473.71,
+      86.36
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device:R",
+    "value": "1k",
+    "uuid": "58f5c544-4642-5129-8e57-a2288e4cc082",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FTE52-1K",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "VMOT_SENSE",
+      "2": "GND"
+    },
+    "schematic_position": [
+      527.05,
+      86.36
+    ],
+    "lcsc": "C172978"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "4d55d4b0-c8f8-55d9-a046-e55b916763c2",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "VMOT_RESET_N"
+    },
+    "schematic_position": [
+      535.94,
+      59.69
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "J9",
+    "lib": "Connector_Generic:Conn_01x02",
+    "value": "RUN HARNESS / 1 RESET_N, 2 GND",
+    "uuid": "8cabac0a-a9b5-5e16-8f35-e9d1ea6692cf",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "mpn": "B-2100S02P-A110",
+    "datasheet": "",
+    "stage": "motor_supply_reset",
+    "nets": {
+      "1": "VMOT_RESET_N",
+      "2": "GND"
+    },
+    "schematic_position": [
+      538.48,
+      113.03
+    ],
+    "lcsc": "C124375",
+    "assembly_note": "Required two-wire service harness: J9.1 VMOT_RESET_N to actualWaveshareZero Key2.1 RUN, J9.2 to Key2.2 GND. RUN is not on the23edgeheaderpads. Identify by manufacturer net/pad and unpowered continuity; never infer button-pad left/right orientation. No native carrier RUN pad has been invented."
+  },
+  {
+    "ref": "U1",
+    "lib": "SeizoMotorController:BTT_TMC2209_V1_3",
+    "value": "BTT TMC2209 V1.3 / address 0",
+    "uuid": "dc53abbb-2280-5cec-85f5-1befa0ae845a",
+    "footprint": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+    "stage": "axis1",
+    "nets": {
+      "1": "EN1_N",
+      "2": "GND",
+      "3": "GND",
+      "4": "UART_A",
+      "6": "GND",
+      "7": "STEP1",
+      "8": "DIR1",
+      "9": "GND",
+      "10": "+3V3_USB",
+      "11": "B2_1",
+      "12": "B1_1",
+      "13": "A1_1",
+      "14": "A2_1",
+      "15": "GND",
+      "16": "VMOT"
+    },
+    "schematic_position": [
+      43.18,
+      172.72
+    ]
+  },
+  {
+    "ref": "J1",
+    "lib": "SeizoMotorController:DB128V_4P",
+    "value": "MOTOR1 / A1 A2 B1 B2",
+    "uuid": "8eb6de70-eb01-56bc-be9a-b20718506952",
+    "footprint": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
+    "mpn": "DB128V-5.08-4P-GN-S",
+    "datasheet": "https://www.lcsc.com/datasheet/C2915641.pdf",
+    "stage": "axis1",
+    "nets": {
+      "1": "A1_1",
+      "2": "A2_1",
+      "3": "B1_1",
+      "4": "B2_1"
+    },
+    "schematic_position": [
+      54.61,
+      205.74
+    ],
+    "lcsc": "C2915641"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device:C_Polarized",
+    "value": "100u /35V",
+    "uuid": "38f490d3-9f8c-54aa-b725-231b18283e1e",
+    "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "mpn": "35ZLH100MEFC6.3X11",
+    "datasheet": "",
+    "stage": "axis1",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      24.13,
+      205.74
+    ],
+    "lcsc": "C109392"
+  },
+  {
+    "ref": "R21",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "feb5937d-f426-5e06-86cd-4caae0fb0d31",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis1",
+    "nets": {
+      "1": "STEP1",
+      "2": "GND"
+    },
+    "schematic_position": [
+      43.18,
+      227.33
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R31",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "7a7ba925-c4c8-5a85-9934-15a71630a35d",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis1",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "EN1_N"
+    },
+    "schematic_position": [
+      43.18,
+      241.3
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "U2",
+    "lib": "SeizoMotorController:BTT_TMC2209_V1_3",
+    "value": "BTT TMC2209 V1.3 / address 1",
+    "uuid": "c0869cbf-1530-515a-8037-9ab0bb1e7d2c",
+    "footprint": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+    "stage": "axis2",
+    "nets": {
+      "1": "EN2_N",
+      "2": "+3V3_USB",
+      "3": "GND",
+      "4": "UART_A",
+      "6": "GND",
+      "7": "STEP2",
+      "8": "DIR2",
+      "9": "GND",
+      "10": "+3V3_USB",
+      "11": "B2_2",
+      "12": "B1_2",
+      "13": "A1_2",
+      "14": "A2_2",
+      "15": "GND",
+      "16": "VMOT"
+    },
+    "schematic_position": [
+      123.19,
+      172.72
+    ]
+  },
+  {
+    "ref": "J2",
+    "lib": "SeizoMotorController:DB128V_4P",
+    "value": "MOTOR2 / A1 A2 B1 B2",
+    "uuid": "a9b2002e-9747-5456-92b9-962b30105f18",
+    "footprint": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
+    "mpn": "DB128V-5.08-4P-GN-S",
+    "datasheet": "https://www.lcsc.com/datasheet/C2915641.pdf",
+    "stage": "axis2",
+    "nets": {
+      "1": "A1_2",
+      "2": "A2_2",
+      "3": "B1_2",
+      "4": "B2_2"
+    },
+    "schematic_position": [
+      134.62,
+      205.74
+    ],
+    "lcsc": "C2915641"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device:C_Polarized",
+    "value": "100u /35V",
+    "uuid": "6f71f61b-2350-52ce-b878-c80b8fb081db",
+    "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "mpn": "35ZLH100MEFC6.3X11",
+    "datasheet": "",
+    "stage": "axis2",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      104.14,
+      205.74
+    ],
+    "lcsc": "C109392"
+  },
+  {
+    "ref": "R22",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "d32cbf1a-8ee8-5594-85d5-c596ee2df56c",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis2",
+    "nets": {
+      "1": "STEP2",
+      "2": "GND"
+    },
+    "schematic_position": [
+      123.19,
+      227.33
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R32",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "dc23099d-2e3a-5b18-85e0-b016ca477cb7",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis2",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "EN2_N"
+    },
+    "schematic_position": [
+      123.19,
+      241.3
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "U3",
+    "lib": "SeizoMotorController:BTT_TMC2209_V1_3",
+    "value": "BTT TMC2209 V1.3 / address 2",
+    "uuid": "d1a9a5f2-9783-51db-8832-777199eb4147",
+    "footprint": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+    "stage": "axis3",
+    "nets": {
+      "1": "EN3_N",
+      "2": "GND",
+      "3": "+3V3_USB",
+      "4": "UART_A",
+      "6": "GND",
+      "7": "STEP3",
+      "8": "DIR3",
+      "9": "GND",
+      "10": "+3V3_USB",
+      "11": "B2_3",
+      "12": "B1_3",
+      "13": "A1_3",
+      "14": "A2_3",
+      "15": "GND",
+      "16": "VMOT"
+    },
+    "schematic_position": [
+      203.2,
+      172.72
+    ]
+  },
+  {
+    "ref": "J3",
+    "lib": "SeizoMotorController:DB128V_4P",
+    "value": "MOTOR3 / A1 A2 B1 B2",
+    "uuid": "0a933aad-1b69-5547-a769-d34ab5c72b3b",
+    "footprint": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
+    "mpn": "DB128V-5.08-4P-GN-S",
+    "datasheet": "https://www.lcsc.com/datasheet/C2915641.pdf",
+    "stage": "axis3",
+    "nets": {
+      "1": "A1_3",
+      "2": "A2_3",
+      "3": "B1_3",
+      "4": "B2_3"
+    },
+    "schematic_position": [
+      214.63,
+      205.74
+    ],
+    "lcsc": "C2915641"
+  },
+  {
+    "ref": "C13",
+    "lib": "Device:C_Polarized",
+    "value": "100u /35V",
+    "uuid": "f89bdae9-3d97-52ed-9b0c-f70fcbcde62c",
+    "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "mpn": "35ZLH100MEFC6.3X11",
+    "datasheet": "",
+    "stage": "axis3",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      184.15,
+      205.74
+    ],
+    "lcsc": "C109392"
+  },
+  {
+    "ref": "R23",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "8a40602f-eab2-573b-899d-8087b8b26ef1",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis3",
+    "nets": {
+      "1": "STEP3",
+      "2": "GND"
+    },
+    "schematic_position": [
+      203.2,
+      227.33
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R33",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "fb42d2bb-1eff-54b5-8e3e-1c69a73314cc",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis3",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "EN3_N"
+    },
+    "schematic_position": [
+      203.2,
+      241.3
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "U4",
+    "lib": "SeizoMotorController:BTT_TMC2209_V1_3",
+    "value": "BTT TMC2209 V1.3 / address 3",
+    "uuid": "412f6e20-f805-5095-9e22-10b7d9ea1af5",
+    "footprint": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+    "stage": "axis4",
+    "nets": {
+      "1": "EN4_N",
+      "2": "+3V3_USB",
+      "3": "+3V3_USB",
+      "4": "UART_A",
+      "6": "GND",
+      "7": "STEP4",
+      "8": "DIR4",
+      "9": "GND",
+      "10": "+3V3_USB",
+      "11": "B2_4",
+      "12": "B1_4",
+      "13": "A1_4",
+      "14": "A2_4",
+      "15": "GND",
+      "16": "VMOT"
+    },
+    "schematic_position": [
+      283.21,
+      172.72
+    ]
+  },
+  {
+    "ref": "J4",
+    "lib": "SeizoMotorController:DB128V_4P",
+    "value": "MOTOR4 / A1 A2 B1 B2",
+    "uuid": "002bc2a4-df05-553b-b379-7ffbf706bee5",
+    "footprint": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
+    "mpn": "DB128V-5.08-4P-GN-S",
+    "datasheet": "https://www.lcsc.com/datasheet/C2915641.pdf",
+    "stage": "axis4",
+    "nets": {
+      "1": "A1_4",
+      "2": "A2_4",
+      "3": "B1_4",
+      "4": "B2_4"
+    },
+    "schematic_position": [
+      294.64,
+      205.74
+    ],
+    "lcsc": "C2915641"
+  },
+  {
+    "ref": "C14",
+    "lib": "Device:C_Polarized",
+    "value": "100u /35V",
+    "uuid": "3e27b080-9b57-574d-93c5-7b51c4a31ec0",
+    "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "mpn": "35ZLH100MEFC6.3X11",
+    "datasheet": "",
+    "stage": "axis4",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      264.16,
+      205.74
+    ],
+    "lcsc": "C109392"
+  },
+  {
+    "ref": "R24",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "c8a93c67-b5af-5f7c-bac6-2899708b573a",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis4",
+    "nets": {
+      "1": "STEP4",
+      "2": "GND"
+    },
+    "schematic_position": [
+      283.21,
+      227.33
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R34",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "82e4a524-4017-5704-9122-71720a523540",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis4",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "EN4_N"
+    },
+    "schematic_position": [
+      283.21,
+      241.3
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "U5",
+    "lib": "SeizoMotorController:BTT_TMC2209_V1_3",
+    "value": "BTT TMC2209 V1.3 / address 0",
+    "uuid": "909da945-bbcc-5341-a197-63bc8d572e7e",
+    "footprint": "SeizoMotorController:StepStick_Socket16_P12.70_D1.00",
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+    "stage": "axis5",
+    "nets": {
+      "1": "EN5_N",
+      "2": "GND",
+      "3": "GND",
+      "4": "UART_B",
+      "6": "GND",
+      "7": "STEP5",
+      "8": "DIR5",
+      "9": "GND",
+      "10": "+3V3_USB",
+      "11": "B2_5",
+      "12": "B1_5",
+      "13": "A1_5",
+      "14": "A2_5",
+      "15": "GND",
+      "16": "VMOT"
+    },
+    "schematic_position": [
+      363.22,
+      172.72
+    ]
+  },
+  {
+    "ref": "J5",
+    "lib": "SeizoMotorController:DB128V_4P",
+    "value": "MOTOR5 / A1 A2 B1 B2",
+    "uuid": "1a895b73-ed9a-58f8-b1dd-fd6885101be3",
+    "footprint": "SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60",
+    "mpn": "DB128V-5.08-4P-GN-S",
+    "datasheet": "https://www.lcsc.com/datasheet/C2915641.pdf",
+    "stage": "axis5",
+    "nets": {
+      "1": "A1_5",
+      "2": "A2_5",
+      "3": "B1_5",
+      "4": "B2_5"
+    },
+    "schematic_position": [
+      374.65,
+      205.74
+    ],
+    "lcsc": "C2915641"
+  },
+  {
+    "ref": "C15",
+    "lib": "Device:C_Polarized",
+    "value": "100u /35V",
+    "uuid": "b5c139b5-1063-523b-9e51-b1505630c4c6",
+    "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "mpn": "35ZLH100MEFC6.3X11",
+    "datasheet": "",
+    "stage": "axis5",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      344.17,
+      205.74
+    ],
+    "lcsc": "C109392"
+  },
+  {
+    "ref": "R25",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "447fff04-13fb-5778-b421-dda5b33e623b",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis5",
+    "nets": {
+      "1": "STEP5",
+      "2": "GND"
+    },
+    "schematic_position": [
+      363.22,
+      227.33
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "R35",
+    "lib": "Device:R",
+    "value": "10k",
+    "uuid": "c133cc31-073a-5232-bfe2-37c6edbeb47f",
+    "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "mpn": "MFR-25FBF52-10K",
+    "datasheet": "",
+    "stage": "axis5",
+    "nets": {
+      "1": "+3V3_USB",
+      "2": "EN5_N"
+    },
+    "schematic_position": [
+      363.22,
+      241.3
+    ],
+    "lcsc": "C1519255"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector:Barrel_Jack_Switch",
+    "value": "PJ-102AH / 5.5mm plug,2.0mm centerpin",
+    "uuid": "90fce3fa-a0f1-57fc-8572-4367b77f6121",
+    "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
+    "mpn": "PJ-102AH",
+    "datasheet": "https://www.sameskydevices.com/product/resource/futurepdf/pj-102ah.pdf",
+    "stage": "power",
+    "nets": {
+      "1": "VIN_RAW",
+      "2": "GND"
+    },
+    "schematic_position": [
+      30.48,
+      292.1
+    ],
+    "lcsc": "C3096093"
+  },
+  {
+    "ref": "F1",
+    "lib": "Device:Fuse",
+    "value": "4A 125VDC SLO-BLO",
+    "uuid": "6602a2d5-f6d3-5328-b81b-72d504c1fa57",
+    "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "mpn": "0454004.MR",
+    "datasheet": "",
+    "stage": "power",
+    "nets": {
+      "1": "VIN_RAW",
+      "2": "VIN_FUSED"
+    },
+    "schematic_position": [
+      101.6,
+      292.1
+    ]
+  },
+  {
+    "ref": "D1",
+    "lib": "Device:D_Schottky",
+    "value": "SB560-E3/54 / input isolation",
+    "uuid": "095bc5cc-606c-5272-b09a-a9a6c6ec208e",
+    "footprint": "SeizoMotorController:D_DO-201AD_P25.40mm_Horizontal_D1.60",
+    "mpn": "SB560-E3/54",
+    "datasheet": "https://www.vishay.com/docs/88721/sb520.pdf",
+    "stage": "power",
+    "nets": {
+      "1": "VMOT",
+      "2": "VIN_FUSED"
+    },
+    "schematic_position": [
+      170.18,
+      292.1
+    ],
+    "lcsc": "C506560"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device:D_Zener",
+    "value": "SMCJ15A / transient clamp",
+    "uuid": "3324ec96-4e20-50da-93e0-4ec26f2f9cc5",
+    "footprint": "Diode_SMD:D_SMC",
+    "mpn": "SMCJ15A",
+    "datasheet": "",
+    "stage": "power",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      270.51,
+      292.1
+    ],
+    "lcsc": "C3719503"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device:C_Polarized",
+    "value": "470u /50V",
+    "uuid": "ac563801-8ae4-52ed-8807-bbf039af587b",
+    "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+    "mpn": "EEU-FR1H471",
+    "datasheet": "",
+    "stage": "power",
+    "nets": {
+      "1": "VMOT",
+      "2": "GND"
+    },
+    "schematic_position": [
+      318.77,
+      292.1
+    ]
+  },
+  {
+    "ref": "F2",
+    "lib": "Device:Fuse",
+    "value": "0.5A 125VDC FAN",
+    "uuid": "b5dc7cc3-bd20-5328-bff5-aa4c9f1b6a52",
+    "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "mpn": "0454.500MR",
+    "datasheet": "",
+    "stage": "power",
+    "nets": {
+      "1": "VIN_FUSED",
+      "2": "FAN_FUSED"
+    },
+    "schematic_position": [
+      364.49,
+      290.83
+    ]
+  },
+  {
+    "ref": "D3",
+    "lib": "Device:D_Schottky",
+    "value": "1N5819-E3/54 / fan isolation",
+    "uuid": "53e8cb18-1fa9-51f9-89b6-bbf6395ece1f",
+    "footprint": "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal",
+    "mpn": "1N5819-E3/54",
+    "datasheet": "https://www.vishay.com/docs/88525/1n5817.pdf",
+    "stage": "power",
+    "nets": {
+      "1": "FAN_VMOT",
+      "2": "FAN_FUSED"
+    },
+    "schematic_position": [
+      425.45,
+      292.1
+    ],
+    "lcsc": "C145202"
+  },
+  {
+    "ref": "J8",
+    "lib": "Connector_Generic:Conn_01x04",
+    "value": "12 V PC FAN / 1 GND, 2 +12 V, 3 TACH NC, 4 PWM NC",
+    "uuid": "f2aabce8-cfb8-5ace-92dd-9584a91ab77b",
+    "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical",
+    "mpn": "470531000",
+    "datasheet": "https://www.molex.com/en-us/products/part-detail/470531000",
+    "stage": "power",
+    "nets": {
+      "1": "GND",
+      "2": "FAN_VMOT"
+    },
+    "schematic_position": [
+      364.49,
+      316.23
+    ],
+    "lcsc": "C240840"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "revision": "R4",
+  "scope": "Static native topology and datasheet-bound arithmetic. No analog transient simulation or physical tests.",
+  "old_46_component_identities_values_footprints_and_nets_unchanged": true,
+  "frozen_R3_native_project_manifest_matches": {
+    "project/big motor controller.kicad_pcb": true,
+    "project/big motor controller.kicad_pro": true,
+    "project/big motor controller.kicad_sch": true,
+    "project/fp-lib-table": true,
+    "project/SeizoMotorController.kicad_sym": true,
+    "project/SeizoMotorController.pretty/D_DO-201AD_P25.40mm_Horizontal_D1.60.kicad_mod": true,
+    "project/SeizoMotorController.pretty/StepStick_Socket16_P12.70_D1.00.kicad_mod": true,
+    "project/SeizoMotorController.pretty/TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60.kicad_mod": true,
+    "project/SeizoMotorController.pretty/Waveshare_RP2040_Zero_Headers_9_9_5_P2.54.kicad_mod": true,
+    "project/sym-lib-table": true
+  },
+  "new_supervisor_pin_map_and_divider_match": true,
+  "trip_initial_tolerance_corners": 16,
+  "trip_nominal_V": 8.505,
+  "trip_initial_min_V": 8.177711881188118,
+  "trip_initial_max_V": 8.842009090909091,
+  "input_current_extra_rail_error_max_V": 0.0005,
+  "threshold_limits_note": "Initial resistor and IC tolerance; additional resistor temperature drift, actual layout noise and waveforms remain unmeasured.",
+  "ENN_reset_corners_without_relying_on_BTT_pullup": 24,
+  "ENN_reset_minimum_VIH_margin_V": 0.16747410585195865,
+  "ENN_reset_assumptions": "Carrier10k1%,RPpull50–80k,TMCpull132–200k,10uAextra sink,3.0/3.3/3.6VIO. Actual BTT20k pull-up omitted conservatively.",
+  "nominal_SENSE_at12V": 0.5714285714285714,
+  "SENSE_at24_4V_clamp": 1.1619047619047618,
+  "SENSE_recommended_max_V": 6.5,
+  "max_divider_current_at24_4V_A": 0.0011619047619047618,
+  "top_resistor_power_at24_4V_W": 0.013500226757369612,
+  "nominal_bus_capacitance_uF": 970,
+  "additional_capacitor_energy_11_4_to24_4V_J": 0.22571899999999995,
+  "regen_limit": "TVS is transient suppression, not a general braking resistor or demonstrated unknown-load energy sink.",
+  "supervisor_timing_datasheet": {
+    "CT_open_release_ms": [
+      12,
+      28
+    ],
+    "sense_to_RESET_us_max": 20,
+    "test_conditions": "1.05VIT to0.95VIT,100k/50pF; very brief dips not guaranteed"
+  },
+  "mandatory_external_interface": {
+    "J9.1": "Zero Key2.1 RUN net",
+    "J9.2": "Zero Key2.2 GND net",
+    "RUN_is_header_pin": false,
+    "physical_harness_verified": false
+  },
+  "power_sequence_review": [
+    {
+      "case": "USB only,VMOT below threshold",
+      "expected": "MCU held in reset with harness; no USB serial; ENN pull-ups inactive/high",
+      "physical_test": false
+    },
+    {
+      "case": "Motor12V only,USB absent",
+      "expected": "TMC VIO absent; no commanded output; SENSE voltage within independent input range",
+      "physical_test": false
+    },
+    {
+      "case": "Both supplies stable",
+      "expected": "Delayed MCU boot; disabled outputs; fresh CHECK/heartbeat/manualARM required; supplied binary locked",
+      "physical_test": false
+    },
+    {
+      "case": "Qualifying common VMOT drop and return",
+      "expected": "MCU reset discards old enables; delayed fresh boot; holding torque can be released",
+      "physical_test": false
+    },
+    {
+      "case": "Very brief dip or individual module reset",
+      "expected": "Not guaranteed captured by common-bus monitor; UART fault handling and physical characterization required",
+      "physical_test": false
+    },
+    {
+      "case": "Observed USB data loss/heartbeat timeout",
+      "expected": "New firmware invalidates session and stops steps; healthy enabled holding current retained",
+      "physical_test": false
+    },
+    {
+      "case": "USB POWER loss",
+      "expected": "VIO/holding torque can disappear; no electronic protection against gravity drop",
+      "physical_test": false
+    }
+  ],
+  "no_production_or_loaded_arm_clearance": true,
+  "primary_sources": [
+    "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf",
+    "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf",
+    "https://www.analog.com/media/en/technical-documentation/data-sheets/tmc2209_datasheet_rev1.08.pdf"
+  ]
+}

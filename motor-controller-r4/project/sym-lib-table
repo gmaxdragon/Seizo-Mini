@@ -1,0 +1,8 @@
+(sym_lib_table
+ (lib (name "Connector")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")(options "")(descr ""))
+ (lib (name "Connector_Generic")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")(options "")(descr ""))
+ (lib (name "Device")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")(options "")(descr ""))
+ (lib (name "Power_Supervisor")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Power_Supervisor.kicad_sym")(options "")(descr ""))
+ (lib (name "SeizoMotorController")(type "KiCad")(uri "${KIPRJMOD}/SeizoMotorController.kicad_sym")(options "")(descr ""))
+ (lib (name "power")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/power.kicad_sym")(options "")(descr ""))
+)

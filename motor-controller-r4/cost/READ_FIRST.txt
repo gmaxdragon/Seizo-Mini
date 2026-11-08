@@ -1,0 +1,26 @@
+CURRENT R4 COST FILES
+
+Use R4-purchase-BOM.csv, R4-LCSC-import.csv, R4-native-purchase-budget.json, BOM-native-inventory-check.json and R4-native-budget-status.txt. All53 native references and17 LCSC SKUs are covered. R3 files are preserved and belong to the previous revision.
+
+R4 PURCHASE AUDIT â€” UNPAID REVIEW
+
+53/53 native references covered exactly once; all MPNs match. All17 LCSC import SKUs are stock-confirmed.
+Native SHA256: 37b6dd4fa30860acc68a5c80f028bb61940cd4ace3513e981ca59fcda71641dc
+
+Current LCSC undiscounted actual cart: $15.59; automatic$0.24 promotion ignored. All17 CSV unit prices and displayed line extensions are parsed from the saved current R4 DOM.
+Merchandise including MOQ packs and explicit reserves: $51.71.
+Shipping: $37.94 (West3D6.89, Waveshare10.00, LCSC11.85, JLC9.20).
+Dublin tax allowance10.25%: $9.19.
+Estimated delivered: $98.84 before unquoted import fees. Remaining margin: $1.16.
+
+UNDER100USD IS NOT GUARANTEED. PURCHASE_READY=false.
+
+Use Final_BOM.csv for all purchases/reuse/reserves, R4-LCSC-import.csv for the17 supplier lines, and Solder_List.csv for fitted quantities and solder joints. BUY_AND_SOLDER_R4.md explains their use. Do not populate spare quantities.
+U8 is the only new purchased SKU versus R3. Other new R4 native parts fit existing MOQ packs. The required two-wire RUN/GND harness and HOLD bench link use owned jumper wires; R5 is a fitted resistor-lead offcut with no separate purchase. Parts populate one board; the PCB order also includes four bare spares.
+Initial input qualification envelopeâ‰¤2.5A/30W shared, not a protective clamp or certified rating.
+
+- The final R4 ZIP upload was detected as100Ã—100mm two layers and quoted at5.30USD plus9.20USD shipping. Manufacturer final engineering approval is still pending.
+- The current LCSC cart explicitly assigns destination duties/taxes to the buyer and requires customer-service inquiry for DDP; import duties, brokerage and other checkout fees are not bounded. Do not place orders if the combined delivered total exceeds100USD.
+- Five included module heatsinks are not confirmed. The2USD heatsink reserve remains unquoted; do not silently omit heatsinks. The HOLD link now reuses owned wire at zero purchase cost.
+- The owned adapter label, polarity, plug fit, regulation and shared power budget require physical checks.
+- Motor compatibility, fan behavior, diode/socket temperature, regeneration, supply drop, supervisor/RUN harness and firmware fault tests remain unverified.

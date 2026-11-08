@@ -1,0 +1,332 @@
+{
+  "revision": "R4",
+  "source": "Frozen R4 native inventory, purchase CSV and actual assembly pad map",
+  "read_only_CAD_audit": true,
+  "carrier_solder_joints": 232,
+  "through_hole_solder_joints": 200,
+  "SMD_solder_joints": 32,
+  "separate_carrier_items": 58,
+  "logical_native_references": 53,
+  "SMD_references": [
+    "D2",
+    "F1",
+    "F2",
+    "U7",
+    "U8"
+  ],
+  "U7_vias_to_prefill_and_wick_flat": [
+    7,
+    9,
+    16,
+    18,
+    19
+  ],
+  "rows": [
+    {
+      "order": 1,
+      "references": [
+        "U7"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HC541DWR",
+      "purchase_sku": "C6757",
+      "assembly_type": "SMD",
+      "fitted_items": 1,
+      "carrier_solder_joints": 20,
+      "instructions": "Place only after the five escape vias below are filled and wicked flat. Match pin 1; solder all 20 leads without bridging them."
+    },
+    {
+      "order": 2,
+      "references": [
+        "U8"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G01DBVR",
+      "purchase_sku": "C19653",
+      "assembly_type": "SMD",
+      "fitted_items": 1,
+      "carrier_solder_joints": 6,
+      "instructions": "Match pin 1. All six leads are soldered, including the NC pin 4 land. Do not bridge neighboring pins."
+    },
+    {
+      "order": 3,
+      "references": [
+        "F1"
+      ],
+      "manufacturer": "Littelfuse",
+      "mpn": "0454004.MR",
+      "purchase_sku": "C179006",
+      "assembly_type": "SMD",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Fit the 4 A fuse here. No polarity; do not replace it with a wire."
+    },
+    {
+      "order": 4,
+      "references": [
+        "F2"
+      ],
+      "manufacturer": "Littelfuse",
+      "mpn": "0454.500MR",
+      "purchase_sku": "C179003",
+      "assembly_type": "SMD",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Fit the 0.5 A fan fuse here. No polarity; do not swap it with F1."
+    },
+    {
+      "order": 5,
+      "references": [
+        "D2"
+      ],
+      "manufacturer": "Bourns",
+      "mpn": "SMCJ15A",
+      "purchase_sku": "C3719503",
+      "assembly_type": "SMD",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Back side of PCB. Cathode/band goes to pad 1, VMOT. Use the back assembly map; avoid reversing it."
+    },
+    {
+      "order": 6,
+      "references": [
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R6",
+        "R7",
+        "R9",
+        "R21",
+        "R31",
+        "R22",
+        "R32",
+        "R23",
+        "R33",
+        "R24",
+        "R34",
+        "R25",
+        "R35"
+      ],
+      "manufacturer": "YAGEO",
+      "mpn": "MFR-25FBF52-10K",
+      "purchase_sku": "C1519255",
+      "assembly_type": "Through-hole",
+      "fitted_items": 18,
+      "carrier_solder_joints": 36,
+      "instructions": "18 actual 10 kOhm resistors. No polarity; ignore the number of spare resistors in the purchase bag."
+    },
+    {
+      "order": 7,
+      "references": [
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "manufacturer": "YAGEO",
+      "mpn": "MFR-25FTE52-1K",
+      "purchase_sku": "C172978",
+      "assembly_type": "Through-hole",
+      "fitted_items": 4,
+      "carrier_solder_joints": 8,
+      "instructions": "Four actual 1 kOhm resistors. No polarity. R4 is a resistor; R5 is the link below."
+    },
+    {
+      "order": 8,
+      "references": [
+        "R5"
+      ],
+      "manufacturer": "Assembly material",
+      "mpn": "Assembly link - tinned resistor-lead offcut",
+      "purchase_sku": "No separate purchase",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Form a clipped tinned resistor lead across the two holes. It is a required wire link, not a 1 kOhm resistor."
+    },
+    {
+      "order": 9,
+      "references": [
+        "D1"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "SB560-E3/54",
+      "purchase_sku": "C506560",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Cathode/band goes to pad 1, VMOT. Leave body about 3-5 mm above the PCB; 25.4 mm formed lead spacing."
+    },
+    {
+      "order": 10,
+      "references": [
+        "D3"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "1N5819-E3/54",
+      "purchase_sku": "C145202",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "Cathode/band goes to pad 1, FAN_VMOT. This is the smaller fan-branch diode."
+    },
+    {
+      "order": 11,
+      "references": [
+        "C2",
+        "C3"
+      ],
+      "manufacturer": "Murata",
+      "mpn": "RDER71H104K0S1H03A",
+      "purchase_sku": "C524651",
+      "assembly_type": "Through-hole",
+      "fitted_items": 2,
+      "carrier_solder_joints": 4,
+      "instructions": "Two 100 nF ceramic capacitors; no polarity. Do not fit the electrolytics in these positions."
+    },
+    {
+      "order": 12,
+      "references": [
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "manufacturer": "Rubycon",
+      "mpn": "35ZLH100MEFC6.3X11",
+      "purchase_sku": "C109392",
+      "assembly_type": "Through-hole",
+      "fitted_items": 5,
+      "carrier_solder_joints": 10,
+      "instructions": "Five 100 uF / 35 V capacitors. Positive lead to pad 1/VMOT; striped negative side to pad 2/GND."
+    },
+    {
+      "order": 13,
+      "references": [
+        "C1"
+      ],
+      "manufacturer": "Panasonic",
+      "mpn": "EEU-FR1H471",
+      "purchase_sku": "C178708",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 2,
+      "instructions": "470 uF / 50 V bulk capacitor. Positive to pad 1/VMOT, striped negative to pad 2/GND. Keep body/leads clear of warm D1."
+    },
+    {
+      "order": 14,
+      "references": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ],
+      "manufacturer": "BIGTREETECH",
+      "mpn": "2.54-1*8P",
+      "purchase_sku": "C27438",
+      "assembly_type": "Through-hole",
+      "fitted_items": 10,
+      "carrier_solder_joints": 80,
+      "instructions": "Solder TEN female 1x8 sockets here: two rows per module. Keep straight and fully seated. Do not solder five driver modules directly to the carrier."
+    },
+    {
+      "order": 15,
+      "references": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5"
+      ],
+      "manufacturer": "DORABO",
+      "mpn": "DB128V-5.08-4P-GN-S",
+      "purchase_sku": "C2915641",
+      "assembly_type": "Through-hole",
+      "fitted_items": 5,
+      "carrier_solder_joints": 20,
+      "instructions": "Five four-position motor screw terminals. Fit each wire-entry side as shown on the front assembly map."
+    },
+    {
+      "order": 16,
+      "references": [
+        "J6"
+      ],
+      "manufacturer": "Same Sky",
+      "mpn": "PJ-102AH",
+      "purchase_sku": "C3096093",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 3,
+      "instructions": "Fit the exact PJ-102AH barrel jack. Its shape/pad pattern determines orientation; do not substitute a similar-looking jack."
+    },
+    {
+      "order": 17,
+      "references": [
+        "J7",
+        "J9"
+      ],
+      "manufacturer": "Ckmtw",
+      "mpn": "B-2100S02P-A110",
+      "purchase_sku": "C124375",
+      "assembly_type": "Through-hole",
+      "fitted_items": 2,
+      "carrier_solder_joints": 4,
+      "instructions": "Two vertical two-pin male headers. J7 is HOLD. J9 is the mandatory RUN/GND harness. Neither is a motor-power connector."
+    },
+    {
+      "order": 18,
+      "references": [
+        "J8"
+      ],
+      "manufacturer": "Molex",
+      "mpn": "470531000",
+      "purchase_sku": "C240840",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 4,
+      "instructions": "Keyed four-pin PC fan header. The fan is pin 1 GND, pin 2 protected 12 V; pins 3/4 are unused."
+    },
+    {
+      "order": 19,
+      "references": [
+        "U6"
+      ],
+      "manufacturer": "Waveshare",
+      "mpn": "RP2040-Zero-M",
+      "purchase_sku": "20335",
+      "assembly_type": "Through-hole",
+      "fitted_items": 1,
+      "carrier_solder_joints": 23,
+      "instructions": "Program the bare RP2040-Zero-M first. Then solder its 23 supplied male pins into the carrier. Pin 23 is electrically unused but still mechanically soldered. Do not connect motor power to it."
+    }
+  ],
+  "plug_in_after_unpowered_checks": {
+    "quantity": 5,
+    "mpn": "BIGTREETECH TMC2209 V1.3",
+    "references": [
+      "U1",
+      "U2",
+      "U3",
+      "U4",
+      "U5"
+    ],
+    "carrier_solder_joints_additional": 0
+  },
+  "external_reset_harness": {
+    "wire_terminations": 4,
+    "connection_1": "J9.1 VMOT_RESET_N -> verified actual Zero Key2.1 RUN contact",
+    "connection_2": "J9.2 GND -> verified actual Zero Key2.2 GND contact",
+    "extra_solder_joints": "At least the two Zero switch-contact connections; J9 end may use owned female jumper ends or be soldered. Do not add these to the 232 carrier-joint count."
+  },
+  "budget": {
+    "planned_total_USD": 98.62,
+    "includes": "Existing quoted goods/shipping, conservative tax allowance and 2USD unselected heatsink reserve; owned HOLD jumper removes 0.20USD purchase allowance",
+    "unknown_import_fees": true,
+    "under100_guaranteed": false
+  },
+  "production_or_loaded_arm_ready": false
+}

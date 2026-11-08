@@ -1,0 +1,48 @@
+{
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "read_only": true,
+  "all_53_native_component_values_footprints_and_pad_nets_match": true,
+  "pad_net_comparisons": 219,
+  "electrical_footprints": 53,
+  "copper_layers": 2,
+  "board_edge_bounding_box_mm": [
+    100.05,
+    100.05
+  ],
+  "phase_trace_minimum_mm": 1.0,
+  "main_power_trace_widths_mm": {
+    "VMOT": [
+      1.2,
+      3.0
+    ],
+    "VIN_RAW": [
+      3.0
+    ],
+    "VIN_FUSED": [
+      3.0
+    ]
+  },
+  "logic_minimum_width_mm": 0.2,
+  "via_count": 256,
+  "minimum_via_diameter_mm": 0.6,
+  "minimum_via_drill_mm": 0.3,
+  "native_DRC_exclusions": 0,
+  "GND_pads_recursively_connected_to_J6_return": 52,
+  "disconnected_GND_pads": [],
+  "native_socket_terminal_and_diode_hole_checks": 125,
+  "C2_to_U7_VCC_pad_distance_mm": 4.785,
+  "C3_to_U8_VDD_pad_distance_mm": 5.558,
+  "wide_VMOT_routes_to_all_modules_cap_and_TVS_minimum_mm": 1.2,
+  "wide_VMOT_routes_to_C1_and_TVS_minimum_mm": 3.0,
+  "via_centres_in_SMD_solder_lands": {
+    "U7": [
+      "7",
+      "9",
+      "16",
+      "18",
+      "19"
+    ],
+    "U8": []
+  },
+  "limits": "Checks nominal geometry/net assignment only. No measured copper thickness, full current-density/plane-neck analysis, temperature, voltage transient, EMC or actual module/motor qualification."
+}

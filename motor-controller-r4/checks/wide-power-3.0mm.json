@@ -1,0 +1,14 @@
+{
+  "PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "minimum_track_width_mm": 3.0,
+  "power_via_minimum_diameter_drill_mm": [
+    1.2,
+    0.6
+  ],
+  "connected_targets": [
+    "C1.1",
+    "D2.1"
+  ],
+  "removed_thin_track_or_via_count": 10,
+  "canonical_edited": false
+}

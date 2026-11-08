@@ -1,0 +1,65 @@
+{
+  "revision": "R4",
+  "checked_date_local": "2026-11-08",
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "canonical_CAD_modified": false,
+  "four_distinct_passes": [
+    {
+      "name": "Electrical rules and schematic parity",
+      "digital_result": "PASS",
+      "ERC_errors_and_warnings": 0,
+      "DRC_violations": 0,
+      "unconnected": 0,
+      "schematic_parity_issues": 0,
+      "native_pin_mappings": 219,
+      "independent_schematic_assertions": 217
+    },
+    {
+      "name": "Actual copper power, motor-phase and return paths",
+      "digital_result": "PASS",
+      "phase_paths": 20,
+      "GND_pads": 52,
+      "phase_minimum_track_mm": 1.0,
+      "phase_vias": 0,
+      "scope": "Connectivity/nominal widths; not a measured thermal or transient rating."
+    },
+    {
+      "name": "Mechanical footprint and assembly geometry",
+      "digital_result": "PASS WITH PROCESS LIMITS",
+      "geometry_assertions": 253,
+      "U7_open_via_in_pad_numbers": [
+        7,
+        9,
+        16,
+        18,
+        19
+      ],
+      "automated_solder_process_approved": false
+    },
+    {
+      "name": "Native-to-fabrication export agreement",
+      "digital_result": "PASS",
+      "matching_Gerber_layers": 7,
+      "PTH_holes": 456,
+      "NPTH_holes": 5,
+      "nominal_outline_mm": [
+        100,
+        100
+      ]
+    }
+  ],
+  "factory_assembly_technically_possible": true,
+  "factory_price_below100_delivered_verified": false,
+  "bare_PCB_digital_fabrication_review_passed": true,
+  "production_ready": false,
+  "loaded_arm_cleared": false,
+  "firmware_unchanged_from_6987_check_build": true,
+  "remaining_limits": [
+    "Factory must accept a process for the five U7 via-in-pad holes, or layout must change and be reverified.",
+    "Rear D2 plus front ICs/fuses require two-sided full SMT assembly, or D2 must remain a manual operation.",
+    "Purchase BOM is not a manufacturer BOM/CPL; socket/module/manual-wire scope must be specified separately.",
+    "No verified complete factory-assembled order within100USD including shipping, tax and import charges.",
+    "Motor current/torque, real parts fit, soldering, power sequencing, cooling and regenerated energy remain physical qualification tasks."
+  ],
+  "fallback": "Four included spare bare PCBs and the unchanged existing CNC system; the CNC fallback is partial, not five independent new axes."
+}

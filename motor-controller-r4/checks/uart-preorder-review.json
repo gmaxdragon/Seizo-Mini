@@ -1,0 +1,37 @@
+{
+  "revision": "R4",
+  "source_only_changes": true,
+  "CAD_changed": false,
+  "hardware_exercised": false,
+  "runtime_read_batch_ordering_assertions_passed": true,
+  "changes": [
+    "Both configure_all and poll_drivers prepare ALL5 modules with write-only SENDDELAY2 before any read batch. This includes ARM/MOVE checks beforeCHECK and refreshes a node reset between batches.",
+    "read_register rejects requests before bootstrap and waits150us after accepted replies or failed timeout, then drains on failure.",
+    "The write-only SLAVECONF0x03 is written again after IFCNTbaseline; delta7 covers all7 configuration writes, including SENDDELAY. No nonexistent readback is invented.",
+    "Runtime uses shared UART baud/idle/send-delay constants and tested IFCNTwrap helper."
+  ],
+  "new_portable_checks": 772,
+  "expected_total_portable_checks": 6987,
+  "portable_test_scope": "All256 IFCNT baselines exercise expected7writes and reject6/8, plus invalid256count and protocol register/timing requirements. Runtime helper is used for actual configuration validation. Root must run host and ARM builds after these edits.",
+  "sources": [
+    {
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/tmc2209_datasheet_rev1.08.pdf",
+      "sections": [
+        "4.1.2 Read Access: SENDDELAY>=2 in multi-slave; TX release4bit-times after reply",
+        "4.3 UART Signals: TX output inactive4bit-times after stopbit",
+        "5.1GeneralRegisters: SLAVECONF0x03write-only and SENDDELAYbits11..8; IFCNT8bitcounter",
+        "17ExternalReset: VCC_IOcycle resetschip; allinputsloworlimitedduringreset",
+        "20.2DetectorLevels: VCC_IO resetthreshold2.1–3.0Vrising"
+      ]
+    }
+  ],
+  "limits": [
+    "Real UART, driver power sequencing and exact timing remain hardware tests. Commissioning lock and movementlimits unchanged.",
+    "USBVIOloss resetsTMC and canreleaseholdingtorque; no guaranteed transition behavior or brake."
+  ],
+  "source_hashes": {
+    "main.cpp": "8195b9463e936044e4c05ab5aabd1cac907f32cf8b1569c77a178eec44a9dea6",
+    "core.h": "fc59921bbcb208b8dcb2165247555616767e26f88ee1265b922dced639b9bc64",
+    "core_tests.c": "8b6363925f3ac5b16c2aed1610335412a1932605f67c3fcd35ae0fe2b71bf59e"
+  }
+}

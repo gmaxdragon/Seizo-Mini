@@ -1,0 +1,47 @@
+{
+  "date_local": "2026-11-08",
+  "scope": "Three independent digital review categories: native ERC/DRC/fresh netlist; topology and actual copper/power/assembly geometry; freshly regenerated fabrication and drill correspondence.",
+  "all_three_digital_review_categories_pass": true,
+  "canonical_CAD_BOM_firmware_unchanged": true,
+  "protected_file_count": 59,
+  "native_board_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "native_schematic_sha256": "93877dc2d32c885e95d039e5c5985974e55bec195549d2d3cf22cb9a7b2c4b0f",
+  "native_checks": {
+    "ERC_violations": 0,
+    "DRC_violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity_issues": 0
+  },
+  "independent_checks": {
+    "schematic_pin_assertions": 217,
+    "native_board_pad_net_comparisons": 219,
+    "mechanical_geometry_assertions": 253,
+    "phase_copper_minimum_mm": 1.0,
+    "GND_pads_connected_to_J6_return": 52,
+    "wide_VMOT_to_all5modules_mm": 1.2,
+    "wide_VMOT_to_C1_TVS_mm": 3.0
+  },
+  "fabrication_checks": {
+    "fresh_copper_mask_silk_profile_layers_matching": 7,
+    "PTH_holes_matching": 456,
+    "NPTH_holes_matching": 5,
+    "nominal_board_mm": [
+      100.0,
+      100.0
+    ],
+    "Gerber_ZIP_matches_fabrication": true
+  },
+  "project_manifest_files_needing_refresh": [
+    "cost/actual-LCSC-cart-lines.json",
+    "Private supplier-page evidence omitted from public export",
+    "cost/Final_BOM.csv",
+    "cost/R4-native-budget-status.txt",
+    "cost/R4-native-purchase-budget.json",
+    "cost/R4-purchase-BOM.csv",
+    "cost/READ_FIRST.txt"
+  ],
+  "project_ZIP_must_be_repacked_after_latest_BOM_updates": true,
+  "physical_tested": false,
+  "production_ready": false,
+  "known_assembly_limit": "Five ordinary open plated escape vias in U7 solder lands7,9,16,18,19 require the documented hand prefill or a factory-qualified via process; no generic factory-assembly clearance."
+}

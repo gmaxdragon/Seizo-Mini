@@ -1,0 +1,1395 @@
+{
+  "revision": "R4",
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "read_only": true,
+  "geometry_assertions_passed": 253,
+  "checks": [
+    {
+      "check": "U1 sixteen driver pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 2.54mm pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1 12.70mm row separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U1.161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 sixteen driver pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 2.54mm pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2 12.70mm row separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U2.161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 sixteen driver pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 2.54mm pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3 12.70mm row separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U3.161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 sixteen driver pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 2.54mm pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4 12.70mm row separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U4.161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 sixteen driver pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 2.54mm pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5 12.70mm row separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U5.161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J15.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J15.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J15.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J1.1 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J1.2 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J1.3 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J1.4 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J25.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J25.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J25.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J2.1 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J2.2 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J2.3 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J2.4 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J35.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J35.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J35.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J3.1 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J3.2 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J3.3 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J3.4 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J45.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J45.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J45.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J4.1 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J4.2 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J4.3 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J4.4 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J55.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J55.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J55.08mm terminal pitch",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J5.1 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J5.2 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J5.3 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J5.4 manufacturer1.60mm hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero23pads",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 1-2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 2-3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 3-4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 4-5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 5-6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 6-7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 7-8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 8-9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 15-16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 16-17",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 17-18",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 18-19",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 19-20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 20-21",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 21-22",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 22-23",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 9-10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 10-11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 11-12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 12-13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 13-14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero2.54pitch 14-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero15.24mm header separation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero11mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero21mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero31mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero41mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero51mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero61mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero71mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero81mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero91mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero101mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero111mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero121mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero131mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero141mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero151mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero161mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero171mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero181mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero191mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero201mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero211mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero221mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero231mm round hole",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Zero18x23.5mm native body",
+      "pass": true,
+      "details": [
+        126.09,
+        105.88,
+        149.59,
+        123.88
+      ]
+    },
+    {
+      "check": "U7 known5 in-pad via sites",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "U8 no in-pad via sites",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "D2 back-mounted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Main D1 axial lead pitch25.4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel1 drilled1.6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel2 drilled1.6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel3 drilled1.6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel1-2 separation6mm",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel1-3 offset3x4.7mm",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Barrel2-3 offset3x4.7mm",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "driver_geometry": [
+    {
+      "ref": "U1",
+      "pads": 16,
+      "pitch_mm": 2.54,
+      "row_spacing_mm": 12.7,
+      "drill_mm": 1.0
+    },
+    {
+      "ref": "U2",
+      "pads": 16,
+      "pitch_mm": 2.54,
+      "row_spacing_mm": 12.7,
+      "drill_mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pads": 16,
+      "pitch_mm": 2.54,
+      "row_spacing_mm": 12.7,
+      "drill_mm": 1.0
+    },
+    {
+      "ref": "U4",
+      "pads": 16,
+      "pitch_mm": 2.54,
+      "row_spacing_mm": 12.7,
+      "drill_mm": 1.0
+    },
+    {
+      "ref": "U5",
+      "pads": 16,
+      "pitch_mm": 2.54,
+      "row_spacing_mm": 12.7,
+      "drill_mm": 1.0
+    }
+  ],
+  "Zero_native_front_body_box_mm": [
+    126.09,
+    105.88,
+    149.59,
+    123.88
+  ],
+  "front_fabrication_outlines_overlapping_Zero_body": [],
+  "via_centres_inside_SMD_pads": {
+    "U7": [
+      "7",
+      "9",
+      "16",
+      "18",
+      "19"
+    ],
+    "U8": []
+  },
+  "rear_component": "D2 SMCJ15A",
+  "mounting_holes_global_mm": [
+    {
+      "ref": "H1",
+      "xy_mm": [
+        54.0,
+        54.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "ref": "H2",
+      "xy_mm": [
+        146.0,
+        54.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "ref": "H3",
+      "xy_mm": [
+        146.0,
+        146.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "ref": "H4",
+      "xy_mm": [
+        54.0,
+        99.1
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ]
+    }
+  ],
+  "known_assembly_process_issues": [
+    "U7 pads7,9,16,18,19 contain ordinary open plated vias in their solder lands. Factory stencil/reflow may lose solder through these vias. A factory must explicitly accept a qualified prefill/plug/cap process or the layout must be changed; ordinary low-cost assembly is not yet approved.",
+    "R4 uses double-sided component placement: D2 on back, other fitted parts on front. A one-sided SMT assembly quote cannot cover all five SMD parts.",
+    "RP2040-Zero-M is directly soldered through23pins in current BOM; embedded footprint description says socketed but sockets are not bought. Actual underside component clearance and module/header fit need physical validation.",
+    "D1 body needs3–5mm stand-off and rear D2/solder joints needat least5mm insulated support clearance. Actual lead formation/heights and cooling are not validated by2D DRC.",
+    "Actual delivered driver revision, socket contact shape/current/height, heatsink interface/adhesive, terminal/jack lead tolerances, fan/cable access and enclosure fit remain receipt/assembly checks."
+  ],
+  "geometry_defects_found": [],
+  "factory_assembly_cleared": false,
+  "physical_fit_tested": false,
+  "manufacturer_sources": {
+    "BTT_STEP": "work/motor-r3/references/BTT-TMC2209-V1.3.step",
+    "BTT_hole_centres_reviewed": "20.32x15.24mm StepStick;12.70mm row separation;2.54mm pin pitch.",
+    "DORABO_drawing": "work/motor-r3/references/DB128V-manufacturer.png",
+    "Waveshare_dimensioned_photo": "work/motor-r3/references/RP2040-Zero-details-size.jpg"
+  }
+}

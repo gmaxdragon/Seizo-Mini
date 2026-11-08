@@ -1,0 +1,129 @@
+{
+  "checked_date": "2026-11-08",
+  "source": "Private supplier-page evidence omitted from public export",
+  "source_sha256": "4c10106d4d37b04c96804c928fc652846f02053124094542c315a007d898c7db",
+  "line_extension_policy": "Use actual displayed two-decimal undiscounted line extensions. Do not recompute from separately rounded four-decimal unit prices.",
+  "undiscounted_line_total_usd": 15.59,
+  "automatic_promotion_ignored_usd": 0.24,
+  "lines": {
+    "C6757": {
+      "quantity": 1,
+      "unit_usd": 1.1224,
+      "line_usd": 1.12,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C1519255": {
+      "quantity": 50,
+      "unit_usd": 0.0198,
+      "line_usd": 0.99,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C172978": {
+      "quantity": 50,
+      "unit_usd": 0.0152,
+      "line_usd": 0.76,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C524651": {
+      "quantity": 5,
+      "unit_usd": 0.0966,
+      "line_usd": 0.48,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C109392": {
+      "quantity": 10,
+      "unit_usd": 0.0681,
+      "line_usd": 0.68,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C178708": {
+      "quantity": 1,
+      "unit_usd": 0.8139,
+      "line_usd": 0.81,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C2915641": {
+      "quantity": 5,
+      "unit_usd": 0.4256,
+      "line_usd": 2.13,
+      "in_stock": true,
+      "ignored_promo": "Discounted1.89extension ignored; undiscounted2.13used"
+    },
+    "C3096093": {
+      "quantity": 1,
+      "unit_usd": 1.0637,
+      "line_usd": 1.06,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C124375": {
+      "quantity": 20,
+      "unit_usd": 0.0281,
+      "line_usd": 0.56,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C240840": {
+      "quantity": 5,
+      "unit_usd": 0.181,
+      "line_usd": 0.91,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C179006": {
+      "quantity": 5,
+      "unit_usd": 0.2902,
+      "line_usd": 1.45,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C179003": {
+      "quantity": 5,
+      "unit_usd": 0.2094,
+      "line_usd": 1.05,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C3719503": {
+      "quantity": 1,
+      "unit_usd": 0.6821,
+      "line_usd": 0.68,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C506560": {
+      "quantity": 1,
+      "unit_usd": 0.5418,
+      "line_usd": 0.54,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C145202": {
+      "quantity": 5,
+      "unit_usd": 0.1434,
+      "line_usd": 0.72,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C27438": {
+      "quantity": 10,
+      "unit_usd": 0.1193,
+      "line_usd": 1.19,
+      "in_stock": true,
+      "ignored_promo": null
+    },
+    "C19653": {
+      "quantity": 1,
+      "unit_usd": 0.4628,
+      "line_usd": 0.46,
+      "in_stock": true,
+      "ignored_promo": null
+    }
+  }
+}

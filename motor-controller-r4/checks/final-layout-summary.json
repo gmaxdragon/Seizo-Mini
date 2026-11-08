@@ -1,0 +1,31 @@
+{
+  "pcb_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "revision": "R4",
+  "native_drc": [
+    0,
+    0,
+    0
+  ],
+  "board_mm": [
+    100,
+    100
+  ],
+  "layers": 2,
+  "finish": "HAL lead-free",
+  "soldermask": "Green",
+  "U8_to_C3_VDD_distance_mm": 4.613177457024605,
+  "U8_minimum_drill_to_solder_land_gap_mm": 0.25000000000000566,
+  "U7_prefill_pins": [
+    7,
+    9,
+    16,
+    18,
+    19
+  ],
+  "U7_off_pad_pins": [
+    4,
+    10
+  ],
+  "physical_tested": false,
+  "production_released": false
+}

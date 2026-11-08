@@ -1,0 +1,75 @@
+{
+  "revision": "R4",
+  "canonical_native_modified": false,
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "nominal_Gerber_profile_centerline_mm": [
+    100.0,
+    100.0
+  ],
+  "job_bounding_box_mm": {
+    "X": 100.05,
+    "Y": 100.05
+  },
+  "job_finish": "HAL lead-free",
+  "exported_drills": {
+    "PTH": {
+      "count": 456,
+      "matches_native_within_1um_export_precision": true,
+      "half_rounding_cases": 3,
+      "counts_by_diameter_mm": {
+        "0.3": 241,
+        "0.5": 2,
+        "0.6": 13,
+        "0.8": 60,
+        "1.0": 107,
+        "1.02": 4,
+        "1.1": 2,
+        "1.2": 2,
+        "1.6": 25
+      }
+    },
+    "NPTH": {
+      "count": 5,
+      "matches_native_within_1um_export_precision": true,
+      "half_rounding_cases": 0,
+      "counts_by_diameter_mm": {
+        "1.1": 1,
+        "3.2": 4
+      }
+    }
+  },
+  "complete_two_layer_fabrication_layer_set": true,
+  "fresh_native_Gerber_comparisons": {
+    "big motor controller-F_Cu.gtl": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "b08dd5610f84a94342f74df3dbf2245f5ce04186be54c3bc1512ce812969a841"
+    },
+    "big motor controller-B_Cu.gbl": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "9e1413d27637509a07ef20c9a53a0a692c004a933e33f79a06144bd9a715e80b"
+    },
+    "big motor controller-F_Silkscreen.gto": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "df7574d3e0d2b0a1b4f9a3a5b241e38a2b81b800f16a290feeed3ac5864287ea"
+    },
+    "big motor controller-B_Silkscreen.gbo": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "0ce575ff0944640c84402bc75b8cb9e61f532425514eb68c141de8b0904bace8"
+    },
+    "big motor controller-F_Mask.gts": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "a74157ddabac8b8d4f2dfd62e566528ee46e7763fcdadc97ada6a09c00685461"
+    },
+    "big motor controller-B_Mask.gbs": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "0325c5e8bdc349f0e8698646ac6fc539e210d6f38cb3bf9591b3fd6ad983a290"
+    },
+    "big motor controller-Edge_Cuts.gm1": {
+      "matches_fresh_native_export_ignoring_timestamps": true,
+      "stable_sha256": "e2aabd8281f9988f73c589d7cadd0829114af92b30ccc45f2c16a9ddc8e22acd"
+    }
+  },
+  "archive_checks": {},
+  "manufacturing_order_note": "The job bounding box includes outline stroke. Specify the actual intended finish, copper weight, thickness, hole plating and via treatment in the vendor order; the job is not vendor DFM acceptance.",
+  "physical_qualification": false
+}

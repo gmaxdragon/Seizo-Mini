@@ -1,0 +1,27 @@
+{
+  "board": "waveshare_rp2040_zero",
+  "sdk": "2.3.1",
+  "commissioning_locked": true,
+  "flashed": false,
+  "physical_or_UART_testing": false,
+  "host_tests_passed": true,
+  "portable_checks_passed": 6987,
+  "target_compile_link_passed": true,
+  "uf2": {
+    "bytes": 87040,
+    "blocks": 170,
+    "sha256": "4ecfb5ec07ce5fe98c39fe5c7502dbb2ae1e1c6263b0ff013e56928d14facf2a"
+  },
+  "elf_sha256": "94ce5f497c07f7676e79ffed23ca8f55cb085c27169ff5c40de4f3da8156fd8e",
+  "uf2_structure_and_binary_roundtrip_passed": true,
+  "native_gpio_pinmap_matches": true,
+  "native_parts_sha256": "37b6dd4fa30860acc68a5c80f028bb61940cd4ace3513e981ca59fcda71641dc",
+  "physical_power_recovery_restart_inhibit": "R4 supervisor with mandatory RUN/GND harness forces MCU reset on qualifying common-VMOT drops; physical dip timing, harness and individual-module reset behavior remain untested",
+  "source_hashes": {
+    "core.h": "fc59921bbcb208b8dcb2165247555616767e26f88ee1265b922dced639b9bc64",
+    "main.cpp": "8195b9463e936044e4c05ab5aabd1cac907f32cf8b1569c77a178eec44a9dea6",
+    "CMakeLists.txt": "757cf0c2efc43ee8b70bbb1202a3d56a49504199171b8fb3438ed1540906a2f0",
+    "core_tests.c": "8b6363925f3ac5b16c2aed1610335412a1932605f67c3fcd35ae0fe2b71bf59e"
+  },
+  "public_export_note": "Local execution commands and private supplier evidence are omitted. Engineering results are retained."
+}

@@ -1,0 +1,94 @@
+{
+  "checked_date": "2026-11-08",
+  "purpose": "Quotation only; not manufacture or order clearance",
+  "native_PCB_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "native_modified": false,
+  "native_refs": 53,
+  "partial_top_SMD_refs": 4,
+  "partial_solder_joints": 30,
+  "full_fitted_carrier_items": 58,
+  "full_solder_joints": 232,
+  "full_SMD_joints": 32,
+  "full_THT_joints": 200,
+  "full_unmatched_refs": [
+    "U6",
+    "R5"
+  ],
+  "full_driver_modules_DNP": [
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5"
+  ],
+  "scope_notes": [
+    "Partial quote fits only U7/U8/F1/F2; all49 other native refs remain unassembled.",
+    "Full quote fits all53 logical refs as58 carrier items by replacing U1-U5 modules with10 socket rows; five driver modules remain plug-in DNP.",
+    "Exact Zero-M and wire link procurement unresolved; external RUN harness and off-board fan/heatsinks/cables are not fitted by these files.",
+    "No JLC library rotation corrections or manufacturer DFM acceptance asserted.",
+    "U7 in-pad vias and rear D2 require manufacturing review; full quote needs two-sided Standard service.",
+    "JLC minimum assembled quantity2 per published capabilities."
+  ],
+  "files": [
+    {
+      "file": "JLC_R4_TOP4_SMT_QUOTE_BOM.csv",
+      "rows": 4,
+      "sha256": "7daeb27382f0c54aa5526badccd65f7af9a23971db748daef237b4b64aa9fa55"
+    },
+    {
+      "file": "JLC_R4_TOP4_SMT_QUOTE_CPL.csv",
+      "rows": 4,
+      "sha256": "ffb7bcb947a4c71164375ffc158847d5393a971a6b5b5ba670951f8236164ced"
+    },
+    {
+      "file": "JLC_R4_FULL_CARRIER_QUOTE_BOM.csv",
+      "rows": 58,
+      "sha256": "7ca248f4f58018c1f68d5424602becba2163d78788f9177576f2d169a6a13c9f"
+    },
+    {
+      "file": "JLC_R4_FULL_CARRIER_QUOTE_CPL.csv",
+      "rows": 58,
+      "sha256": "47bd8b73ad5116dabf07b61be22629023fba1014c774f768f9dcb621fdfbd199"
+    },
+    {
+      "file": "R4_ASSEMBLY_SCOPE_DNP.csv",
+      "rows": 53,
+      "sha256": "43c4b0df53faf3c9f81c250c3e5c2859e49ebc1d70de04cdc16414773b3ee433"
+    },
+    {
+      "file": "R4_FULL_CARRIER_REF_CROSSWALK.csv",
+      "rows": 58,
+      "sha256": "d5f66424a83f3aa723f56fe12939b6ef381c55a47a91477d43256a04060f8d46"
+    }
+  ],
+  "canonical_Gerber_comparison": [
+    {
+      "file": "big motor controller-B_Cu.gbl",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-B_Mask.gbs",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-B_Silkscreen.gbo",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-Edge_Cuts.gm1",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-F_Cu.gtl",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-F_Mask.gts",
+      "identical_after_removing_creation_date": true
+    },
+    {
+      "file": "big motor controller-F_Silkscreen.gto",
+      "identical_after_removing_creation_date": true
+    }
+  ]
+}

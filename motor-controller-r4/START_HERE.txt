@@ -1,0 +1,68 @@
+SEIZO MOTOR CONTROLLER — R4 — 2026-11-07
+
+Open project/big motor controller.kicad_pro in KiCad10. Keep the whole project
+folder together so its included libraries are available. The native schematic
+and PCB retain the name "big motor controller". The frozen R3 is preserved.
+
+WHAT CHANGED
+R4 retains the five NEW TMC2209 V1.3 plug-in modules, single USB-C device port,
+12V motor input and individual STEP/DIR/enable control. It adds a TPS3808
+motor-supply monitor and a REQUIRED two-wire internal connection to the Zero's
+RESET/RUN switch. A qualifying common motor-power drop now resets the MCU and
+requires a fresh session/check/arm after recovery. It does not automatically
+restore the previous enable request. Brief dips and individual module resets
+still require physical qualification.
+
+Two buffer escape vias were moved away from solder lands, reducing the manual
+prefill requirement to U7 pins7,9,16,18,19. Front/back assembly maps, a full pad
+coordinate table, actual asymmetric mounting coordinates and explicit lead-free
+finish information are included. New reference firmware invalidates observed
+lost USB/heartbeat sessions and uses randomized reconnect session identifiers.
+The final preorder firmware also fixes shared-UART SENDDELAY setup and reply
+turnaround timing. It compiles and passes6987 portable software checks.
+
+CURRENT CHECKS
+Read checks/current-validation-status.json and R4-release-status.json for exact
+results and scope. These are CAD, export, arithmetic and software checks.
+No assembled controller, motor, adapter, fan or RESET harness has been tested.
+The supplied UF2 is commissioning locked and refuses ARM/MOVE.
+
+PURCHASE ESTIMATE
+Goods/MOQ packs/PCB/reserves51.71USD + shipping37.94USD + conservative tax9.19USD
+=98.84USD BEFORE unquoted import/brokerage/checkout fees. The owned12V4Aadapter,
+two internal harness wires, HOLD jumper and printed mounting material are reused; motors and
+tools are excluded. Only one PCB is populated; four boards are bare spares.
+The remaining margin is1.16USD. Below100USD delivered is NOT guaranteed.
+Use cost/Final_BOM.csv, cost/R4-LCSC-import.csv, cost/Solder_List.csv and
+BUY_AND_SOLDER_R4.md for the exact buying and soldering list.
+See cost/R4-native-budget-status.txt for actual quotes, allowances and blockers.
+
+ASSEMBLY
+Read ASSEMBLY_AND_FIRST_POWER.md before soldering/powering. In particular:
+- R5 is a fitted clipped-resistor-lead link; R4 remains1k.
+- J9.1 must reach the actual Zero RESET/Key2 RUN contact, and J9.2 its GND.
+  RUN is not one of the23edge header pins. Identify contacts unpowered.
+- With that harness fitted and motor power absent, USB serial being unavailable
+  is expected: the supervisor is holding the MCU in reset. Program the bare
+  module first. Refit/check the harness after any service operation.
+- U7 requires the five-hole prefill step above; U8 is a small SOT23-6 part.
+  Factory soldering/filled-via processing are not included in this DIY budget.
+- D2 is on the back. Use insulated supports and at least5mm underside clearance.
+
+OPERATING SCOPE
+Slots1–2 are intended for suitably current-rated NEMA23 motors;3–5 for suitably
+current-rated NEMA17/pancakes. Frame size does not guarantee current compatibility
+or torque. This is not a full-current driver for every common NEMA23 motor.
+Initial shared input qualification envelope:2.5A/30W, not a hardware current cap.
+
+PROTOTYPE DATA IS NOT LOADED-ARM OR PRODUCTION CLEARANCE
+The adapter, real motor currents/torque, assembly, USB/UART timing, RESET/ENN
+waveforms, thermal limits, fan operation and regeneration still need physical
+qualification. The TVS is not a continuous brake. Reset/power/USB/fault events
+can release holding torque and drop an unsupported gravity-loaded arm.
+HOLD is not a safety-rated emergency stop. There are no encoders or validated
+homing/collision controls. Mechanical protection remains required for loads.
+
+fabrication/ contains prototype Gerber/drill exports, not an authorization to
+pay or start production. The full package includes the source, BOM, locked
+reference firmware and verification evidence. No purchase or motor test was run.

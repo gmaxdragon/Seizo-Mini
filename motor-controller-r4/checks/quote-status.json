@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-11-07",
+  "revision": "R4",
+  "Gerber_upload_completed": true,
+  "detected_layers": 2,
+  "detected_dimensions_mm": [
+    100,
+    100
+  ],
+  "PCB_batch_quantity": 5,
+  "settings": {
+    "thickness_mm": 1.6,
+    "color": "green",
+    "finish": "LeadFree HASL",
+    "copper_oz": 1,
+    "via_covering": "tented",
+    "electrical_test": "Flying Probe Fully Test",
+    "assembly": false
+  },
+  "PCB_web_quote_USD": 5.3,
+  "conditional_desktop_price_excluded_USD": 3.3,
+  "shipping_USD": 9.2,
+  "shipping_method": "Global Standard Direct Line",
+  "shipping_time_business_days": "8-10",
+  "vendor_final_engineering_approval": false,
+  "cart_saved": false,
+  "payment_or_production_authorized": false,
+  "note": "Final R4 ZIP uploaded and auto-parsed. Quote remained on signed-out calculator; no account creation, terms acceptance, order or payment. A calculator quote is not final engineering approval.",
+  "public_export_note": "Local execution commands and private supplier evidence are omitted. Engineering results are retained."
+}

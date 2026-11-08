@@ -1,0 +1,177 @@
+{
+  "scope": "Independent read-only hardware audit of frozen R3 and proposed R4 voltage-supervision correction",
+  "date": "2026-11-07",
+  "CAD_edited": false,
+  "original_R3_PCB_SHA256": "79b8341cc6c807b1ba3c7f368edac0684a7ac58c1a365ba01d467f6d7a0a7389",
+  "production_or_loaded_arm_clearance": false,
+  "R4_proposal": {
+    "purpose": "Force a fresh MCU reset after an ordinary sustained common motor-supply dropout so existing GPIO enable requests cannot automatically persist through recovery.",
+    "supervisor": {
+      "reference_proposal": "U8",
+      "manufacturer": "Texas Instruments",
+      "MPN": "TPS3808G01DBVR",
+      "LCSC": "C19653",
+      "stock_symbol": "Power_Supervisor:TPS3808DBV",
+      "stock_footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pin_map": {
+        "1": "RESET_N",
+        "2": "GND",
+        "3": "+3V3_USB",
+        "4": "NC_CT",
+        "5": "VMOT_SENSE",
+        "6": "+3V3_USB"
+      },
+      "pin_names": {
+        "1": "RESET open drain",
+        "2": "GND",
+        "3": "MR active low",
+        "4": "CT",
+        "5": "SENSE",
+        "6": "VDD"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "datasheet_revision_reviewed": "SBVS050N, August2026",
+      "price_evidence": "Parent independently observed current LCSC page:97 stock,MOQ1,unit0.4628USD,displayed line0.46USD. This subagent did not create a cart."
+    },
+    "additional_parts": [
+      {
+        "kind": "R",
+        "value": "10k1%",
+        "quantity": 2,
+        "connection": "VMOT ->10k ->10k ->VMOT_SENSE",
+        "purchase": "Existing10kMOQ pack has sufficient spares"
+      },
+      {
+        "kind": "R",
+        "value": "1k1%",
+        "quantity": 1,
+        "connection": "VMOT_SENSE ->GND",
+        "purchase": "Existing1kMOQ pack has sufficient spares"
+      },
+      {
+        "kind": "R",
+        "value": "10k1%",
+        "quantity": 1,
+        "connection": "RESET_N ->+3V3_USB pull-up",
+        "purchase": "Existing10kMOQ pack has sufficient spares"
+      },
+      {
+        "kind": "C",
+        "value": "100nF",
+        "quantity": 1,
+        "connection": "U8VDD to localGND,short loop",
+        "purchase": "Existing100nMOQ pack has sufficient spares"
+      },
+      {
+        "kind": "J",
+        "reference": "J9",
+        "value": "Mandatory MCU RUN/GND harness",
+        "quantity": 1,
+        "pins": {
+          "1": "RESET_N",
+          "2": "GND"
+        },
+        "purchase": "Existing2pinheaderMOQ pack has sufficient spares"
+      }
+    ],
+    "SENSE_capacitor": "No external SENSE capacitor in the frozen proposal. TI recommends1–10nF as good analog/noise practice, not as a mandatory operating component. Omitting it avoids added response delay; requires short, low-noise layout and physical noise/dropout testing.",
+    "native_component_count_if_all_above_added": 53,
+    "threshold": {
+      "formula": "0.405V*(1+Rtop/Rbottom)",
+      "Rtop_ohm": 20000,
+      "Rbottom_ohm": 1000,
+      "nominal_trip_V": 8.505,
+      "IC_threshold_accuracy_percent": 2,
+      "resistor_tolerance_percent": 1,
+      "trip_min_V": 8.177711881188118,
+      "trip_max_V": 8.842009090909091,
+      "SENSE_input_current_max_abs_nA": 25,
+      "equivalent_rail_error_from_input_current_V_approx": 0.0005,
+      "SENSE_typ_input_capacitance_pF": 5,
+      "divider_Thevenin_ohm": 952.3809523809524,
+      "input_hysteresis_typ_percent_of_threshold": 1.5,
+      "input_hysteresis_max_percent_of_threshold": 3
+    },
+    "timing": {
+      "CT_open_release_ms_min": 12,
+      "CT_open_release_ms_typ": 20,
+      "CT_open_release_ms_max": 28,
+      "sense_to_RESET_high_to_low_us_max": 20,
+      "delay_test_condition": "SENSE steps from1.05*VIT to0.95*VIT; datasheet timing table specified load100k/50pF",
+      "minimum_very_short_dip_capture_not_guaranteed": true,
+      "note": "The supervisor is intentionally resistant to very brief negative transients. No blanket claim that every sub20us excursion or every individual module reset is caught. Characterize actual ramp/dip depth,duration,wire length and RESET voltage."
+    },
+    "SENSE_supply_off": {
+      "recommended_input_range_V": [
+        0,
+        6.5
+      ],
+      "absolute_input_range_V": [
+        -0.3,
+        7
+      ],
+      "independent_of_VDD_bound": true,
+      "normal_VMOT12V_divided_SENSE_V": 0.5714285714285714,
+      "clamp_VMOT24_4V_divided_SENSE_V": 1.161904761904762,
+      "note": "UnlikeCT,SENSE does not have a VDD+0.3V absolute bound. Motor power present while USB/VDD is absent does not violate the specified SENSE voltage limit. This does not prove a zero-backfeed measured waveform; verify power sequencing on the prototype."
+    },
+    "RUN_harness": {
+      "official_source": "https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf",
+      "verified_connections": {
+        "Zero_Key2_contact1": "RP2040_U3_pin26_RUN",
+        "Zero_Key2_contact2": "GND"
+      },
+      "RUN_in_header23": false,
+      "J9_1_destination": "Actual RUN-side contact of Zero Key2 RESET switch",
+      "J9_2_destination": "Actual GND-side contact of same switch",
+      "assembly": "Mandatory short two-wire lead; verify the switch contact nets with an unpowered continuity check. Do not infer left/right orientation or substitute Key1 BOOT/QSPI_SS_N. Add strain relief; do not invent an extra module edge pin in CAD.",
+      "programming": "Program the bare/isolated module as documented,then fit the mandatory harness. With the supervisor connected and motor power absent,the MCU should be held reset and USB serial is expected to be unavailable. Verify this behavior physically."
+    },
+    "ENN_reset_margin": {
+      "BTT_V1_3_on_module_pullup_ohm": 20000,
+      "R3_carrier_pullup_ohm": 10000,
+      "RP2040_reset_GPIO_state": "Input,pull-down",
+      "RP2040_pull_down_min_ohm": 50000,
+      "TMC_internal_pull_down_min_ohm": 132000,
+      "TMC_max_input_sink_leakage_A": 1e-05,
+      "pullup_resistor_worst_case_tolerance_percent": 1,
+      "calculated_ENN_at_3V3_V": 2.7264316505085957,
+      "TMC_required_VIH_at_3V3_V": 2.31,
+      "calculated_margin_V": 0.4164316505085961,
+      "more_conservative_without_any_BTT_pullup_ENN_V": 2.5021213054916918,
+      "more_conservative_without_any_BTT_pullup_margin_V": 0.1921213054916917,
+      "conclusion": "Existing10kpull-ups remain adequate on paper; the positive margin also persists when the module20k pull-up is conservatively omitted entirely,avoiding reliance on its unspecified tolerance. Do not replace them merely becauseRP2040hasresetpull-downs. Measure actual ENN levels and timing with the intended module revision.",
+      "sources": [
+        "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf",
+        "https://www.analog.com/media/en/technical-documentation/data-sheets/tmc2209_datasheet_rev1.08.pdf",
+        "Cached official BTT V1.3 schematic: work/modular-four-r1/references/btt-tmc2209-v1.3-sch.pdf"
+      ]
+    }
+  },
+  "other_hardware_findings": {
+    "power_topology": "No new polarity or pin-map defect identified in the reviewed R3 topology. SeriesSB560 isolates regeneration from adapter; independent fan branch avoids subjecting12Vfan to VMOT clamp voltage. Existing TVS placement/return improvement remains relevant.",
+    "driver_limits": "TMC2209 can drive suitably winding-current-rated bipolar NEMA23 or pancake motors. ADI recommends1.4A RMS as continuous design guideline;2A RMS is limited-duty. This is not a full-torque driver for every common2.8–4.2A NEMA23. Actual motor current,RMS/peak interpretation,cooling and torque must be selected and tested.",
+    "regeneration": {
+      "nominal_bus_capacitance_uF": 970,
+      "additional_energy_11_4_to24_4V_nominal_J": 0.225719,
+      "additional_energy_at_minus20percent_capacitance_J": 0.1805752,
+      "example_payload_mass_kg": 0.227,
+      "example_drop_height_m": 0.5,
+      "example_potential_energy_J": 1.113435,
+      "conclusion": "SMCJ15A is transient suppression,not a general braking resistor. Unknown arm inertia/load/duty/regen energy remains a physical qualification boundary,even after voltage supervisor is added."
+    },
+    "HOLD": "PlainHC541 input with1kpull-up needs short dry-contact wiring and waveform/noise testing. No independent safety-rated E-stop or anti-drop mechanical system is present.",
+    "firmware_note": "Current time_us_32 session identifiers may repeat across reboot at similar timing. Consider SDK random session nonce for better stale-command separation; firmware auditor owns any change."
+  },
+  "remaining_qualification": [
+    "Correct mandatory RUN harness continuity and physical retention",
+    "Owned supply polarity,plug fit,protection and dynamic load behavior",
+    "Actual motor winding current and required torque/speed",
+    "No-motor startup and USB/motor power sequencing with ENN/RESET scope traces",
+    "Dip depth/duration sweep including brief transients and individual module reset behavior",
+    "Driver/diode/capacitor temperature and fan operation under sustained actual loads",
+    "Regenerative energy and deceleration tests within a mechanically supported unloaded setup",
+    "Independent mechanical protection for gravity-loaded joints",
+    "Final landed cost and vendor Gerber review"
+  ]
+}

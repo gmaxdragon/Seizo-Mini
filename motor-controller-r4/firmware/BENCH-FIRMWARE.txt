@@ -1,0 +1,112 @@
+SEIZO R4 — LOCKED FIVE-AXIS BENCH FIRMWARE
+
+This is a compiled development reference for the R4 carrier and exact Waveshare
+RP2040-Zero module. It has not been flashed or tested on physical hardware.
+The supplied Seizo_R4_LOCKED_BENCH.uf2 refuses ARM and MOVE. It is not the
+finished firmware for a loaded robotic arm or a safety-rated controller.
+
+WHAT IT PROVIDES
+- Shared-bus SENDDELAY=2 is written to every driver before configuration or
+  polling reads. A150us idle follows each accepted reply and failed timeout.
+  The write-only delay register is verified through the seven-write IFCNT
+  increment, including counter wrap. The rebuilt binary passes6987 portable
+  software checks; real UART operation still needs hardware testing.
+- One USB CDC serial connection, five individual STEP/DIR/ENN channels and
+  two hardware UART buses for the five exact BTT TMC2209 V1.3 modules.
+- CRC-checked replies, chip-version/disabled-input checks, register readback
+  and IFCNT verification before any enable request. CHECK reports check_failed
+  when verification fails; inspect verified_mask and fault_latched as well.
+- Sixteen microsteps, SpreadCycle and digital current with analog VREF disabled.
+  External R110 sensing and the chip's20milliohm term are assumed. Requested
+  currents707/707/354/354/354mA RMS are rounded down to nominal704/704/337/337/337mA.
+  Phase peaks are approximately995/995/476/476/476mA. These are calculated
+  settings, not measured currents or adapter input currents. IHOLD equals IRUN.
+- Fresh SDK-randomized positive31-bit session numbers, manual heartbeat/ARM
+  and increasing command sequence numbers. Immediate session reuse is rejected.
+  Random collisions remain possible; this serial protocol is not authentication.
+- One bounded coordinated move at a time: at most2000steps per axis,50–30000ms,
+  average500steps/s and a20% acceleration/deceleration ramp. Maximum nominal
+  peak625steps/s,50us pulse ticks. This is deliberately slow bench motion.
+- Hardware NC HOLD suppresses STEP; its rising edge also flushes the software
+  move and requires another ARM. Closing the contact does not replay movement.
+- USB-session loss or500ms heartbeat timeout stops pulses while healthy enabled
+  channels hold. USB POWER loss instead removes VIO and can release all torque.
+- An observed USB disconnect or armed heartbeat timeout invalidates the old
+  session. Reconnect with a fresh HELLO and PING before a new manual ARM. Healthy
+  holding-current requests remain; a physical MCU reset additionally requires
+  fresh driver CHECK. Partial receive lines are discarded on observed disconnect.
+- UART faults, reset/undervoltage flags, shorts or thermal prewarning stop motion
+  and latch a software fault. The affected channel is disabled; healthy channels
+  retain enable requests. Polling is approximately50ms, not an instantaneous
+  independent hardware stop. No automatic resume follows an observed fault.
+
+R4 POWER-DROP GUARD
+The required J9 two-wire harness connects RESET_N to the RUN-side contact of the
+Zero's Key2 RESET switch, and GND to its GND-side contact. RUN is not in the23
+module header pins. Verify the actual switch nets unpowered; never guess a pad
+from its apparent left/right position and do not substitute the BOOT switch.
+
+U8 monitors common VMOT at about8.505V nominal. It holds the MCU in reset below
+the threshold and releases it after a specified12–28ms stable interval with CT
+unconnected. A qualifying power drop therefore boots fresh, with ENN pull-ups
+and software checks preventing an old enable request from being restored.
+
+With the harness fitted and motor power absent, USB serial is expected to be
+UNAVAILABLE even though the USB3.3V rail is present. Program the bare/isolated
+module first, then fit the harness. Later reprogramming requires the documented
+safe service procedure with motors disconnected. Do not leave the harness off
+and assume the power-drop protection still exists.
+
+This is a design improvement, not measured fail-safe certification. Very brief
+dips may be filtered or missed; independent per-module resets may not lower the
+common bus enough to trigger U8. Verify RESET/ENN waveforms, current and actual
+recovery. Gravity-load support, thermal qualification and regenerated-energy
+handling remain necessary. The supervisor does not turn the TVS into a brake.
+
+PROTOCOL
+ASCII lines, maximum160characters, terminated by LF. STATUS and HOLD need no
+session. Other commands use session S returned by HELLO and increasing sequence
+numbers beginning at1. Replies are JSON lines. Use the R4 reset guard and
+commissioning procedure in ../ASSEMBLY_AND_FIRST_POWER.md before connecting power.
+
+1. HELLO
+   Read the returned session S; do not reuse a cached session after reconnecting.
+2. PING S 1
+3. CHECK S 2
+   All outputs must be disabled. All five modules and motor power must be present;
+   no motors are needed. Require result=check_complete,verified_mask=31 and
+   fault_latched=false. A missing or wrong module prevents ARM.
+4. ARM S 3 31 would select all five axes in an intentionally UNLOCKED bench build.
+   Mask1 selects axis1,mask2 axis2,etc. The supplied binary refuses ARM.
+5. PING S 4; MOVE S 5 1000 20 0 0 0 0 would request20microsteps on axis1 in1second
+   in an unlocked build. Continue PING at least every200ms, always with increasing
+   sequence numbers, during an armed session. No automatic hardware test runs.
+6. HOLD stops new steps and requires fresh manual ARM. A physical contact's
+   release alone does not authorize a new move.
+7. DISARM S N, using the NEXT sequence number after every prior PING/MOVE,
+   releases all enable requests and can drop a load. Do not reuse a literal
+   earlier sequence number: stale commands are rejected. Recheck a fault
+   only after all outputs are disabled; fresh CHECK/PING never arms by itself.
+
+STATUS reports commanded pulse counts. position_known is always false: there is
+no homing, encoder, collision model or verified physical-position estimate.
+
+BUILD AND TEST SCOPE
+Use the installed official Pico SDK and board waveshare_rp2040_zero. CMake does
+not download dependencies. The default SEIZO_R4_COMMISSIONING_UNLOCKED=OFF must
+remain OFF for review. An eventual unloaded commissioning build requires actual
+motor ratings, correct R110 modules, verified harness, power and thermal checks.
+Renaming the locked UF2 does not unlock it. The build helper flashes nothing.
+
+checks/firmware-verification.json records actual compiler/linker results, UF2
+integrity and native GPIO comparison. Portable checks cover parsing, replay and
+nonce boundaries, lock/HOLD/fault/timeout transitions, timer wrap, current-scale
+rounding and trajectory timing/count extremes. They do not exercise real USB,
+UART, GPIO waveforms, the reset supervisor, soldering or motor movement.
+
+PRIMARY REFERENCES
+https://www.ti.com/lit/ds/symlink/tps3808.pdf
+https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf
+https://www.analog.com/media/en/technical-documentation/data-sheets/tmc2209_datasheet_rev1.08.pdf
+https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/tree/master/TMC2209/V1.3
+https://www.raspberrypi.com/documentation/pico-sdk/

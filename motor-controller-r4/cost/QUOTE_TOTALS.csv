@@ -1,0 +1,7 @@
+Supplier_or_method,Merchandise_USD,Shipping_USD,Discount_USD,Total_USD,Status
+LCSC DIY,15.59,11.85,0.24,27.2,Checkout excludes destination duty/customs/tax
+West3D drivers,19.95,6.89,0,26.84,Current unpaid checkout; bundle details unconfirmed
+Waveshare project,8.87,10,0,18.87,Option estimate; final freight/tax/imports pending
+JLC factory,137,38.39,10,165.39,Cart estimate; final delivery/coupon/tax pending; U6/R5 excluded
+Complete factory route,,,,213.1,Planning before unknown charges; no duplicate LCSC basket
+DIY baseline,,,,98.84,Planning before unknown imports; no assembly included
