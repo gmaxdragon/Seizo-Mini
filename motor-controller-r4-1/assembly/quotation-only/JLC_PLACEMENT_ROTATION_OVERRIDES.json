@@ -1,0 +1,251 @@
+{
+  "revision": "R4.1",
+  "native_PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "Gerber_ZIP_sha256": "50ad9fa527ebd58683e87b6f982092905ee62b88efae027de43e7c5c4afb2f1e",
+  "CAD_or_Gerber_changes": false,
+  "native_positions_file": "JLC_R41_TOP2_NATIVE_POSITION_AUDIT.csv",
+  "JLC_corrected_CPL_file": "JLC_R41_TOP2_QUOTE_CPL.csv",
+  "translation_X_Y_changed": false,
+  "per_part_overrides": {
+    "U7": {
+      "native_KiCad_rotation_degrees": 90,
+      "JLC_library_rotation_degrees": 0,
+      "native_to_supplier_rotation_delta_degrees": -90,
+      "native_pin1_relative_outline_mm": [
+        78.285,
+        85.55
+      ],
+      "required_pin1_front_view": "bottom-left; long body horizontal; pins1\u201310 form the bottom row",
+      "observed_manual_viewer_alignment": "Fresh0degree file import with no subsequentUIrotation: horizontalbody,all20leads aligned,purplepin1bottom-left matchingnative.",
+      "fresh_file_import_zero_degrees_verified": true
+    },
+    "U8": {
+      "native_KiCad_rotation_degrees": 180,
+      "JLC_library_rotation_degrees": 0,
+      "native_to_supplier_rotation_delta_degrees": -180,
+      "native_pin1_relative_outline_mm": [
+        66.4375,
+        30.45
+      ],
+      "required_pin1_front_view": "bottom-right",
+      "fresh_file_import_zero_degrees_verified": true,
+      "observed_manual_viewer_alignment": "Fresh0degree file import with no subsequentUIrotation: all6leadsaligned,purplepin1bottom-right matchingnative."
+    }
+  },
+  "native_pad_coordinates": [
+    {
+      "reference": "U7",
+      "pad_number": "1",
+      "net": "HOLD_OPEN",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "78.285",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "2",
+      "net": "STEP_RAW1",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "79.555",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "3",
+      "net": "STEP_RAW2",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "80.825",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "4",
+      "net": "STEP_RAW3",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "82.095",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "5",
+      "net": "STEP_RAW4",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "83.365",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "6",
+      "net": "STEP_RAW5",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "84.635",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "7",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "85.905",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "8",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "87.175",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "9",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "88.445",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "10",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "89.715",
+      "y_from_front_top_left_mm": "85.55"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "11",
+      "net": "unconnected-(U7-Y7-Pad11)",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "89.715",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "12",
+      "net": "unconnected-(U7-Y6-Pad12)",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "88.445",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "13",
+      "net": "unconnected-(U7-Y5-Pad13)",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "87.175",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "14",
+      "net": "STEP5",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "85.905",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "15",
+      "net": "STEP4",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "84.635",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "16",
+      "net": "STEP3",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "83.365",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "17",
+      "net": "STEP2",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "82.095",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "18",
+      "net": "STEP1",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "80.825",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "19",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "79.555",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U7",
+      "pad_number": "20",
+      "net": "+3V3_USB",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "78.285",
+      "y_from_front_top_left_mm": "76.25"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "1",
+      "net": "VMOT_RESET_N",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "66.4375",
+      "y_from_front_top_left_mm": "30.45"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "2",
+      "net": "GND",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "66.4375",
+      "y_from_front_top_left_mm": "29.5"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "3",
+      "net": "+3V3_USB",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "66.4375",
+      "y_from_front_top_left_mm": "28.55"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "4",
+      "net": "unconnected-(U8-CT-Pad4)",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "64.1625",
+      "y_from_front_top_left_mm": "28.55"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "5",
+      "net": "VMOT_SENSE",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "64.1625",
+      "y_from_front_top_left_mm": "29.5"
+    },
+    {
+      "reference": "U8",
+      "pad_number": "6",
+      "net": "+3V3_USB",
+      "component_side": "F",
+      "x_from_front_top_left_mm": "64.1625",
+      "y_from_front_top_left_mm": "30.45"
+    }
+  ],
+  "root_verified_manual_quote_viewer": true,
+  "fresh_corrected_CPL_reimport_verified": true,
+  "status": "Root visually verified both parts from the exact corrected0/0file reimport,withoutfurtherUIrotations. This is quote-viewer alignment evidence only; manufacturerCAM/DFM/productionapproval remains pending.",
+  "corrected_CPL_sha256": "7aaaa30585ed97cb6db1d06aff75d90b855220352bf6094180a1d188fb87ddf9",
+  "fresh_file_verified_without_post_import_UI_rotations": true,
+  "manufacturer_CAM_DFM_or_production_acceptance": false
+}

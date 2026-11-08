@@ -1,0 +1,5 @@
+{
+  "original_audited_netlist_sha256": "ccc7e86755d7751b462276c6b2f6862522f556eb6396cb51eff51fa92ccc5068",
+  "public_netlist_sha256": "730c04c731ffe524028c1729e0e4e45cb01204ac51056af70f01b3b5f94b2c30",
+  "normalization": "Only local path text in the netlist source header is made portable. The original schematic verification hash refers to the audited original header. Electrical nets and component data are unchanged."
+}

@@ -1,0 +1,305 @@
+{
+  "candidate_board_sha256": "46abd1a54948f7fd313dc05d50f1da0b825e5dfccd5e98c1f3a354ca5903435d",
+  "canonical_R4_board_sha256": "636805945b92fed2fe233bc68a30c67dd05787d3209fb9537bd76ab27e720cde",
+  "read_only_audit": true,
+  "canonical_R4_modified": false,
+  "candidate_modified_during_audit": false,
+  "schematic_unchanged_from_R4": true,
+  "all_53_component_values_UUIDs_footprints_positions_angles_pad_geometry_nets_unchanged": true,
+  "all_power_motor_phase_and_high_current_ground_copper_unchanged": true,
+  "protected_power_geometry_item_count": 232,
+  "zone_outlines_and_all_rules_unchanged": true,
+  "changed_copper_nets": [
+    "/GND",
+    "/STEP1",
+    "/STEP3",
+    "/STEP4"
+  ],
+  "changed_copper_bounding_box_absolute_mm": [
+    123.75,
+    124.375,
+    138.445,
+    135.55
+  ],
+  "changed_copper_object_count": 43,
+  "all_52_ground_pads_connected_to_J6_return": true,
+  "GND_pads_connected": 52,
+  "all20_motor_phase_paths_connected": true,
+  "SMT_pad_count_audited": 32,
+  "through_holes_and_vias_checked": 461,
+  "SMT_land_to_drill_overlaps": [],
+  "U7_vias_inside_any_pad": 0,
+  "U7_minimum_nominal_copper_land_to_via_annulus_gap_mm": 0.1750000000000001,
+  "SMT_land_drill_geometry_method": "Exact signed-distance tests for native circle/oval/rect/rounded-rect pads in pad-local coordinates against circular plated/nonplated holes and vias. Nominal copper only; no soldermask expansion/factory CAM tolerance guarantee.",
+  "nearest_SMT_hole_and_via_gaps": [
+    {
+      "ref": "U7",
+      "pad": "1",
+      "nearest_drill_edge_gap_mm": 0.5250606038346517,
+      "nearest_drill_id": "aca2e7fc-af63-4be4-a2b6-4896a8bc04ec",
+      "nearest_via_copper_edge_gap_mm": 0.37506060383465173,
+      "nearest_via_id": "aca2e7fc-af63-4be4-a2b6-4896a8bc04ec"
+    },
+    {
+      "ref": "U7",
+      "pad": "2",
+      "nearest_drill_edge_gap_mm": 1.2228345281086848,
+      "nearest_drill_id": "aca2e7fc-af63-4be4-a2b6-4896a8bc04ec",
+      "nearest_via_copper_edge_gap_mm": 1.0728345281086846,
+      "nearest_via_id": "aca2e7fc-af63-4be4-a2b6-4896a8bc04ec"
+    },
+    {
+      "ref": "U7",
+      "pad": "3",
+      "nearest_drill_edge_gap_mm": 0.9825852798157323,
+      "nearest_drill_id": "494426b4-d7a2-4cea-868b-4569888aad5f",
+      "nearest_via_copper_edge_gap_mm": 0.8325852798157323,
+      "nearest_via_id": "494426b4-d7a2-4cea-868b-4569888aad5f"
+    },
+    {
+      "ref": "U7",
+      "pad": "4",
+      "nearest_drill_edge_gap_mm": 0.32500000000000007,
+      "nearest_drill_id": "494426b4-d7a2-4cea-868b-4569888aad5f",
+      "nearest_via_copper_edge_gap_mm": 0.1750000000000001,
+      "nearest_via_id": "494426b4-d7a2-4cea-868b-4569888aad5f"
+    },
+    {
+      "ref": "U7",
+      "pad": "5",
+      "nearest_drill_edge_gap_mm": 0.9825852798157323,
+      "nearest_drill_id": "494426b4-d7a2-4cea-868b-4569888aad5f",
+      "nearest_via_copper_edge_gap_mm": 0.8325852798157323,
+      "nearest_via_id": "494426b4-d7a2-4cea-868b-4569888aad5f"
+    },
+    {
+      "ref": "U7",
+      "pad": "6",
+      "nearest_drill_edge_gap_mm": 0.5403719414640162,
+      "nearest_drill_id": "a74a65b8-5d4c-4ef0-a8a4-7ceacfd81666",
+      "nearest_via_copper_edge_gap_mm": 0.39037194146401627,
+      "nearest_via_id": "a74a65b8-5d4c-4ef0-a8a4-7ceacfd81666"
+    },
+    {
+      "ref": "U7",
+      "pad": "7",
+      "nearest_drill_edge_gap_mm": 0.5631483070712704,
+      "nearest_drill_id": "a74a65b8-5d4c-4ef0-a8a4-7ceacfd81666",
+      "nearest_via_copper_edge_gap_mm": 0.4131483070712704,
+      "nearest_via_id": "a74a65b8-5d4c-4ef0-a8a4-7ceacfd81666"
+    },
+    {
+      "ref": "U7",
+      "pad": "8",
+      "nearest_drill_edge_gap_mm": 0.3973162840490677,
+      "nearest_drill_id": "ddafc5b8-f865-41fb-b277-69b9885fbd00",
+      "nearest_via_copper_edge_gap_mm": 0.24731628404906775,
+      "nearest_via_id": "ddafc5b8-f865-41fb-b277-69b9885fbd00"
+    },
+    {
+      "ref": "U7",
+      "pad": "9",
+      "nearest_drill_edge_gap_mm": 0.9825852798157323,
+      "nearest_drill_id": "60e563cb-b2c9-4d35-83e3-898ce096043b",
+      "nearest_via_copper_edge_gap_mm": 0.8325852798157323,
+      "nearest_via_id": "60e563cb-b2c9-4d35-83e3-898ce096043b"
+    },
+    {
+      "ref": "U7",
+      "pad": "10",
+      "nearest_drill_edge_gap_mm": 0.32500000000000007,
+      "nearest_drill_id": "60e563cb-b2c9-4d35-83e3-898ce096043b",
+      "nearest_via_copper_edge_gap_mm": 0.1750000000000001,
+      "nearest_via_id": "60e563cb-b2c9-4d35-83e3-898ce096043b"
+    },
+    {
+      "ref": "U7",
+      "pad": "11",
+      "nearest_drill_edge_gap_mm": 0.464346125783339,
+      "nearest_drill_id": "c1732bc3-9abd-4352-96fd-f8eca58d43c9",
+      "nearest_via_copper_edge_gap_mm": 0.31434612578333904,
+      "nearest_via_id": "c1732bc3-9abd-4352-96fd-f8eca58d43c9"
+    },
+    {
+      "ref": "U7",
+      "pad": "12",
+      "nearest_drill_edge_gap_mm": 0.5194662897276496,
+      "nearest_drill_id": "c1732bc3-9abd-4352-96fd-f8eca58d43c9",
+      "nearest_via_copper_edge_gap_mm": 0.36946628972764967,
+      "nearest_via_id": "c1732bc3-9abd-4352-96fd-f8eca58d43c9"
+    },
+    {
+      "ref": "U7",
+      "pad": "13",
+      "nearest_drill_edge_gap_mm": 0.7,
+      "nearest_drill_id": "9403a5a0-56ed-42ba-9b22-7febe1dab191",
+      "nearest_via_copper_edge_gap_mm": 0.55,
+      "nearest_via_id": "9403a5a0-56ed-42ba-9b22-7febe1dab191"
+    },
+    {
+      "ref": "U7",
+      "pad": "14",
+      "nearest_drill_edge_gap_mm": 0.45000000000000007,
+      "nearest_drill_id": "958d4499-40c6-49bc-9f68-fb79ab30ef8f",
+      "nearest_via_copper_edge_gap_mm": 0.3000000000000001,
+      "nearest_via_id": "958d4499-40c6-49bc-9f68-fb79ab30ef8f"
+    },
+    {
+      "ref": "U7",
+      "pad": "15",
+      "nearest_drill_edge_gap_mm": 0.5753435439877306,
+      "nearest_drill_id": "2fbd5f9b-4995-4415-8676-e944cc4c6dc9",
+      "nearest_via_copper_edge_gap_mm": 0.4253435439877306,
+      "nearest_via_id": "2fbd5f9b-4995-4415-8676-e944cc4c6dc9"
+    },
+    {
+      "ref": "U7",
+      "pad": "16",
+      "nearest_drill_edge_gap_mm": 0.3532414408172525,
+      "nearest_drill_id": "2fbd5f9b-4995-4415-8676-e944cc4c6dc9",
+      "nearest_via_copper_edge_gap_mm": 0.20324144081725254,
+      "nearest_via_id": "2fbd5f9b-4995-4415-8676-e944cc4c6dc9"
+    },
+    {
+      "ref": "U7",
+      "pad": "17",
+      "nearest_drill_edge_gap_mm": 1.0504258587571553,
+      "nearest_drill_id": "960f2327-1473-4c8a-b406-1fb2145fdd6d",
+      "nearest_via_copper_edge_gap_mm": 0.9004258587571552,
+      "nearest_via_id": "960f2327-1473-4c8a-b406-1fb2145fdd6d"
+    },
+    {
+      "ref": "U7",
+      "pad": "18",
+      "nearest_drill_edge_gap_mm": 1.0788582233137678,
+      "nearest_drill_id": "960f2327-1473-4c8a-b406-1fb2145fdd6d",
+      "nearest_via_copper_edge_gap_mm": 0.9288582233137677,
+      "nearest_via_id": "960f2327-1473-4c8a-b406-1fb2145fdd6d"
+    },
+    {
+      "ref": "U7",
+      "pad": "19",
+      "nearest_drill_edge_gap_mm": 0.6963184280143574,
+      "nearest_drill_id": "20c29b71-2473-43b3-9469-f07ace3ed212",
+      "nearest_via_copper_edge_gap_mm": 0.5463184280143574,
+      "nearest_via_id": "20c29b71-2473-43b3-9469-f07ace3ed212"
+    },
+    {
+      "ref": "U7",
+      "pad": "20",
+      "nearest_drill_edge_gap_mm": 0.835,
+      "nearest_drill_id": "649fc851-6c8c-4939-8add-2030ef4a7f8b",
+      "nearest_via_copper_edge_gap_mm": 0.685,
+      "nearest_via_id": "649fc851-6c8c-4939-8add-2030ef4a7f8b"
+    },
+    {
+      "ref": "F1",
+      "pad": "1",
+      "nearest_drill_edge_gap_mm": 3.0521227913969717,
+      "nearest_drill_id": "J6.1",
+      "nearest_via_copper_edge_gap_mm": 6.709012055917724,
+      "nearest_via_id": "843db4a4-7fe1-46cf-8ad6-08aaa40612cd"
+    },
+    {
+      "ref": "F1",
+      "pad": "2",
+      "nearest_drill_edge_gap_mm": 2.532321755494668,
+      "nearest_drill_id": "843db4a4-7fe1-46cf-8ad6-08aaa40612cd",
+      "nearest_via_copper_edge_gap_mm": 2.3823217554946683,
+      "nearest_via_id": "843db4a4-7fe1-46cf-8ad6-08aaa40612cd"
+    },
+    {
+      "ref": "F2",
+      "pad": "1",
+      "nearest_drill_edge_gap_mm": 0.12500000000000006,
+      "nearest_drill_id": "2882cd2a-3bdf-4675-8484-94975d47a047",
+      "nearest_via_copper_edge_gap_mm": -0.17499999999999993,
+      "nearest_via_id": "2882cd2a-3bdf-4675-8484-94975d47a047"
+    },
+    {
+      "ref": "F2",
+      "pad": "2",
+      "nearest_drill_edge_gap_mm": 1.898675601105105,
+      "nearest_drill_id": "D1.2",
+      "nearest_via_copper_edge_gap_mm": 2.5042309836737338,
+      "nearest_via_id": "6cd2767b-557a-4625-9a7c-098ffca117fb"
+    },
+    {
+      "ref": "U8",
+      "pad": "1",
+      "nearest_drill_edge_gap_mm": 0.4603453162872776,
+      "nearest_drill_id": "425aad16-5535-4347-b0f1-660f0c5518d8",
+      "nearest_via_copper_edge_gap_mm": 0.31034531628727763,
+      "nearest_via_id": "425aad16-5535-4347-b0f1-660f0c5518d8"
+    },
+    {
+      "ref": "U8",
+      "pad": "2",
+      "nearest_drill_edge_gap_mm": 0.25,
+      "nearest_drill_id": "2699daee-9ae0-477a-b526-63862bbe7631",
+      "nearest_via_copper_edge_gap_mm": 0.10000000000000003,
+      "nearest_via_id": "2699daee-9ae0-477a-b526-63862bbe7631"
+    },
+    {
+      "ref": "U8",
+      "pad": "3",
+      "nearest_drill_edge_gap_mm": 0.475,
+      "nearest_drill_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c",
+      "nearest_via_copper_edge_gap_mm": 0.325,
+      "nearest_via_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c"
+    },
+    {
+      "ref": "U8",
+      "pad": "4",
+      "nearest_drill_edge_gap_mm": 1.7983624567743295,
+      "nearest_drill_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c",
+      "nearest_via_copper_edge_gap_mm": 1.6483624567743294,
+      "nearest_via_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c"
+    },
+    {
+      "ref": "U8",
+      "pad": "5",
+      "nearest_drill_edge_gap_mm": 2.303483243656468,
+      "nearest_drill_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c",
+      "nearest_via_copper_edge_gap_mm": 2.153483243656468,
+      "nearest_via_id": "b89093da-8ad0-41bc-8ecd-0cbc6ca3775c"
+    },
+    {
+      "ref": "U8",
+      "pad": "6",
+      "nearest_drill_edge_gap_mm": 1.7251543151078637,
+      "nearest_drill_id": "9d312acd-ba90-487a-9b2f-e6a35aed19b8",
+      "nearest_via_copper_edge_gap_mm": 1.5751543151078635,
+      "nearest_via_id": "9d312acd-ba90-487a-9b2f-e6a35aed19b8"
+    },
+    {
+      "ref": "D2",
+      "pad": "1",
+      "nearest_drill_edge_gap_mm": 3.8249999999999997,
+      "nearest_drill_id": "e9cb924d-f0b5-4cde-9302-d80a8d811b60",
+      "nearest_via_copper_edge_gap_mm": 3.675,
+      "nearest_via_id": "e9cb924d-f0b5-4cde-9302-d80a8d811b60"
+    },
+    {
+      "ref": "D2",
+      "pad": "2",
+      "nearest_drill_edge_gap_mm": 2.8249999999999997,
+      "nearest_drill_id": "1fc3bc9a-d3aa-403c-ba5b-6617234fed0f",
+      "nearest_via_copper_edge_gap_mm": 2.675,
+      "nearest_via_id": "1fc3bc9a-d3aa-403c-ba5b-6617234fed0f"
+    }
+  ],
+  "native_DRC_report": "root-final-DRC.json",
+  "native_DRC_report_sha256": "7979fc1e8c90165e493cdcf14904b1d89d6a304bf22bcb7d333b716ff0f780b4",
+  "native_violations": 0,
+  "native_unconnected_items": 0,
+  "native_schematic_parity_issues": 0,
+  "factory_DFM_accepted": false,
+  "physical_fit_thermal_current_and_motor_testing_done": false,
+  "production_clearance": false,
+  "limits": [
+    "This narrowly fixes the open drill-in-SMT-land sites. Actual soldermask registration/expansion/web, stencil and paste process remain the selected assembler CAM/DFM checks.",
+    "No BOM or MCU/driver interface changes. Original motor current, shared power and physical qualification limits still apply.",
+    "Candidate only. Canonical R4 was not changed. The R4-labelled silkscreen/version and all export files must be deliberately updated and reverified before a later revision release."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_only": true,
+  "canonical_R4_unchanged": true,
+  "compile_time_populated_mask": 7,
+  "UART_batches_skip_unpopulated_slots": true,
+  "read_write_functions_reject_unpopulated": true,
+  "future_STEP_DIR_forced_low_ENN_high": true,
+  "CHECK_requires_all_and_only_declared_slots": true,
+  "inactive_ARM_MOVE_rejected": true,
+  "commissioning_locked_by_default": true,
+  "reported_populated_mask_uses_compile_time_value": true,
+  "hardware_tested": false,
+  "flashed": false
+}

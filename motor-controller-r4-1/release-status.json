@@ -1,0 +1,38 @@
+{
+  "revision": "R4.1",
+  "status": "REVIEWED DESIGN PROTOTYPE; NOT PRODUCTION QUALIFIED OR CLEARED TO ORDER",
+  "native_PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "native_schematic_sha256": "93877dc2d32c885e95d039e5c5985974e55bec195549d2d3cf22cb9a7b2c4b0f",
+  "driver_sockets": 5,
+  "fitted_modules": [
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "empty_future_modules": [
+    "U4",
+    "U5"
+  ],
+  "CNC_shield": "separate unchanged controller for three full-sizeNEMA17",
+  "USB_C_control": true,
+  "native_DRC_ERC_pass": true,
+  "firmware_locked": true,
+  "firmware_UF2_sha256": "35879fbae5f980a2352686a411efd43ee37f39c483690f60d5dce3953177b501",
+  "firmware_checks": {
+    "legacy": 6987,
+    "three_axis": 651
+  },
+  "physical_testing": false,
+  "factory_scope": [
+    "U7",
+    "U8"
+  ],
+  "full_presoldering": false,
+  "planning_total_before_unquoted_imports_usd": 110.21,
+  "under100_verified": false,
+  "purchase_ready": false,
+  "motor_compatibility_verified": false,
+  "manufacturer_final_DFM_approval": false,
+  "Pi_application_integrated": false,
+  "hardware_calibration": false
+}

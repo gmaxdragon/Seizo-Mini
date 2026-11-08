@@ -1,0 +1,42 @@
+{
+  "revision": "R4.1",
+  "native_PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "copied_native_unchanged_by_exports": true,
+  "generated_from_this_frozen_native": true,
+  "Gerber_layers": 9,
+  "drill_files": 2,
+  "Gerber_job_files": 1,
+  "quote_ZIP_sha256": "50ad9fa527ebd58683e87b6f982092905ee62b88efae027de43e7c5c4afb2f1e",
+  "TOP2_BOM_CPL_reference_match": true,
+  "export_exit_codes": [
+    {
+      "operation": "pcb export gerbers",
+      "exit_code": 0
+    },
+    {
+      "operation": "pcb export drill",
+      "exit_code": 0
+    },
+    {
+      "operation": "pcb export svg",
+      "exit_code": 0
+    },
+    {
+      "operation": "sch export pdf",
+      "exit_code": 0
+    },
+    {
+      "operation": "pcb export pos",
+      "exit_code": 0
+    }
+  ],
+  "manufacturer_DFM_approval": false,
+  "TOP2_original_native_placement_matches_R4": true,
+  "TOP2_X_Y_matches_native": true,
+  "JLC_library_rotations": {
+    "U7": 0,
+    "U8": 0
+  },
+  "fresh_corrected_CPL_reimport_verified": true,
+  "corrected_CPL_sha256": "7aaaa30585ed97cb6db1d06aff75d90b855220352bf6094180a1d188fb87ddf9"
+}

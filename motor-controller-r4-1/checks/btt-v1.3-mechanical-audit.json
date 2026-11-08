@@ -1,0 +1,81 @@
+{
+  "status": "PASS_PRIMARY_V1_3_MECHANICAL_HEADER_CENTRES",
+  "source": "https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.3/3D/TMC2209%20V1.3.step",
+  "source_sha256": "92e0b1f1618277bc55e85acd936603e7da7da8236c422c463216db70b02ef514",
+  "measurement": "PCB mounting-hole CYLINDRICAL_SURFACE axes at z=0, radius0.499999mm",
+  "centres_mm": [
+    [
+      1.27,
+      1.269949
+    ],
+    [
+      1.27,
+      3.809949
+    ],
+    [
+      1.27,
+      6.349949
+    ],
+    [
+      1.27,
+      8.889949
+    ],
+    [
+      1.27,
+      11.429949
+    ],
+    [
+      1.27,
+      13.969949
+    ],
+    [
+      1.27,
+      16.509949
+    ],
+    [
+      1.27,
+      19.049949
+    ],
+    [
+      13.97,
+      1.269949
+    ],
+    [
+      13.97,
+      3.809949
+    ],
+    [
+      13.97,
+      6.349949
+    ],
+    [
+      13.97,
+      8.889949
+    ],
+    [
+      13.97,
+      11.429949
+    ],
+    [
+      13.97,
+      13.969949
+    ],
+    [
+      13.97,
+      16.509949
+    ],
+    [
+      13.97,
+      19.049949
+    ]
+  ],
+  "columns_mm": [
+    1.27,
+    13.97
+  ],
+  "row_spacing_mm": 12.700000000000001,
+  "pitch_mm": 2.54,
+  "holes": 16,
+  "stock_footprint": "Module:Pololu_Breakout-16_15.2x20.3mm",
+  "limits": "Hole centres verified. Actual purchased revision, socket contact current/height, heatsink clearance and physical module fit still need inspection."
+}

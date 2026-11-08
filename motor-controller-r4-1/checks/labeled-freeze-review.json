@@ -1,0 +1,14 @@
+{
+  "revision": "R4.1",
+  "PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "audited_routing_source_sha256": "46abd1a54948f7fd313dc05d50f1da0b825e5dfccd5e98c1f3a354ca5903435d",
+  "non_text_top_level_native_objects_equal": true,
+  "schematic_unchanged_from_R4": true,
+  "DRC_errors": 0,
+  "DRC_warnings": 0,
+  "unrouted": 0,
+  "schematic_parity": 0,
+  "firmware_UF2_sha256": "35879fbae5f980a2352686a411efd43ee37f39c483690f60d5dce3953177b501",
+  "physical_testing": false,
+  "production_ready": false
+}

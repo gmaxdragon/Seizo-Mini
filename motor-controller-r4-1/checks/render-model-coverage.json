@@ -1,0 +1,571 @@
+{
+  "source_board_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "no_CAD_edits": true,
+  "actual_native_render": true,
+  "not_a_photo": true,
+  "images": [
+    "pcb-routing.png",
+    "pcb-3d.png"
+  ],
+  "rendered_revision": "R4.1",
+  "model_coverage": [
+    {
+      "ref": "R32",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C13",
+      "value": "100u /35V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R34",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "BTT TMC2209 V1.3 / address 2",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/StepStick_Socket16_P12.70_D1.00.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "U7",
+      "value": "SN74HC541DWR",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "470u /50V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "BTT TMC2209 V1.3 / address 3",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/StepStick_Socket16_P12.70_D1.00.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "R21",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "value": "0R / FITTED WIRE LINK",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J8",
+      "value": "12 V PC FAN / 1 GND, 2 +12 V, 3 TACH NC, 4 PWM NC",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x04_P2.54mm_Vertical.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "F1",
+      "value": "4A 125VDC SLO-BLO",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "100n /50V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "H4",
+      "value": "M3 mounting",
+      "models": []
+    },
+    {
+      "ref": "J3",
+      "value": "MOTOR3 / A1 A2 B1 B2",
+      "models": []
+    },
+    {
+      "ref": "H1",
+      "value": "M3 mounting",
+      "models": []
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R33",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "F2",
+      "value": "0.5A 125VDC FAN",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "SB560-E3/54 / input isolation",
+      "models": []
+    },
+    {
+      "ref": "R35",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J9",
+      "value": "RUN HARNESS / 1 RESET_N, 2 GND",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C15",
+      "value": "100u /35V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "BTT TMC2209 V1.3 / address 0",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/StepStick_Socket16_P12.70_D1.00.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "value": "100n /50V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U8",
+      "value": "TPS3808G01DBVR",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "MOTOR1 / A1 A2 B1 B2",
+      "models": []
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J6",
+      "value": "PJ-102AH / 5.5mm plug,2.0mm centerpin",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-102AH_Horizontal.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "value": "Waveshare RP2040-Zero-M / native USB-C",
+      "models": []
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J7",
+      "value": "HOLD NC / dry contact only",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "MOTOR4 / A1 A2 B1 B2",
+      "models": []
+    },
+    {
+      "ref": "J5",
+      "value": "MOTOR5 / A1 A2 B1 B2",
+      "models": []
+    },
+    {
+      "ref": "R31",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "H3",
+      "value": "M3 mounting",
+      "models": []
+    },
+    {
+      "ref": "U2",
+      "value": "BTT TMC2209 V1.3 / address 1",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/StepStick_Socket16_P12.70_D1.00.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "U5",
+      "value": "BTT TMC2209 V1.3 / address 0",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/StepStick_Socket16_P12.70_D1.00.step",
+          "resolved_exists": false
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D3",
+      "value": "1N5819-E3/54 / fan isolation",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "MOTOR2 / A1 A2 B1 B2",
+      "models": []
+    },
+    {
+      "ref": "R25",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C12",
+      "value": "100u /35V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C14",
+      "value": "100u /35V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C11",
+      "value": "100u /35V",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+          "resolved_exists": true
+        }
+      ]
+    },
+    {
+      "ref": "H2",
+      "value": "M3 mounting",
+      "models": []
+    },
+    {
+      "ref": "D2",
+      "value": "SMCJ15A / transient clamp",
+      "models": [
+        {
+          "declared_model": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMC.step",
+          "resolved_exists": true
+        }
+      ]
+    }
+  ],
+  "components_without_declared_models": [
+    "J3",
+    "D1",
+    "J1",
+    "U6",
+    "J4",
+    "J5",
+    "J2"
+  ],
+  "components_with_missing_declared_model_files": [
+    "U3",
+    "U4",
+    "F1",
+    "F2",
+    "U1",
+    "J6",
+    "U2",
+    "U5"
+  ],
+  "limitations": [
+    "KiCad stock footprint models are nominal visual aids, not proof of exact purchased part geometry or assembly fit.",
+    "Driver modules/sockets, RP2040-Zero, motor terminals and custom parts without resolved models are not fabricated into the image.",
+    "This is a CAD visualisation, not a photograph or evidence of an assembled/tested board."
+  ],
+  "image_files": {
+    "pcb-routing.png": {
+      "sha256": "e9f5442d22f292e690ae486df200e5b09b9a823fe451896b717c6998dbe31406",
+      "width": 1880,
+      "height": 1880,
+      "bytes": 583994
+    },
+    "pcb-3d.png": {
+      "sha256": "1426ebc0661567e14016d4d0d1d7b7c40dee69fa724fa5d15951c7f944b07da1",
+      "width": 1768,
+      "height": 1488,
+      "bytes": 1493063
+    }
+  },
+  "visually_inspected": true,
+  "3D_board_fully_inside_frame": true,
+  "render_process": "KiCad10.0.7 native PCB SVG export and native pcb render high-quality raytrace; sharp only rasterizes SVG and adds uniform routing-view padding.",
+  "three_D_view": "top side, rotation-28,0,25degrees,zoom0.70; no substitution of missing models.",
+  "source_sha256_after_render": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9"
+}

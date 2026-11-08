@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>.\outputs\seizo-motor-controller-r4\project\big motor controller.kicad_sch</source>
+    <date>2026-11-07T14:33:31</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Seizo / five-axis USB controller with motor-rail reset</title>
+        <company/>
+        <rev>R4 / PROTOTYPE</rev>
+        <date>2026-11-07</date>
+        <source>big motor controller.kicad_sch</source>
+        <comment number="1" value="12 V; initial input 2.5 A / 30 W. 3 A after testing."/>
+        <comment number="2" value="Required J9 to Zero RUN/GND harness; no edge-header RUN pad."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470u /50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="MPN">EEU-FR1H471</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="EEU-FR1H471"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac563801-8ae4-52ed-8807-bbf039af587b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n /50V</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">RDER71H104K0S1H03A</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="RDER71H104K0S1H03A"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2448782c-463a-525b-9cb2-a74c68ba8dcb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n /50V</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">RDER71H104K0S1H03A</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="RDER71H104K0S1H03A"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db6c968d-af03-5461-9520-35d7929afc99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100u /35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">35ZLH100MEFC6.3X11</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="35ZLH100MEFC6.3X11"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38f490d3-9f8c-54aa-b725-231b18283e1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100u /35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">35ZLH100MEFC6.3X11</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="35ZLH100MEFC6.3X11"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f71f61b-2350-52ce-b878-c80b8fb081db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100u /35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">35ZLH100MEFC6.3X11</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="35ZLH100MEFC6.3X11"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f89bdae9-3d97-52ed-9b0c-f70fcbcde62c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100u /35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">35ZLH100MEFC6.3X11</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="35ZLH100MEFC6.3X11"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e27b080-9b57-574d-93c5-7b51c4a31ec0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>100u /35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="MPN">35ZLH100MEFC6.3X11</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="35ZLH100MEFC6.3X11"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5c139b5-1063-523b-9e51-b1505630c4c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SB560-E3/54 / input isolation</value>
+      <footprint>SeizoMotorController:D_DO-201AD_P25.40mm_Horizontal_D1.60</footprint>
+      <datasheet>https://www.vishay.com/docs/88721/sb520.pdf</datasheet>
+      <fields>
+        <field name="MPN">SB560-E3/54</field>
+        <field name="Footprint">SeizoMotorController:D_DO-201AD_P25.40mm_Horizontal_D1.60</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88721/sb520.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="SB560-E3/54"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>095bc5cc-606c-5272-b09a-a9a6c6ec208e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMCJ15A / transient clamp</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="MPN">SMCJ15A</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="SMCJ15A"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3324ec96-4e20-50da-93e0-4ec26f2f9cc5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819-E3/54 / fan isolation</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="MPN">1N5819-E3/54</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="1N5819-E3/54"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53e8cb18-1fa9-51f9-89b6-bbf6395ece1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>4A 125VDC SLO-BLO</value>
+      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <fields>
+        <field name="MPN">0454004.MR</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MPN" value="0454004.MR"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6602a2d5-f6d3-5328-b81b-72d504c1fa57</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>0.5A 125VDC FAN</value>
+      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <fields>
+        <field name="MPN">0454.500MR</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MPN" value="0454.500MR"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5dc7cc3-bd20-5328-bff5-aa4c9f1b6a52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>MOTOR1 / A1 A2 B1 B2</value>
+      <footprint>SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2915641.pdf</datasheet>
+      <fields>
+        <field name="MPN">DB128V-5.08-4P-GN-S</field>
+        <field name="Footprint">SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2915641.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="DB128V_4P" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="DB128V-5.08-4P-GN-S"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="SeizoMotorController:TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eb6de70-eb01-56bc-be9a-b20718506952</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>MOTOR2 / A1 A2 B1 B2</value>
+      <footprint>SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2915641.pdf</datasheet>
+      <fields>
+        <field name="MPN">DB128V-5.08-4P-GN-S</field>
+        <field name="Footprint">SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2915641.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="DB128V_4P" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="DB128V-5.08-4P-GN-S"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="SeizoMotorController:TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9b2002e-9747-5456-92b9-962b30105f18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>MOTOR3 / A1 A2 B1 B2</value>
+      <footprint>SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2915641.pdf</datasheet>
+      <fields>
+        <field name="MPN">DB128V-5.08-4P-GN-S</field>
+        <field name="Footprint">SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2915641.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="DB128V_4P" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="DB128V-5.08-4P-GN-S"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="SeizoMotorController:TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a933aad-1b69-5547-a769-d34ab5c72b3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>MOTOR4 / A1 A2 B1 B2</value>
+      <footprint>SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2915641.pdf</datasheet>
+      <fields>
+        <field name="MPN">DB128V-5.08-4P-GN-S</field>
+        <field name="Footprint">SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2915641.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="DB128V_4P" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="DB128V-5.08-4P-GN-S"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="SeizoMotorController:TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>002bc2a4-df05-553b-b379-7ffbf706bee5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>MOTOR5 / A1 A2 B1 B2</value>
+      <footprint>SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2915641.pdf</datasheet>
+      <fields>
+        <field name="MPN">DB128V-5.08-4P-GN-S</field>
+        <field name="Footprint">SeizoMotorController:TerminalBlock_DORABO_DB128V_1x04_P5.08mm_D1.60</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2915641.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="DB128V_4P" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="DB128V-5.08-4P-GN-S"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="SeizoMotorController:TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a895b73-ed9a-58f8-b1dd-fd6885101be3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>PJ-102AH / 5.5mm plug,2.0mm centerpin</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <datasheet>https://www.sameskydevices.com/product/resource/futurepdf/pj-102ah.pdf</datasheet>
+      <fields>
+        <field name="MPN">PJ-102AH</field>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</field>
+        <field name="Datasheet">https://www.sameskydevices.com/product/resource/futurepdf/pj-102ah.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="MPN" value="PJ-102AH"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90fce3fa-a0f1-57fc-8572-4367b77f6121</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>HOLD NC / dry contact only</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B-2100S02P-A110</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="B-2100S02P-A110"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f94f588c-6d91-5476-95ea-0c9b5734e303</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>12 V PC FAN / 1 GND, 2 +12 V, 3 TACH NC, 4 PWM NC</value>
+      <footprint>Connector:FanPinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/470531000</datasheet>
+      <fields>
+        <field name="MPN">470531000</field>
+        <field name="Footprint">Connector:FanPinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.molex.com/en-us/products/part-detail/470531000</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="470531000"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2aabce8-cfb8-5ace-92dd-9584a91ab77b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>RUN HARNESS / 1 RESET_N, 2 GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B-2100S02P-A110</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="B-2100S02P-A110"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cabac0a-a9b5-5e16-8f35-e9d1ea6692cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FTE52-1K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FTE52-1K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1419aa77-0348-5011-91bb-b882bb7b2c2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FTE52-1K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FTE52-1K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99e2c872-e074-51fe-9df6-87f0ac4d8697</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FTE52-1K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FTE52-1K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff2797a9-7b3c-5ee8-bf29-d04b86dd1a76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>0R / FITTED WIRE LINK</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">Assembly link - tinned resistor-lead offcut</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="Assembly link - tinned resistor-lead offcut"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>685f19ca-54ec-57da-97a3-cb142f69d37b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca69af7a-345c-5d17-a6e7-fda4f38e26c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a10bdc1-b985-5bfa-87f5-e9e2cec4e9a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FTE52-1K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FTE52-1K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58f5c544-4642-5129-8e57-a2288e4cc082</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d55d4b0-c8f8-55d9-a046-e55b916763c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdd3c8b6-da10-58e9-89cf-59cd2f24c0fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c0bb99-44cc-5a9f-995c-bfe0dda6630b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c79c34a9-89d7-5ef5-9f2d-76c033e777a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>721a4034-4f1e-5a63-9deb-744b5c90e740</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c100cf47-16da-58dc-861d-404121b98dbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb5937d-f426-5e06-86cd-4caae0fb0d31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d32cbf1a-8ee8-5594-85d5-c596ee2df56c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a40602f-eab2-573b-899d-8087b8b26ef1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8a93c67-b5af-5f7c-bac6-2899708b573a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447fff04-13fb-5778-b421-dda5b33e623b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a7ba925-c4c8-5a85-9934-15a71630a35d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc23099d-2e3a-5b18-85e0-b016ca477cb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb42d2bb-1eff-54b5-8e3e-1c69a73314cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82e4a524-4017-5704-9122-71720a523540</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">MFR-25FBF52-10K</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="MFR-25FBF52-10K"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c133cc31-073a-5232-bfe2-37c6edbeb47f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>BTT TMC2209 V1.3 / address 0</value>
+      <footprint>SeizoMotorController:StepStick_Socket16_P12.70_D1.00</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</datasheet>
+      <fields>
+        <field name="MPN">BIGTREETECH TMC2209 V1.3</field>
+        <field name="Footprint">SeizoMotorController:StepStick_Socket16_P12.70_D1.00</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="BTT_TMC2209_V1_3" description="BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC"/>
+      <property name="MPN" value="BIGTREETECH TMC2209 V1.3"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc53abbb-2280-5cec-85f5-1befa0ae845a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>BTT TMC2209 V1.3 / address 1</value>
+      <footprint>SeizoMotorController:StepStick_Socket16_P12.70_D1.00</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</datasheet>
+      <fields>
+        <field name="MPN">BIGTREETECH TMC2209 V1.3</field>
+        <field name="Footprint">SeizoMotorController:StepStick_Socket16_P12.70_D1.00</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="BTT_TMC2209_V1_3" description="BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC"/>
+      <property name="MPN" value="BIGTREETECH TMC2209 V1.3"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0869cbf-1530-515a-8037-9ab0bb1e7d2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>BTT TMC2209 V1.3 / address 2</value>
+      <footprint>SeizoMotorController:StepStick_Socket16_P12.70_D1.00</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</datasheet>
+      <fields>
+        <field name="MPN">BIGTREETECH TMC2209 V1.3</field>
+        <field name="Footprint">SeizoMotorController:StepStick_Socket16_P12.70_D1.00</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="BTT_TMC2209_V1_3" description="BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC"/>
+      <property name="MPN" value="BIGTREETECH TMC2209 V1.3"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a9a5f2-9783-51db-8832-777199eb4147</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>BTT TMC2209 V1.3 / address 3</value>
+      <footprint>SeizoMotorController:StepStick_Socket16_P12.70_D1.00</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</datasheet>
+      <fields>
+        <field name="MPN">BIGTREETECH TMC2209 V1.3</field>
+        <field name="Footprint">SeizoMotorController:StepStick_Socket16_P12.70_D1.00</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="BTT_TMC2209_V1_3" description="BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC"/>
+      <property name="MPN" value="BIGTREETECH TMC2209 V1.3"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>412f6e20-f805-5095-9e22-10b7d9ea1af5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>BTT TMC2209 V1.3 / address 0</value>
+      <footprint>SeizoMotorController:StepStick_Socket16_P12.70_D1.00</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</datasheet>
+      <fields>
+        <field name="MPN">BIGTREETECH TMC2209 V1.3</field>
+        <field name="Footprint">SeizoMotorController:StepStick_Socket16_P12.70_D1.00</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="BTT_TMC2209_V1_3" description="BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC"/>
+      <property name="MPN" value="BIGTREETECH TMC2209 V1.3"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>909da945-bbcc-5341-a197-63bc8d572e7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>Waveshare RP2040-Zero-M / native USB-C</value>
+      <footprint>SeizoMotorController:Waveshare_RP2040_Zero_Headers_9_9_5_P2.54</footprint>
+      <datasheet>https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf</datasheet>
+      <fields>
+        <field name="MPN">Waveshare RP2040-Zero-M</field>
+        <field name="Footprint">SeizoMotorController:Waveshare_RP2040_Zero_Headers_9_9_5_P2.54</field>
+        <field name="Datasheet">https://files.waveshare.com/upload/4/4c/RP2040_Zero.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="RP2040_Zero_Header23" description="Waveshare RP2040-Zero23edgeheaderpins; GPIO16onRGB; backpadsnotused; USBnative onmodule"/>
+      <property name="MPN" value="Waveshare RP2040-Zero-M"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39224266-1996-51d1-a051-1d1a9d6f3cbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>SN74HC541DWR</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74hc541.pdf</datasheet>
+      <fields>
+        <field name="MPN">SN74HC541DWR</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74hc541.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeizoMotorController" part="SN74HC541DW" description="TI SN74HC541DW octal3statebuffer with twoactive-lowenables; exactHC pinmap frommanufacturer;3.3V USBlogic; DW20SOIC1.27mmpitch"/>
+      <property name="MPN" value="SN74HC541DWR"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="TTL BUFFER 3State BUS"/>
+      <property name="ki_fp_filters" value="SOIC*20*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>460d7766-c1a3-548a-b5f3-25c080f58e9a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>TPS3808G01DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS3808G01DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power_Supervisor" part="TPS3808DBV" description="Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6"/>
+      <property name="MPN" value="TPS3808G01DBVR"/>
+      <property name="Sheetname" value="big motor controller"/>
+      <property name="Sheetfile" value="big motor controller.kicad_sch"/>
+      <property name="ki_keywords" value="supply voltage supervisor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a948370-d544-58bb-8bc2-02641d798d4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supervisor" part="TPS3808DBV">
+      <description>Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps3808.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description">Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{MR}" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeizoMotorController" part="BTT_TMC2209_V1_3">
+      <description>BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BTT_TMC2209_V1_3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">BIGTREETECH TMC2209V1.3 exact16pinmodule onstandardPololu12.70mmrowpitch footprint; RXisPDN_UART, TXNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ENN" type="input"/>
+        <pin num="2" name="MS1_AD0" type="input"/>
+        <pin num="3" name="MS2_AD1" type="input"/>
+        <pin num="4" name="RX_PDN_UART" type="bidirectional"/>
+        <pin num="5" name="TX_NC" type="no_connect"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VIO" type="power_in"/>
+        <pin num="11" name="B2" type="output"/>
+        <pin num="12" name="B1" type="output"/>
+        <pin num="13" name="A1" type="output"/>
+        <pin num="14" name="A2" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VM" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeizoMotorController" part="DB128V_4P">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>SeizoMotorController:TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB128V_4P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeizoMotorController" part="RP2040_Zero_Header23">
+      <description>Waveshare RP2040-Zero23edgeheaderpins; GPIO16onRGB; backpadsnotused; USBnative onmodule</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040_Zero_Header23</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Waveshare RP2040-Zero23edgeheaderpins; GPIO16onRGB; backpadsnotused; USBnative onmodule</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GP2" type="bidirectional"/>
+        <pin num="4" name="GP3" type="bidirectional"/>
+        <pin num="5" name="GP4" type="bidirectional"/>
+        <pin num="6" name="GP5" type="bidirectional"/>
+        <pin num="7" name="GP6" type="bidirectional"/>
+        <pin num="8" name="GP7" type="bidirectional"/>
+        <pin num="9" name="GP8" type="bidirectional"/>
+        <pin num="10" name="GP9" type="bidirectional"/>
+        <pin num="11" name="GP10" type="bidirectional"/>
+        <pin num="12" name="GP11" type="bidirectional"/>
+        <pin num="13" name="GP12" type="bidirectional"/>
+        <pin num="14" name="GP13" type="bidirectional"/>
+        <pin num="15" name="GP14" type="bidirectional"/>
+        <pin num="16" name="GP15" type="bidirectional"/>
+        <pin num="17" name="GP26" type="bidirectional"/>
+        <pin num="18" name="GP27" type="bidirectional"/>
+        <pin num="19" name="GP28" type="bidirectional"/>
+        <pin num="20" name="GP29" type="bidirectional"/>
+        <pin num="21" name="3V3_OUT" type="power_out"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="VSYS_USB_ONLY_NC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeizoMotorController" part="SN74HC541DW">
+      <description>TI SN74HC541DW octal3statebuffer with twoactive-lowenables; exactHC pinmap frommanufacturer;3.3V USBlogic; DW20SOIC1.27mmpitch</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74hc541.pdf</docs>
+      <footprints>
+        <fp>SOIC*20*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC541DW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74hc541.pdf</field>
+        <field name="Description">TI SN74HC541DW octal3statebuffer with twoactive-lowenables; exactHC pinmap frommanufacturer;3.3V USBlogic; DW20SOIC1.27mmpitch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Y7" type="tri_state"/>
+        <pin num="12" name="Y6" type="tri_state"/>
+        <pin num="13" name="Y5" type="tri_state"/>
+        <pin num="14" name="Y4" type="tri_state"/>
+        <pin num="15" name="Y3" type="tri_state"/>
+        <pin num="16" name="Y2" type="tri_state"/>
+        <pin num="17" name="Y1" type="tri_state"/>
+        <pin num="18" name="Y0" type="tri_state"/>
+        <pin num="19" name="G2" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>${KICAD10_SYMBOL_DIR}/Power_Supervisor.kicad_sym</uri>
+    </library>
+    <library logical="SeizoMotorController">
+      <uri>${KIPRJMOD}/SeizoMotorController.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3_USB" class="SIGNAL">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VIO_10" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VIO_10" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="MS1_AD0_2" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="VIO_10" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="MS2_AD1_3" pintype="input"/>
+      <node ref="U4" pin="10" pinfunction="VIO_10" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="MS1_AD0_2" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="MS2_AD1_3" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="VIO_10" pintype="power_in"/>
+      <node ref="U6" pin="21" pinfunction="3V3_OUT_21" pintype="power_out"/>
+      <node ref="U7" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="~{MR}_3" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+    </net>
+    <net code="2" name="/A1_1" class="MOTOR_POWER">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="A1_13" pintype="output"/>
+    </net>
+    <net code="3" name="/A1_2" class="MOTOR_POWER">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="A1_13" pintype="output"/>
+    </net>
+    <net code="4" name="/A1_3" class="MOTOR_POWER">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="A1_13" pintype="output"/>
+    </net>
+    <net code="5" name="/A1_4" class="MOTOR_POWER">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="A1_13" pintype="output"/>
+    </net>
+    <net code="6" name="/A1_5" class="MOTOR_POWER">
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="A1_13" pintype="output"/>
+    </net>
+    <net code="7" name="/A2_1" class="MOTOR_POWER">
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="A2_14" pintype="output"/>
+    </net>
+    <net code="8" name="/A2_2" class="MOTOR_POWER">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="A2_14" pintype="output"/>
+    </net>
+    <net code="9" name="/A2_3" class="MOTOR_POWER">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="A2_14" pintype="output"/>
+    </net>
+    <net code="10" name="/A2_4" class="MOTOR_POWER">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="A2_14" pintype="output"/>
+    </net>
+    <net code="11" name="/A2_5" class="MOTOR_POWER">
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="A2_14" pintype="output"/>
+    </net>
+    <net code="12" name="/B1_1" class="MOTOR_POWER">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B1_12" pintype="output"/>
+    </net>
+    <net code="13" name="/B1_2" class="MOTOR_POWER">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="B1_12" pintype="output"/>
+    </net>
+    <net code="14" name="/B1_3" class="MOTOR_POWER">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="B1_12" pintype="output"/>
+    </net>
+    <net code="15" name="/B1_4" class="MOTOR_POWER">
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="B1_12" pintype="output"/>
+    </net>
+    <net code="16" name="/B1_5" class="MOTOR_POWER">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="B1_12" pintype="output"/>
+    </net>
+    <net code="17" name="/B2_1" class="MOTOR_POWER">
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B2_11" pintype="output"/>
+    </net>
+    <net code="18" name="/B2_2" class="MOTOR_POWER">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="B2_11" pintype="output"/>
+    </net>
+    <net code="19" name="/B2_3" class="MOTOR_POWER">
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="B2_11" pintype="output"/>
+    </net>
+    <net code="20" name="/B2_4" class="MOTOR_POWER">
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="B2_11" pintype="output"/>
+    </net>
+    <net code="21" name="/B2_5" class="MOTOR_POWER">
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="B2_11" pintype="output"/>
+    </net>
+    <net code="22" name="/DIR1" class="SIGNAL">
+      <node ref="U1" pin="8" pinfunction="DIR_8" pintype="input"/>
+      <node ref="U6" pin="12" pinfunction="GP11_12" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/DIR2" class="SIGNAL">
+      <node ref="U2" pin="8" pinfunction="DIR_8" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="GP12_13" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/DIR3" class="SIGNAL">
+      <node ref="U3" pin="8" pinfunction="DIR_8" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="GP13_14" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/DIR4" class="SIGNAL">
+      <node ref="U4" pin="8" pinfunction="DIR_8" pintype="input"/>
+      <node ref="U6" pin="15" pinfunction="GP14_15" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/DIR5" class="SIGNAL">
+      <node ref="U5" pin="8" pinfunction="DIR_8" pintype="input"/>
+      <node ref="U6" pin="16" pinfunction="GP15_16" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/EN1_N" class="SIGNAL">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ENN_1" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="GP2_3" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/EN2_N" class="SIGNAL">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ENN_1" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="GP3_4" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/EN3_N" class="SIGNAL">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="ENN_1" pintype="input"/>
+      <node ref="U6" pin="17" pinfunction="GP26_17" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/EN4_N" class="SIGNAL">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="ENN_1" pintype="input"/>
+      <node ref="U6" pin="18" pinfunction="GP27_18" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/EN5_N" class="SIGNAL">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="ENN_1" pintype="input"/>
+      <node ref="U6" pin="19" pinfunction="GP28_19" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/FAN_FUSED" class="FAN_POWER">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/FAN_VMOT" class="FAN_POWER">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="34" name="/GND" class="GROUND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="MS1_AD0_2" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="MS2_AD1_3" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="CLK_6" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="MS2_AD1_3" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="CLK_6" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="MS1_AD0_2" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="CLK_6" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U4" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="CLK_6" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U5" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="MS1_AD0_2" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="MS2_AD1_3" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="CLK_6" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U6" pin="22" pinfunction="GND_22" pintype="power_in"/>
+      <node ref="U7" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U7" pin="19" pinfunction="G2_19" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="A5_7" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="A6_8" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="A7_9" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="35" name="/HOLD_CONTACT" class="SIGNAL">
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/HOLD_OPEN" class="SIGNAL">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="GP29_20" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="G1_1" pintype="input"/>
+    </net>
+    <net code="37" name="/STEP1" class="SIGNAL">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="STEP_7" pintype="input"/>
+      <node ref="U7" pin="18" pinfunction="Y0_18" pintype="tri_state"/>
+    </net>
+    <net code="38" name="/STEP2" class="SIGNAL">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="STEP_7" pintype="input"/>
+      <node ref="U7" pin="17" pinfunction="Y1_17" pintype="tri_state"/>
+    </net>
+    <net code="39" name="/STEP3" class="SIGNAL">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="STEP_7" pintype="input"/>
+      <node ref="U7" pin="16" pinfunction="Y2_16" pintype="tri_state"/>
+    </net>
+    <net code="40" name="/STEP4" class="SIGNAL">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="STEP_7" pintype="input"/>
+      <node ref="U7" pin="15" pinfunction="Y3_15" pintype="tri_state"/>
+    </net>
+    <net code="41" name="/STEP5" class="SIGNAL">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="STEP_7" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="Y4_14" pintype="tri_state"/>
+    </net>
+    <net code="42" name="/STEP_RAW1" class="SIGNAL">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="GP6_7" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="A0_2" pintype="input"/>
+    </net>
+    <net code="43" name="/STEP_RAW2" class="SIGNAL">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="GP7_8" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="A1_3" pintype="input"/>
+    </net>
+    <net code="44" name="/STEP_RAW3" class="SIGNAL">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="GP8_9" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="A2_4" pintype="input"/>
+    </net>
+    <net code="45" name="/STEP_RAW4" class="SIGNAL">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="GP9_10" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="A3_5" pintype="input"/>
+    </net>
+    <net code="46" name="/STEP_RAW5" class="SIGNAL">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="GP10_11" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="A4_6" pintype="input"/>
+    </net>
+    <net code="47" name="/UART_A" class="SIGNAL">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RX_PDN_UART_4" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="RX_PDN_UART_4" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="RX_PDN_UART_4" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="RX_PDN_UART_4" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="GP1_2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/UART_A_TX" class="SIGNAL">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GP0_1" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/UART_B" class="SIGNAL">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="RX_PDN_UART_4" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="GP5_6" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/UART_B_TX" class="SIGNAL">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="GP4_5" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/VIN_FUSED" class="INPUT_POWER">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="/VIN_RAW" class="INPUT_POWER">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="/VMOT" class="INPUT_POWER">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VM_16" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VM_16" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VM_16" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VM_16" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="VM_16" pintype="power_in"/>
+    </net>
+    <net code="54" name="/VMOT_DIV_MID" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="/VMOT_RESET_N" class="Default">
+      <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="~{RESET}_1" pintype="output"/>
+    </net>
+    <net code="56" name="/VMOT_SENSE" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="SENSE_5" pintype="input"/>
+    </net>
+    <net code="57" name="unconnected-(J6-Pad3)" class="SIGNAL">
+      <node ref="J6" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J8-Pin_3-Pad3)" class="SIGNAL">
+      <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J8-Pin_4-Pad4)" class="SIGNAL">
+      <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-TX_NC-Pad5)" class="SIGNAL">
+      <node ref="U1" pin="5" pinfunction="TX_NC_5" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U2-TX_NC-Pad5)" class="SIGNAL">
+      <node ref="U2" pin="5" pinfunction="TX_NC_5" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-TX_NC-Pad5)" class="SIGNAL">
+      <node ref="U3" pin="5" pinfunction="TX_NC_5" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U4-TX_NC-Pad5)" class="SIGNAL">
+      <node ref="U4" pin="5" pinfunction="TX_NC_5" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U5-TX_NC-Pad5)" class="SIGNAL">
+      <node ref="U5" pin="5" pinfunction="TX_NC_5" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U6-VSYS_USB_ONLY_NC-Pad23)" class="SIGNAL">
+      <node ref="U6" pin="23" pinfunction="VSYS_USB_ONLY_NC_23" pintype="power_in+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U7-Y5-Pad13)" class="SIGNAL">
+      <node ref="U7" pin="13" pinfunction="Y5_13" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U7-Y6-Pad12)" class="SIGNAL">
+      <node ref="U7" pin="12" pinfunction="Y6_12" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U7-Y7-Pad11)" class="SIGNAL">
+      <node ref="U7" pin="11" pinfunction="Y7_11" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U8-CT-Pad4)" class="Default">
+      <node ref="U8" pin="4" pinfunction="CT_4" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

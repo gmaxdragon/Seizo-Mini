@@ -1,0 +1,32 @@
+{
+  "revision": "Motor Controller R4.1",
+  "source_pcb_sha256": "46abd1a54948f7fd313dc05d50f1da0b825e5dfccd5e98c1f3a354ca5903435d",
+  "labeled_pcb_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "electrical_edits": false,
+  "changed_board_text": {
+    "M1  N23": "M1  NEMA23-1",
+    "M2  N23": "M2  NEMA23-2",
+    "M3  N17": "M3  PANCAKE",
+    "M4  N17": "M4  FUTURE",
+    "M5  N17": "M5  FUTURE",
+    "Seizo Motor Controller R4": "Seizo Motor Controller R4.1"
+  },
+  "new_board_text": "USB-C TO PI",
+  "motor_terminal_choice": "Existing verified vertical through-hole DORABO 5.08mm screw terminals retained; no Dupont signal headers substituted for motor current.",
+  "populated_slots": [
+    "M1/J1/U1: suitably rated NEMA23-1",
+    "M2/J2/U2: suitably rated NEMA23-2",
+    "M3/J3/U3: suitably rated NEMA17 pancake"
+  ],
+  "future_slots": [
+    "M4/J4/U4",
+    "M5/J5/U5"
+  ],
+  "coil_order_all_slots": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "CNC_shield": "Existing separate controller handles the three full-size NEMA17 axes; not modified."
+}

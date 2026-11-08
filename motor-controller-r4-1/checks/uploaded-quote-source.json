@@ -1,0 +1,8 @@
+{
+  "revision": "R4.1",
+  "native_PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "uploaded_quote_ZIP_sha256": "274524022ffc707e4420dde2a3d6c8413e0ce14172326823559a5431136b4294",
+  "current_public_quote_ZIP_sha256": "50ad9fa527ebd58683e87b6f982092905ee62b88efae027de43e7c5c4afb2f1e",
+  "same_frozen_native_input": true,
+  "note": "Two exports of the same frozen native source were made at different times before artifact freeze. ZIP and creation/job timestamp hashes differ; the uploaded ZIP original bytes are not available here for an independent member-by-member comparison. No native geometry or placement change occurred between these exports. Manufacturer final review remains pending."
+}

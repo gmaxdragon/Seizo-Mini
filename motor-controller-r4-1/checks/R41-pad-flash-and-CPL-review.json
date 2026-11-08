@@ -1,0 +1,438 @@
+{
+  "revision": "R4.1",
+  "canonical_native_PCB_sha256": "6f870caf0e68e484de63a360227a2154618d24368472897633d0d671f4e0d3b9",
+  "read_only": true,
+  "canonical_CAD_and_fabrication_exports_unchanged": true,
+  "pad_flash_comparison": {
+    "big motor controller-F_Cu.gtl": {
+      "native_pad_flashes_compared": 230,
+      "missing": [],
+      "wrong_centres": [],
+      "comparison_tolerance_mm": 1.1e-06
+    },
+    "big motor controller-B_Cu.gbl": {
+      "native_pad_flashes_compared": 202,
+      "missing": [],
+      "wrong_centres": [],
+      "comparison_tolerance_mm": 1.1e-06
+    }
+  },
+  "U7_U8_native_to_Gerber_pad_centres": {
+    "U7": [
+      {
+        "copper_layer": "F.Cu",
+        "pad": "1",
+        "native_position_export_mm": [
+          128.285,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            128.285,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "2",
+        "native_position_export_mm": [
+          129.555,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            129.555,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "3",
+        "native_position_export_mm": [
+          130.825,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            130.825,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "4",
+        "native_position_export_mm": [
+          132.095,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            132.095,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "5",
+        "native_position_export_mm": [
+          133.365,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            133.365,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "6",
+        "native_position_export_mm": [
+          134.635,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            134.635,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "7",
+        "native_position_export_mm": [
+          135.905,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            135.905,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "8",
+        "native_position_export_mm": [
+          137.175,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            137.175,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "9",
+        "native_position_export_mm": [
+          138.445,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            138.445,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "10",
+        "native_position_export_mm": [
+          139.715,
+          -135.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            139.715,
+            -135.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "11",
+        "native_position_export_mm": [
+          139.715,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            139.715,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "12",
+        "native_position_export_mm": [
+          138.445,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            138.445,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "13",
+        "native_position_export_mm": [
+          137.175,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            137.175,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "14",
+        "native_position_export_mm": [
+          135.905,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            135.905,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "15",
+        "native_position_export_mm": [
+          134.635,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            134.635,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "16",
+        "native_position_export_mm": [
+          133.365,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            133.365,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "17",
+        "native_position_export_mm": [
+          132.095,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            132.095,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "18",
+        "native_position_export_mm": [
+          130.825,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            130.825,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "19",
+        "native_position_export_mm": [
+          129.555,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            129.555,
+            -126.25
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "20",
+        "native_position_export_mm": [
+          128.285,
+          -126.25
+        ],
+        "Gerber_flash_mm": [
+          [
+            128.285,
+            -126.25
+          ]
+        ]
+      }
+    ],
+    "U8": [
+      {
+        "copper_layer": "F.Cu",
+        "pad": "1",
+        "native_position_export_mm": [
+          116.4375,
+          -80.45
+        ],
+        "Gerber_flash_mm": [
+          [
+            116.4375,
+            -80.45
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "2",
+        "native_position_export_mm": [
+          116.4375,
+          -79.5
+        ],
+        "Gerber_flash_mm": [
+          [
+            116.4375,
+            -79.5
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "3",
+        "native_position_export_mm": [
+          116.4375,
+          -78.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            116.4375,
+            -78.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "4",
+        "native_position_export_mm": [
+          114.1625,
+          -78.55
+        ],
+        "Gerber_flash_mm": [
+          [
+            114.1625,
+            -78.55
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "5",
+        "native_position_export_mm": [
+          114.1625,
+          -79.5
+        ],
+        "Gerber_flash_mm": [
+          [
+            114.1625,
+            -79.5
+          ]
+        ]
+      },
+      {
+        "copper_layer": "F.Cu",
+        "pad": "6",
+        "native_position_export_mm": [
+          114.1625,
+          -80.45
+        ],
+        "Gerber_flash_mm": [
+          [
+            114.1625,
+            -80.45
+          ]
+        ]
+      }
+    ]
+  },
+  "quotation_BOM_refs": [
+    "U7",
+    "U8"
+  ],
+  "CPL_positions_layers_and_intended_supplier_overrides_match": true,
+  "placement_rows": [
+    {
+      "ref": "U7",
+      "native_rotation_deg": 90.0,
+      "JLC_quote_rotation_deg": 0.0,
+      "centre_mm_X_negativeY": [
+        134.0,
+        -130.9
+      ],
+      "only_supplier_CSV_rotated": true,
+      "physical_pin1_orientation_supplier_approval": false,
+      "supplier_preview_alignment_status": "Verified by root after reimport of the exact final0degree CPL, with no post-import UI rotation: all20 U7 leads and pin1 bottom-left align with native lands/triangle.",
+      "root_fresh_file_visual_alignment_verified": true,
+      "no_UI_rotation_after_import": true,
+      "factory_CAM_orientation_approval": false
+    },
+    {
+      "ref": "U8",
+      "native_rotation_deg": 180.0,
+      "JLC_quote_rotation_deg": 0.0,
+      "centre_mm_X_negativeY": [
+        115.3,
+        -79.5
+      ],
+      "only_supplier_CSV_rotated": true,
+      "physical_pin1_orientation_supplier_approval": false,
+      "supplier_preview_alignment_status": "Verified by root after reimport of the exact final0degree CPL, with no post-import UI rotation: all6 U8 leads and pin1 bottom-right align with native lands/triangle.",
+      "root_fresh_file_visual_alignment_verified": true,
+      "no_UI_rotation_after_import": true,
+      "factory_CAM_orientation_approval": false
+    }
+  ],
+  "CPL_limit": "Both final0/0 supplier-library rotations and X/Y placement were visually verified by root after fresh import of the exact CPL SHA recorded here, without any post-import UI rotation. Native rotations remain90/180. This is supplier-preview alignment evidence, not manufacturer CAM/stencil/DFM acceptance or physical assembly testing.",
+  "native_titleblock_and_Gerber_job_revision_metadata": "R4",
+  "metadata_note": "Native title-block metadata retains R4 while board silk says R4.1; geometry/sourcehash and fresh export comparisons are the revision identity in this audit.",
+  "physical_or_factory_clearance": false,
+  "quotation_CPL_sha256": "7aaaa30585ed97cb6db1d06aff75d90b855220352bf6094180a1d188fb87ddf9",
+  "quotation_CPL_rows": 2,
+  "previous_U7_180deg_status": "Rejected after fresh supplier import: pin1 appeared top-right, inconsistent with native bottom-left. Do not use the superseded180degree file.",
+  "both_final_CPL_rows_root_fresh_import_visually_verified": true,
+  "factory_CAM_stencil_DFM_acceptance": false,
+  "source_audit_sha256": "2da1512ca7ef93a034320f3329ede2baad808a1a4db631af89e9a62e10c6dc78",
+  "public_export_note": "Private screenshot references omitted; numerical results and root-observed fresh-file alignment retained. No factory acceptance is asserted."
+}

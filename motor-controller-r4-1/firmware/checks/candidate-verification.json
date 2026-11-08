@@ -1,0 +1,33 @@
+{
+  "revision": "R4.1 three-driver CANDIDATE",
+  "populated_axis_mask": 7,
+  "fitted_slots": [
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "empty_future_slots": [
+    "U4",
+    "U5"
+  ],
+  "commissioning_locked": true,
+  "flashed": false,
+  "physical_or_UART_testing": false,
+  "target_compile_link_passed": true,
+  "five_axis_legacy_regression_checks": 6987,
+  "three_axis_candidate_checks": 651,
+  "uf2": {
+    "bytes": 84480,
+    "blocks": 165,
+    "sha256": "35879fbae5f980a2352686a411efd43ee37f39c483690f60d5dce3953177b501",
+    "binary_roundtrip_passed": true
+  },
+  "source_hashes": {
+    "main.cpp": "cb64fafad73561cb3328abed6aabe44a1709721c768c6025187fc6ac8caf5025",
+    "core.h": "d806645811b5cb8795e9d65ede17dc5cbad2d792851868cc3601e6c6b698447e",
+    "core_tests.c": "8b6363925f3ac5b16c2aed1610335412a1932605f67c3fcd35ae0fe2b71bf59e",
+    "three_driver_tests.c": "3be888392fd124f99cd09f50817acb535be233b98de51e34d82d08756d9c0d06",
+    "CMakeLists.txt": "12efd87853567e2e05bbf87fa82c1f9ee093af3f0058a60f693b5abd7f663392"
+  },
+  "public_export_note": "Local execution commands and private supplier evidence are omitted. Engineering results are retained."
+}
