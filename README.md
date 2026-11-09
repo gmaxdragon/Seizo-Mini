@@ -36,7 +36,7 @@ The current [funding BOM](BOM.csv) lists only selected purchases with numeric pr
 
 The budget build requires hand assembly, including U7/U8. See the [buy-and-solder instructions](motor-controller-r4-1/BUY_AND_SOLDER_MANUAL.md) and [first-power checks](motor-controller-r4-1/ASSEMBLY_AND_FIRST_POWER.md). A soldering fault must be inspected and repaired while unpowered; fuses cannot make arbitrary soldering errors harmless.
 
-The existing CNC setup remains available for its original motors, and the five-board batch leaves spare bare carriers. My owned black-and-green external drivers are a possible separate NEMA 23 fallback, subject to identifying their input requirements, current settings and motor compatibility. They are not plug-in replacements for this PCB or a verified backup for a loaded arm. See the [power and fallback review](motor-controller-r4-1/POWER_AND_FALLBACK.md).
+The existing CNC setup remains available for its original motors, and the five-board batch leaves spare bare carriers. The selected preassembled fallback candidate is the Mellow FLY-D5 V1.0 board-only option at $18, reusing the same plug-in TMC2209 modules. Its manufacturer documents 12–24V input, TMC2209 sockets and USB-C host communication. It needs its own correctly configured firmware, jumper settings and checked power harness; it is not compatible with the custom RP2040 firmware. The fallback has not been physically tested.
 
 ## Current design files
 
@@ -53,3 +53,7 @@ These are CAD screenshots, not photographs of an assembled board. Some component
 ## AI assistance
 
 I made the original schematic and routed an earlier PCB version. For later revisions, ChatGPT generated and revised schematic and PCB files, including placement and routing, helped select parts, generated the reference firmware, and ran digital checks. Those checks helped find issues, but they do not guarantee that the board or motors will be safe or work without physical testing.
+
+## Current priced BOM update
+
+The root BOM now uses Item, Qty, Supplier, Cost/item, Total Cost and link columns, with 25 selected purchase lines and no blank or zero purchase prices. Selected merchandise totals $64.69, excluding shipping. Including the $18 fallback raises the previously displayed $76.38 basis to $94.38 before unquoted Adafruit/Mellow delivery, any later duties/tax and any required fallback power connector. Only $5.62 remains to the $100 cap; the delivered build is NOT confirmed below $100. This replaces the earlier $5 external-driver adaptation allowance, not an additional allowance. Use the current priced BOM when replacing the stale saved app list; syncing an old zero-price list back can overwrite this file again. Earlier budget-allocation documents describe the previous option and are superseded by this price update.
