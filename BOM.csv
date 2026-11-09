@@ -1,35 +1,26 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-Three assembled plug-in stepper driver modules,1,BIGTREETECH,$0.00,$0.00,
-Genuine bare USB-C RP2040-Zero module; add 23 header pins manually,1,Waveshare,$0.00,$0.00,
-"Octal STEP buffer / HOLD output enable, wide SOIC20",1,Texas Instruments,$0.00,$0.00,
-"Motor-rail reset supervisor, SOT23-6",1,Texas Instruments,$0.00,$0.00,
-10k1%0.25W100ppm axial resistors,1,YAGEO,$0.00,$0.00,
-1k1%0.25W50ppm axial resistors,1,YAGEO,$0.00,$0.00,
-Fitted wire link from clipped resistor lead,1,Assembly material,$0.00,$0.00,
-100nF50VX7R10% radial bypass capacitors,1,Murata,$0.00,$0.00,
-100uF35V low-impedance radial capacitors,1,Rubycon,$0.00,$0.00,
-470uF50V radial bulk capacitor,1,Panasonic,$0.00,$0.00,
-Four-position5.08mm motor screw terminals,1,DORABO,$0.00,$0.00,
-"5A24V barrel jack,2.0mm center pin",1,Same Sky,$0.00,$0.00,
-Two-pin2.54mm vertical male headers,1,Ckmtw,$0.00,$0.00,
-Keyed four-pin2.54mm PC fan header,1,Molex,$0.00,$0.00,
-"4A125VDC time-delay main fuse,2410",1,Littelfuse,$0.00,$0.00,
-"0.5A125VDC time-delay fan branch fuse,2410",1,Littelfuse,$0.00,$0.00,
-"15V1500W transient suppressor,SMC",1,Bourns,$0.00,$0.00,
-5A60V axial Schottky motor-input isolation diode,1,Vishay,$0.00,$0.00,
-1A40V axial Schottky fan isolation diode,1,Vishay,$0.00,$0.00,
-Ten female8-position driver sockets,1,BOOMELE,$0.00,$0.00,
-Two-wire 12V centrifugal blower; different mounting from 40mm fan,1,SUNON,$0.00,$0.00,
-USB-A male to USB-C male 1m data cable,1,Ckmtw,$0.00,$0.00,
-Two short insulated internal RUN/GND harness wires,1,USER OWNED,$0.00,$0.00,
-HOLD bench link from owned jumper wire,1,USER OWNED,$0.00,$0.00,
-One batch of five bare R4.1 carrier boards; no factory fitting,1,JLCPCB,$0.00,$0.00,
-Owned12V4Aadapter reused,1,USER OWNED,$0.00,$0.00,
-Insulated printed mounting base using owned material,1,USER OWNED,$0.00,$0.00,
-Two unpopulated future driver slots,1,BIGTREETECH,$0.00,$0.00,
-Five 40-position straight male header strips; one provides MCU rows 9+9+5,1,ZHOURI,$0.00,$0.00,
-"Five 8.8x8.8x5mm small heatsinks; three fitted, two spare",1,wenhaoyongshun,$0.00,$0.00,
-"3M8810 thermal adhesive tape,25x25x0.25mm sheet",1,3M / Adafruit,$0.00,$0.00,
-Owned Uno/CNC shield and four owned A4988 driver modules,1,USER OWNED,$0.00,$0.00,
-Two owned enclosed generic9-42V microstep drivers,1,USER OWNED; actual brand unknown,$0.00,$0.00,
-Estimated total shipping,1,,,$0.00,
+TMC2209 V1.3 — Three assembled plug-in stepper driver modules,3,West3D,3.99000000,11.97,https://west3d.com/products/tmc2209-stepper-motor-driver-drivers-btt
+"RP2040-Zero (bare, 20187) — Genuine bare USB-C RP2040-Zero module; add 23 header pins manually",1,LCSC,6.01000000,6.01,https://www.lcsc.com/product-detail/C5350143.html
+"SN74HC541DWR — Octal STEP buffer / HOLD output enable, wide SOIC20",1,LCSC,1.12000000,1.12,https://www.lcsc.com/product-detail/C6757.html
+"TPS3808G01DBVR — Motor-rail reset supervisor, SOT23-6",1,LCSC,0.46000000,0.46,https://www.lcsc.com/product-detail/C19653.html
+MFR-25FBF52-10K — 10k1%0.25W100ppm axial resistors,50,LCSC,0.01980000,0.99,https://www.lcsc.com/product-detail/C1519255.html
+MFR-25FTE52-1K — 1k1%0.25W50ppm axial resistors,50,LCSC,0.01520000,0.76,https://www.lcsc.com/product-detail/C172978.html
+RDER71H104K0S1H03A — 100nF50VX7R10% radial bypass capacitors,5,LCSC,0.09600000,0.48,https://www.lcsc.com/product-detail/C524651.html
+35ZLH100MEFC6.3X11 — 100uF35V low-impedance radial capacitors,10,LCSC,0.06800000,0.68,https://www.lcsc.com/product-detail/C109392.html
+EEU-FR1H471 — 470uF50V radial bulk capacitor,1,LCSC,0.81000000,0.81,https://www.lcsc.com/product-detail/C178708.html
+DB128V-5.08-4P-GN-S — Four-position5.08mm motor screw terminals,5,LCSC,0.42600000,2.13,https://www.lcsc.com/product-detail/C2915641.html
+"PJ-102AH — 5A24V barrel jack,2.0mm center pin",1,LCSC,1.06000000,1.06,https://www.lcsc.com/product-detail/C3096093.html
+B-2100S02P-A110 — Two-pin2.54mm vertical male headers,20,LCSC,0.02800000,0.56,https://www.lcsc.com/product-detail/C124375.html
+"0454004.MR — 4A125VDC time-delay main fuse,2410",5,LCSC,0.29000000,1.45,https://www.lcsc.com/product-detail/C179006.html
+"0454.500MR — 0.5A125VDC time-delay fan branch fuse,2410",5,LCSC,0.21000000,1.05,https://www.lcsc.com/product-detail/C179003.html
+"SMCJ15A — 15V1500W transient suppressor,SMC",1,LCSC,0.68000000,0.68,https://www.lcsc.com/product-detail/C3719503.html
+SB560-E3/54 — 5A60V axial Schottky motor-input isolation diode,1,LCSC,0.54000000,0.54,https://www.lcsc.com/product-detail/C506560.html
+1N5819-E3/54 — 1A40V axial Schottky fan isolation diode,5,LCSC,0.14400000,0.72,https://www.lcsc.com/product-detail/C145202.html
+2.54-1*8P — Ten female8-position driver sockets,10,LCSC,0.11900000,1.19,https://www.lcsc.com/product-detail/C27438.html
+MF50151VX-1B00C-A99 — Two-wire 12V centrifugal blower; different mounting from 40mm fan,1,LCSC,3.17000000,3.17,https://www.lcsc.com/product-detail/C49308057.html
+S100920007 — USB-A male to USB-C male 1m data cable,1,LCSC,3.24000000,3.24,https://www.lcsc.com/product-detail/C430908.html
+R4.1 bare PCB — one batch of five boards,1,JLCPCB,5.30000000,5.30,https://jlcpcb.com/
+2.54-1*40 — Five 40-position straight male header strips; one provides MCU rows 9+9+5,5,LCSC,0.17400000,0.87,https://www.lcsc.com/product-detail/C2977586.html
+Small heatsinks F12-04-05 (five-pack purchase),5,LCSC,0.10000000,0.50,https://www.lcsc.com/product-detail/C5250879.html
+3M8810 thermal adhesive tape25x25mm,1,Adafruit,0.95000000,0.95,https://www.adafruit.com/product/1467
+Mellow FLY-D5 V1.0 - preassembled fallback board only,1,Mellow,18.00,18.00,https://3dmellow.com/products/mellow-5-axis-fly-d5-v10-board-32bit-control-board-klipper-firmware-tmc2209-uart-3d-printer-parts-for-ender-3-5-voron01-02
