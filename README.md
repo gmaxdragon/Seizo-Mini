@@ -1,62 +1,54 @@
-# Seizo Mini — Motor Controller R4.1
+# Seizo Mini — Robotic Arm Motor Controller
 
-This is a pretty big motor controller for the next version of my robotic arm. After my previous arm was damaged, I started thinking about how I could improve it. I wanted stronger geared joints, more lifting ability and a more professional build. Eventually, I want to use NEMA 23 motors for a bigger arm. This PCB is part of that direction.
+This project is a motor controller for a robotic arm I want to build using two NEMA 23 motors and three NEMA 17 motors. It will be a big, complex project, but I believe I can build it with enough hard work and determination. I've wanted to build a robotic arm like this since I was five, so this means a lot to me.
 
-## What this revision does
+The Raspberry Pi sends commands to the controller, the controller sends signals to the drivers, and the drivers control the motors. A separate power supply provides the motor power. One USB-C cable connects the new controller to a USB-A port on my Raspberry Pi 4, which simplifies its wiring.
 
-One USB-C data cable connects this controller to my Raspberry Pi 4 through a Pi USB-A port. A separate, reused 12 V adapter powers the motors. The board has five replaceable driver sockets, but this build fits **three TMC2209 V1.3 modules**. My existing Arduino/CNC shield stays unchanged for the three full-size NEMA 17 motors.
+## What I worked on
 
-| Board label | Driver / motor connector | Intended use |
-| --- | --- | --- |
-| M1 NEMA23-1 | U1 / J1 | First suitably rated NEMA 23 |
-| M2 NEMA23-2 | U2 / J2 | Second suitably rated NEMA 23 |
-| M3 PANCAKE | U3 / J3 | One suitably rated NEMA 17 pancake |
-| M4 FUTURE, M5 FUTURE | U4 / J4, U5 / J5 | Leave driver modules empty in this build |
+I made the basic schematic, did some component placement and completely routed an earlier version of the PCB. My friend helped with routing and planning the power circuit. Later revisions changed the schematic and PCB, including power-related issues. I wanted to be careful because the motors are expensive and I don't want to damage them.
 
-All motor connectors are upright screw terminals, labelled **A1, A2, B1, B2** for the two coil pairs. The drivers plug into female socket rows. The genuine RP2040-Zero has its own USB-C socket. In this budget build I add its 23 header pins and solder it into the carrier. There is also a required short RUN/GND reset harness; the [connection guide](motor-controller-r4-1/assembly/CONNECTIONS_AND_ORIENTATION.md) explains it.
+Budgeting was the hardest problem. I researched cheaper options and worked out which parts I could reuse, including my power supply and the drivers on my existing CNC shield. Fitting everything into the budget took a lot of work. Funding would really help me build and test the next part of this project. Thank you so much for considering it.
 
-NEMA size describes a motor's frame, not its winding current or torque. These intended slot names do **not** make the board compatible with every NEMA 23 or prove that it can lift a particular load. Exact motor ratings and the mechanism still need checking.
+## How the current build connects
 
-## What changed
+| Part | Job |
+| --- | --- |
+| New R4.1 PCB, U1/J1 and U2/J2 | Two suitably rated NEMA 23 motors, using new BTT TMC2209 V1.3 modules |
+| New PCB, U3 | Third TMC module stays fitted for the supplied three-driver firmware checks; leave J3 without a motor in this five-motor arm plan |
+| New PCB, U4/U5 | Future sockets; no driver modules fitted |
+| Existing CNC shield and Arduino Uno | Three NEMA 17 axes using my existing A4988 drivers |
+| RP2040-Zero module on the new PCB | USB-C communication with the Pi; its USB socket is part of the module, not a separate carrier connector |
 
-R4.1 moves the small chip's escape vias away from its solder lands, adds clearer motor and future-slot labels, and updates the reference firmware for three fitted drivers. It includes input protection, fuses, a motor-supply reset monitor and HOLD. HOLD is not an independent emergency stop or brake.
+The new PCB uses one USB connection. The separate Arduino/CNC controller keeps its own existing connection. The owned A4988 modules stay on the CNC shield: they are **not interchangeable with the TMC modules in this PCB's sockets**. A fourth CNC-shield driver socket does not automatically provide a fourth independent axis.
 
-The supplied firmware is **movement-locked**. Schematic checks and PCB checks passed with zero errors, warnings, unconnected nets or schematic mismatches. The software passed 6,987 regression checks and 651 checks for the three-driver setup, and the RP2040 build compiled successfully. These are digital checks; no assembled board or motor has been tested by this release process.
+## Power and testing
 
-## Budget and assembly
+I have a 12 V, 4 A supply, and I tested my existing setup with the supply and four driver boards. This is my report of that existing setup; the new assembled PCB and NEMA 23 motors have not been tested yet. After assembly, I plan to check the board itself, then test suitable motors one at a time before connecting the full arm.
 
-Budgeting has been one of the hardest parts. I researched components, compared prices and kept changing the plan to work out what I could afford. Shipping, tax, import charges and the power supply all matter. This taught me a lot about budgeting and motor electronics.
+The supply is rated for **48 W total**. A buck converter cannot increase that power. The new carrier is a 12 V-only design with an initial shared input qualification envelope of at most 2.5 A/30 W; that envelope is not an electronic current clamp or a physically qualified continuous rating. Sharing the adapter between both controllers requires a checked distribution arrangement and measured combined load. Motor frame size alone does not establish winding-current compatibility or enough torque to lift the arm.
 
-The current plan is **$98.94 estimated**, including a conservative 12% tax allowance and $12.50 contingency for import charges, small mounting items and price changes. It uses manual assembly, three new drivers, one consolidated LCSC parts order, five bare PCBs and my owned 12 V/4 A adapter. Motors, tools and printing material are outside this carrier budget. Actual checkout charges are not all confirmed, so this is an estimate rather than a guaranteed landed price. See the [full BOM](motor-controller-r4-1/cost/Final_BOM.csv) and [budget](motor-controller-r4-1/cost/READ_FIRST.md).
+The latest schematic and PCB checks reported zero violations, unconnected items or schematic mismatches. The manufacturing layer/drill comparison passed. Reference firmware and host software have automated checks, including 50 host tests. These are digital checks, not a guarantee that an assembled board will work or that a loaded arm is safe. The delivered firmware remains motion-locked; integration with the existing Pi/Uno application and physical calibration remain.
 
-The LCSC cart currently shows **$41.54** with displayed shipping and its automatic discount. The bare PCB cart shows **$9.20** after a conditional $5.30 coupon; the budget allows $14.50 without that coupon. Three driver modules are $11.97 before shipping and tax. All three unpaid carts are prepared; no order has been placed.
+## Parts, assembly and fallback
 
-This cheaper build needs **all parts soldered by hand**, including U7/U8, the fuses and rear protection diode. The genuine bare MCU gets 9+9+5 straight header pins. The specified two-wire blower connects directly to J8 pads 1/2 with strain relief and needs its own printed bracket/duct. I kept the protection circuit unchanged. The [buy-and-solder guide](motor-controller-r4-1/BUY_AND_SOLDER_MANUAL.md) lists the exact work. The older [partial factory-assembly option](motor-controller-r4-1/cost/factory-alternative/) is preserved separately and exceeds the budget.
+The current [funding BOM](BOM.csv) lists only selected purchases with numeric prices. The [full BOM](Real_BOM.csv) also records owned parts, unused sockets and assembly details. Shipping and other allowances are separate in the [budget](motor-controller-r4-1/cost/READ_FIRST.md). The three original displayed totals were $41.54 + $14.50 + $18.86 = **$74.90**, before any added cooling/fallback purchases and any later destination charges excluded by the sellers. The current budget file governs the revised plan; no order has been placed by this update.
 
-That adapter is allocated to this carrier. Running both this controller and the separate CNC shield together from one supply has not been qualified. Additional power distribution or another suitable supply may cost extra.
+The budget build requires hand assembly, including U7/U8. See the [buy-and-solder instructions](motor-controller-r4-1/BUY_AND_SOLDER_MANUAL.md) and [first-power checks](motor-controller-r4-1/ASSEMBLY_AND_FIRST_POWER.md). A soldering fault must be inspected and repaired while unpowered; fuses cannot make arbitrary soldering errors harmless.
 
-## Current files
+The existing CNC setup remains available for its original motors, and the five-board batch leaves spare bare carriers. My owned black-and-green external drivers are a possible separate NEMA 23 fallback, subject to identifying their input requirements, current settings and motor compatibility. They are not plug-in replacements for this PCB or a verified backup for a loaded arm. See the [power and fallback review](motor-controller-r4-1/POWER_AND_FALLBACK.md).
 
-- [KiCad project](<motor-controller-r4-1/project/big motor controller.kicad_pro>), [schematic](<motor-controller-r4-1/project/big motor controller.kicad_sch>) and [PCB](<motor-controller-r4-1/project/big motor controller.kicad_pcb>)
-- [Full purchase BOM](motor-controller-r4-1/cost/Final_BOM.csv), [what to solder](motor-controller-r4-1/cost/Solder_List.csv) and [assembly instructions](motor-controller-r4-1/ASSEMBLY_AND_FIRST_POWER.md)
-- [Connections and orientation](motor-controller-r4-1/assembly/CONNECTIONS_AND_ORIENTATION.md), [repair and fallback](motor-controller-r4-1/RECOVERY_AND_FALLBACK_R41.md) and [verification summary](motor-controller-r4-1/checks/labeled-freeze-review.json)
-- [Optional partial assembly quotation files](motor-controller-r4-1/assembly/quotation-only/), [Gerbers and drills](motor-controller-r4-1/fabrication/) and [locked reference firmware](motor-controller-r4-1/firmware/)
+## Current design files
 
-![R4.1 routing preview — CAD plot, not a physical board](readme-images/pcb-routing.png)
+- [KiCad schematic](<motor-controller-r4-1/project/big motor controller.kicad_sch>), [PCB](<motor-controller-r4-1/project/big motor controller.kicad_pcb>) and [project](<motor-controller-r4-1/project/big motor controller.kicad_pro>).
+- [Gerbers/drills](motor-controller-r4-1/fabrication/), [connections](motor-controller-r4-1/assembly/CONNECTIONS_AND_ORIENTATION.md), [locked firmware](motor-controller-r4-1/firmware/) and [USB host reference](motor-controller-r4-1/host/).
+- [Cart screenshots](motor-controller-r4-1/cart-proof/) and [submission file guide](motor-controller-r4-1/SUBMISSION_FILES.md). Earlier teaching-arm and R4 designs remain preserved separately.
 
-![R4.1 KiCad 3D render — several component models are absent](readme-images/pcb-3d.png)
+![R4.1 PCB routing screenshot supplied by me](readme-images/pcb-routing.png)
 
-Both images come from this exact PCB. The 3D render has incomplete model coverage, including the driver modules, MCU and motor terminals; it is not a prediction of a fully assembled board.
+![R4.1 KiCad 3D render supplied by me](readme-images/pcb-3d.png)
 
-## USB software
-
-The [Python USB host adapter](motor-controller-r4-1/host/) handles sessions, command ordering, heartbeat, faults and the three-driver protocol. **50 hardware-free tests pass**, including ten against the actual firmware core. Its default diagnostic tool cannot arm or move a motor, stale data is marked cached, and disconnects are never automatically replayed. The existing Seizo/Uno application is still separate; joint calibration, application integration and real hardware testing remain.
-
-## What still needs testing
-
-This is a reviewed design prototype. It is **not a production-qualified controller or clearance to run a loaded arm**. The $100 delivered cap still depends on final checkout fees staying within the allowances. Exact driver revision and heatsink supplies, motor suitability, supplier CAM/placement review, soldering, adapter fit and polarity, actual current, cooling, USB/UART, reset behavior and regenerated motor voltage still need qualification. The supplied USB host implementation still needs physical testing and integration with the Pi's arm application. A gravity-loaded arm can fall when power or holding torque is lost. The existing CNC/Uno is the fallback for its current three motors; it is not a guaranteed replacement for the new NEMA 23 channels.
-
-The earlier [R4 motor-controller files](motor-controller-r4/) and [teaching-arm/encoder-reader design](legacy/teaching-mini-r5/) are preserved separately. Funding would really help me build and test this next step. Thank you so much for considering it.
+These are CAD screenshots, not photographs of an assembled board. Some component models are missing, including the MCU and its USB-C socket. The fan header shown in the render is not fitted in the current manual build; the specified blower wires connect directly to J8 pads 1/2 with strain relief.
 
 ## AI assistance
 

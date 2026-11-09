@@ -4,12 +4,12 @@ Use the R4.1 schematic, PCB and front/back assembly maps. Do not use the origina
 
 ## Buy
 
-1. Import `cost/LCSC_import.csv` into LCSC. Map **LCSC Part Number** to part number and **Quantity** to purchase quantity. It contains exactly 20 unique part numbers. Check every result, quantity and stock indicator before checkout. The November 8 unpaid cart showed $27.97 goods and $13.85 freight, with a $0.28 automatic discount. The planning budget ignores the discount.
+1. Import `cost/LCSC_import.csv` into LCSC. Map **LCSC Part Number** to part number and **Quantity** to purchase quantity. It contains exactly 21 unique part numbers. Check every result, quantity and stock indicator before checkout. The current November 8 unpaid cart shows $28.47 goods and $13.88 freight, with a $0.28 automatic discount. The planning budget ignores the discount.
 2. Buy **three** West3D BTT0529 driver modules. The carrier requires the reviewed **BIGTREETECH TMC2209 V1.3 with R110 sense resistors** and the documented shunt configuration. Confirm the delivered modules against their board markings before installation. A similarly named module is not automatically a compatible substitute. The current listing does not explicitly promise all revision, heatsink and adhesive details; the BOM retains a $2 cooling-accessory reserve.
 3. Order **one batch of five bare R4.1 PCBs** from the matching Gerber archive. Specification: 100×100mm, two layers, 1.6mm FR-4, 1oz copper, green solder mask, white silkscreen, LeadFree HASL, tented vias and electrical test. The November 8 saved unpaid quote shows $5.30 boards + $9.20 Global Standard shipping − a $5.30 automatic PCB coupon = $9.20 displayed. The budget ignores the coupon and reserves $14.50. No address was entered and final destination charges remain unconfirmed. Assemble one; four are bare spares. No assembly or stencil is included.
 4. Reuse the approved owned regulated 12V/4A adapter, owned insulated jumper wires and printing material. Verify the adapter label, center-positive polarity and nominal 5.5/2.1mm plug before connecting it. USB does not power the motor rail.
 
-The estimated budget is $98.94 with reserves; see `cost/READ_FIRST.md`. The actual supplier checkout totals and any owed import/tax charges govern purchasing. No order or payment has been placed by this plan.
+The maximum allocation is100USD, with final landed costs unverified; see `cost/READ_FIRST.md`. The actual supplier checkout totals and any owed import/tax charges govern purchasing. No order or payment has been placed by this plan.
 
 ## Assemble with all power disconnected
 
@@ -60,3 +60,7 @@ Use the package's full first-power/commissioning procedure: unpowered polarity a
 Adapter regulation, polarity, plug fit, exact motor winding current, driver current setting, fan startup, rail transients and temperatures still need physical validation. The initial total-input qualification envelope is at most **2.5A/30W**, not an electronic current clamp or a certified continuous board rating. Support the mechanism because power loss/reset can remove motor holding torque. This purchase plan does not establish that the same adapter can simultaneously power the separate CNC controller or that arbitrary NEMA23 motors are compatible.
 
 Primary part/drawing references: [genuine MCU](https://www.lcsc.com/product-detail/C5350143.html), [headers](https://www.lcsc.com/product-detail/C2977586.html), [USB data cable](https://www.lcsc.com/product-detail/C430908.html), [blower](https://www.lcsc.com/product-detail/C49308057.html), [SUNON drawing](https://datasheet.lcsc.com/datasheet/pdf/ee5d2a9d0beb092f4b58af8906878919.pdf?productCode=C49308057).
+
+## Current motor and heatsink plan
+
+UseU1/U2 for the two suitableNEMA23 motors. KeepU3fitted for mask7 but leave its motor connector empty; the separate ownedCNC handles the threeNEMA17 axes. Fit threeC5250879/F12-04-05heatsinks with correctly trimmed genuine3M8810thermal adhesive fromAdafruit1467. The five-pack leaves two spare heatsinks. Inspect clearances and delivered fit; keep metal away from solder/pads, retain forced airflow and test temperature at the qualified current. Do not use ordinary tape or trust anodizing to prevent a short. The extra Adafruit delivery is not yet quoted.

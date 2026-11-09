@@ -1,8 +1,7 @@
 {
   "revision": "R4.1",
-  "assembly": "manual/consolidated",
-  "scope": "Explicit public prototype files; manifest and outer ZIP excluded",
-  "file_count": 106,
+  "scope": "Reviewed prototype public allowlist; native files unchanged; current funding/cooling/fallback allocation",
+  "file_count": 117,
   "files": [
     {
       "path": "ASSEMBLY_AND_FIRST_POWER.md",
@@ -11,13 +10,18 @@
     },
     {
       "path": "BUY_AND_SOLDER_MANUAL.md",
-      "bytes": 9487,
-      "sha256": "b6d745ac18c36b693a0b741ca85a346f581e946b9d3da00df183545068f42671"
+      "bytes": 10178,
+      "sha256": "db2b7cf08d1bc26d8d941c0aca1721f4fdabf847cf6b5e5bffcaa5aa1f77927e"
+    },
+    {
+      "path": "POWER_AND_FALLBACK.md",
+      "bytes": 5042,
+      "sha256": "c8d1a3e199035b6074f1bdb486d89623edb8947b9687c8778624202204b1ddc9"
     },
     {
       "path": "README.md",
-      "bytes": 3009,
-      "sha256": "8b7a841beaa8ff631b22221f540ca3ceb166b3a338c04f312e2e3c8e78532b31"
+      "bytes": 3428,
+      "sha256": "79812dec5351b9a92afea1ef305e90bf6ee398f474cf2f2db43a4f8ea5d060dc"
     },
     {
       "path": "RECOVERY_AND_FALLBACK_R41.md",
@@ -26,8 +30,8 @@
     },
     {
       "path": "SUBMISSION_FILES.md",
-      "bytes": 2112,
-      "sha256": "1c4f522d44fccc9a21d0561304d7e61c1ff4bdb6bc7d54408fd9d4d9c969ea15"
+      "bytes": 2562,
+      "sha256": "4e975900247c4f96e95a206d17d064d575ec2f08b73bf3a943e9aa5ed116f1f4"
     },
     {
       "path": "assembly/CONNECTIONS_AND_ORIENTATION.md",
@@ -90,14 +94,34 @@
       "sha256": "50ad9fa527ebd58683e87b6f982092905ee62b88efae027de43e7c5c4afb2f1e"
     },
     {
+      "path": "cart-proof/Adafruit-current.jpg",
+      "bytes": 85582,
+      "sha256": "5d341a7a94a09323023c4f6ae99d7ed325db7d718bc1a15853da43cbe934c042"
+    },
+    {
       "path": "cart-proof/JLC-bare-Nov8.jpg",
       "bytes": 17082,
       "sha256": "4f32d2cbee1c813153007444cc1262b886ebe286a662b44dc86560ae4a7fb4f0"
     },
     {
+      "path": "cart-proof/JLC-current.jpg",
+      "bytes": 17557,
+      "sha256": "4d466ee4c6f1e46f8bfad61cb3e41b0df9a812b1471b970aa5f6c3f7d23ce9cb"
+    },
+    {
+      "path": "cart-proof/LCSC-current.jpg",
+      "bytes": 16656,
+      "sha256": "2a1340324acf763b442c07a85171e1328eba5084b54dd8b3038667e92faafd89"
+    },
+    {
       "path": "cart-proof/LCSC-manual-Nov8.jpg",
       "bytes": 84337,
       "sha256": "a7e9983daeb374c0dc368b742a2ccfae7c3f79ca74f3400b97316fa6e390388a"
+    },
+    {
+      "path": "cart-proof/West3D-current.jpg",
+      "bytes": 5450,
+      "sha256": "eec9ddd4b59ce0f3d33d06540e756e69e908783d441a38c988041ce56dd06568"
     },
     {
       "path": "cart-proof/West3D-three-drivers-Nov8.jpg",
@@ -190,6 +214,21 @@
       "sha256": "d5a4ce72ca7fa495376465c026c5cf6e6aa5f064fb7ffbdd263edde425087320"
     },
     {
+      "path": "checks/requested-DRC.json",
+      "bytes": 539,
+      "sha256": "60f595ed6458f6671806a499389894a34b8a2c17d9e0033891bd75a020661fa0"
+    },
+    {
+      "path": "checks/requested-ERC.json",
+      "bytes": 741,
+      "sha256": "18a598d46253dfd8c58a51ff70eab55ebdb124ef1ed3ad07d7dcbec1503751aa"
+    },
+    {
+      "path": "checks/requested-fabrication-recheck.json",
+      "bytes": 3184,
+      "sha256": "c77f57cb070ca0a632d6e906824a80a1d22749d5f4149fd554fcf73d04b44b13"
+    },
+    {
       "path": "checks/revised.net.xml",
       "bytes": 98505,
       "sha256": "730c04c731ffe524028c1729e0e4e45cb01204ac51056af70f01b3b5f94b2c30"
@@ -201,43 +240,58 @@
     },
     {
       "path": "cost/Budget.csv",
-      "bytes": 1011,
-      "sha256": "2ca5200f2cdbcb091db5164288e93e0e20c9da9b5db685e96b451b0c3b3922a7"
+      "bytes": 647,
+      "sha256": "9683d40720e7c291cef2d1ae8774b82e739d10c69f46f6d65a4c69c953f1e229"
     },
     {
       "path": "cost/Final_BOM.csv",
-      "bytes": 18506,
-      "sha256": "a2fb73f7df907a0c9b366e325f67f8154009d2970116c47e2e005a7ba618161c"
+      "bytes": 21258,
+      "sha256": "67ea4ee19194b12880598dbcace9c8d9f551058aaab5045e70e833a16dc48599"
+    },
+    {
+      "path": "cost/HalfLife_import.csv",
+      "bytes": 10909,
+      "sha256": "b6b9de62b8ff6d69de90e95968a4d76c6246d54a4f76a3518c719626b3e44510"
     },
     {
       "path": "cost/LCSC_import.csv",
-      "bytes": 3710,
-      "sha256": "b8e05ca07c8c4bfcbde1c9f64210b41580067a3882883979fe9768f4b103f464"
+      "bytes": 3883,
+      "sha256": "bc26c4f7390e959bc5bee2b5eab0dc175d6c25d2608aa467251edcc5e65aed44"
     },
     {
       "path": "cost/LCSC_import_spares_plan.csv",
-      "bytes": 3710,
-      "sha256": "b8e05ca07c8c4bfcbde1c9f64210b41580067a3882883979fe9768f4b103f464"
+      "bytes": 3883,
+      "sha256": "bc26c4f7390e959bc5bee2b5eab0dc175d6c25d2608aa467251edcc5e65aed44"
     },
     {
       "path": "cost/QUOTE_RECHECK.md",
-      "bytes": 1424,
-      "sha256": "df56d74050b2e416371090138ec8125269d0b3534c780433225a07e507d5c968"
+      "bytes": 2920,
+      "sha256": "bf0277edf7c1ed2b3bed3cfa33af00001961fcaee2a029c8fb8ed7d00e59e892"
     },
     {
       "path": "cost/QUOTE_TOTALS.csv",
-      "bytes": 1011,
-      "sha256": "2ca5200f2cdbcb091db5164288e93e0e20c9da9b5db685e96b451b0c3b3922a7"
+      "bytes": 647,
+      "sha256": "9683d40720e7c291cef2d1ae8774b82e739d10c69f46f6d65a4c69c953f1e229"
     },
     {
       "path": "cost/R41-purchase-BOM.csv",
-      "bytes": 18506,
-      "sha256": "a2fb73f7df907a0c9b366e325f67f8154009d2970116c47e2e005a7ba618161c"
+      "bytes": 21258,
+      "sha256": "67ea4ee19194b12880598dbcace9c8d9f551058aaab5045e70e833a16dc48599"
     },
     {
       "path": "cost/READ_FIRST.md",
-      "bytes": 4507,
-      "sha256": "c0c8f74c3560234701c047f6fe1b648a03ccb1705c81b34bed8762e624a0f0cd"
+      "bytes": 2920,
+      "sha256": "bf0277edf7c1ed2b3bed3cfa33af00001961fcaee2a029c8fb8ed7d00e59e892"
+    },
+    {
+      "path": "cost/ROOT_BOM_SYNC_NOTE.md",
+      "bytes": 1914,
+      "sha256": "f1bd52bc223783f6caba1dbb8adddd28761d2b87119939ed2a643511bdd1c52d"
+    },
+    {
+      "path": "cost/Real_BOM.csv",
+      "bytes": 21258,
+      "sha256": "67ea4ee19194b12880598dbcace9c8d9f551058aaab5045e70e833a16dc48599"
     },
     {
       "path": "cost/Solder_List.csv",
@@ -286,18 +340,18 @@
     },
     {
       "path": "cost/plan-validation.json",
-      "bytes": 1392,
-      "sha256": "f9c85fee1e09b55cc9d9f74de5ccb0ef5e4ed62f90cf5a730693d2d79aa518bf"
+      "bytes": 231,
+      "sha256": "475bd080f1dcb5b8b9c2c875fa355a876e1518b62bcae68a5b1f0649e0533977"
     },
     {
       "path": "cost/planning-budget.json",
-      "bytes": 31157,
-      "sha256": "a564805547869b45e125462ebfb0aec6d61653e3d09cedb779f2b196044da4ca"
+      "bytes": 554,
+      "sha256": "a7773fba001065975393d63160ed55eef3a5f0116d4b8b406089b5e684ca5529"
     },
     {
       "path": "cost/quote-recheck.json",
-      "bytes": 706,
-      "sha256": "bc16fc77822be618e9295a7206f26b9e23c4c91b23b94319bd93e3c79df507a3"
+      "bytes": 554,
+      "sha256": "a7773fba001065975393d63160ed55eef3a5f0116d4b8b406089b5e684ca5529"
     },
     {
       "path": "fabrication/big motor controller-B_Cu.gbl",
@@ -531,8 +585,8 @@
     },
     {
       "path": "release-status.json",
-      "bytes": 1298,
-      "sha256": "b9d5cbd14cb8faeccdd40aed4d8f63f084a9cf21e00718219d36a3ad571b1360"
+      "bytes": 1589,
+      "sha256": "6ba1fb64de82fa94121c53add6a33157b5adbf06728c8f7ecd9e09bbf1fb7d6f"
     }
   ]
 }

@@ -1,9 +1,27 @@
-# November 8 cart review — manual option
+# Current purchase prices and100USD budget allocation
 
-LCSC: 20 exact required SKU lines, all in stock, $27.97 merchandise + $13.85 displayed freight − $0.28 automatic promotion = $41.54. Budget ignores that promotion and allows $41.82. No address was entered, changed or submitted by this review.
+The root BOM.csv and HalfLife_import.csv now contain **24 selected purchase lines** with numeric prices and working source links. Merchandise total is **46.69USD**: LCSC28.47, West3D11.97, JLC5.30, Adafruit0.95. Do not add the detailed Real_BOM.csv as a second purchase list: it includes ownership/DNP records.
 
-JLCPCB: saved a new unpaid bare-only R4.1 quote (the newest Y7 item). Five 100×100mm, two-layer, 1.6mm green, LeadFree HASL boards, no PCBA/stencil: $5.30 merchandise + $9.20 Global Standard estimated freight. A conditional $5.30 PCB coupon makes its displayed subtotal $9.20; budget ignores the coupon and allows $14.50. Other old cart entries remain unselected. The archive filename includes Assembly_Quote because the matching existing Gerber archive was reused; this selected item contains bare PCBs only.
+| Website | Current displayed amount | Scope |
+|---|---:|---|
+| LCSC |42.07|21lines, including five small heatsinks;28.47goods +13.88shipping -0.28promotion |
+| JLCPCB |14.50|5barePCBs;5.30goods +9.20shipping; no coupon counted |
+| West3D |18.86|3drivers;11.97goods +6.89shipping |
+| Adafruit |0.95|One3M8810sheet, merchandise only; shipping/tax not calculated |
 
-West3D: three exact BTT0529 variants, $11.97 merchandise. Shipping/tax are not displayed in the cart. Budget retains the earlier $6.89 freight allowance; final checkout may differ. No customer contact, new personal data, payment or order.
+**Displayed sum76.38USD.** The prior74.90USD sum was correct before the extra heatsinks, small freight increase and tape purchase. Adafruit's displayed0USD shipping/tax placeholders are NOT free delivery or confirmed tax exemptions. JLC's chosen shipping terms explicitly leave destination duty/tax/handling collectible later; the amount14.50USD is not a guarantee of a duty-paid landed total.
 
-The complete plan is $98.94 ESTIMATED, including 12% tax allowance, $2 cooling-accessory reserve and $12.50 contingency. Those are allowances rather than confirmed accessory purchases or a guarantee of landed charges. Stop before paying if actual aggregate cost exceeds $100. Exact driver revision/heatsink contents and motor compatibility remain delivery/physical checks.
+| Allocation | USD |
+|---|---:|
+| Displayed amounts above |76.38|
+| Conditional NEMA23-only fallback adaptation materials |5.00|
+| Remaining allowance for Adafruit delivery, uncollected tax/import/handling and price changes |18.62|
+| Maximum allocated budget |100.00|
+
+This is a **100USD allocation**, not a100USD supplier quotation or verified landed total. Remaining charges are unquoted and may exceed the allowance. Stop before buying if the actual aggregate exceeds the cap; do not remove protection/cooling to compensate. Owned enclosed fallback drivers cost0USD to acquire, but their interface, power wiring and firmware are unqualified. The5USD line is a materials allowance, not a selected complete backup kit; it is intentionally excluded from the purchase importer.
+
+Without the current LCSC0.28USDpromotion, the displayed basis would be76.66USD and the remaining-charge allowance would reduce to18.34USD. No future coupon is required in this allocation. The earlier98.94USD manual plan and factory quotations are superseded budget scenarios preserved in history/alternate files, not a new final cost.
+
+The build reuses the owned12V4Aadapter, ownedCNC/UnoA4988 setup, jumper wires and printing material. Motors/tools remain excluded from this carrier-parts budget. The entire motor system is not proven to fit48W; see POWER_AND_FALLBACK.md. Every carrier part, including U7/U8, is hand soldered in this option.
+
+The two cooling purchases are selected: LCSCC5250879/F12-04-05 five8.8x8.8x5mmheatsinks (fit3), and Adafruit1467/3M8810sheet0.95USD. Cut thermal adhesive to the mating area, keep metal clear of electrical pads, and perform physical fit/thermal/adhesion checks. No new separate cooling fan is omitted: the SUNON blower remains in the LCSC list.

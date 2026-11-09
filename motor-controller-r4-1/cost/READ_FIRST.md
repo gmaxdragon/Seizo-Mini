@@ -1,30 +1,27 @@
-# R4.1 manual build and budget
+# Current purchase prices and100USD budget allocation
 
-This purchase option keeps three new plug-in drivers in U1/U2/U3, the unchanged R4.1 carrier circuit and the separate existing CNC controller. U4/U5 remain empty. It reuses the approved owned 12V/4A adapter and uses one USB-A-to-USB-C data cable from the Pi to the carrier's MCU. Motor power is separate from USB.
+The root BOM.csv and HalfLife_import.csv now contain **24 selected purchase lines** with numeric prices and working source links. Merchandise total is **46.69USD**: LCSC28.47, West3D11.97, JLC5.30, Adafruit0.95. Do not add the detailed Real_BOM.csv as a second purchase list: it includes ownership/DNP records.
 
-**Estimated project total: $98.94, including tax and import/price-change reserves.** This is a planning total, not a guaranteed landed checkout amount. No coupon is needed for the calculation. All five carrier protection parts remain: U7, U8, F1, F2 and D2; the other diodes and bypass/bulk capacitors remain too.
+| Website | Current displayed amount | Scope |
+|---|---:|---|
+| LCSC |42.07|21lines, including five small heatsinks;28.47goods +13.88shipping -0.28promotion |
+| JLCPCB |14.50|5barePCBs;5.30goods +9.20shipping; no coupon counted |
+| West3D |18.86|3drivers;11.97goods +6.89shipping |
+| Adafruit |0.95|One3M8810sheet, merchandise only; shipping/tax not calculated |
 
-| Purchase/category | Goods | Freight | Total used in budget |
-|---|---:|---:|---:|
-| LCSC: 20 lines, including bare MCU, headers, blower and data cable | $27.97 | $13.85 | $41.82 |
-| West3D: three new BTT driver modules | $11.97 | $6.89 allowance | $18.86 |
-| JLCPCB: five bare carrier boards, no assembly | $5.30 | $9.20 current saved quote | $14.50 |
-| Module heatsinks/adhesive reserve | $2.00 | Included in reserve only if no separate parcel | $2.00 |
-| Subtotal | | | **$77.18** |
-| Conservative tax allowance: 12% of subtotal | | | $9.26 |
-| Import and price-change contingency | | | $12.50 |
-| Estimated total | | | **$98.94** |
+**Displayed sum76.38USD.** The prior74.90USD sum was correct before the extra heatsinks, small freight increase and tape purchase. Adafruit's displayed0USD shipping/tax placeholders are NOT free delivery or confirmed tax exemptions. JLC's chosen shipping terms explicitly leave destination duty/tax/handling collectible later; the amount14.50USD is not a guarantee of a duty-paid landed total.
 
-The revised LCSC unpaid cart was checked on November 8, 2026: **20 lines, all in stock, $27.97 goods + $13.85 freight − $0.28 automatic promotion = $41.54 displayed**. The budget deliberately ignores that promotion and uses $41.82. This cart display does not establish final destination duties, brokerage or tax. Shipping for the revised parts cart changed from the original 17-line cart; do not reuse the original $11.85 freight figure.
+| Allocation | USD |
+|---|---:|
+| Displayed amounts above |76.38|
+| Conditional NEMA23-only fallback adaptation materials |5.00|
+| Remaining allowance for Adafruit delivery, uncollected tax/import/handling and price changes |18.62|
+| Maximum allocated budget |100.00|
 
-The JLC bare-board unpaid cart was also saved and checked on November 8: **five bare boards, no PCBA, $5.30 goods + $9.20 Global Standard freight − $5.30 automatic PCB coupon = $9.20 displayed**. The budget deliberately ignores that coupon and uses **$14.50**. No delivery address was entered, so this is a current saved quotation rather than a final destination-bound landed total. West3D's current unpaid cart contains exactly three BTT0529 modules for $11.97; its $6.89 freight remains an allowance. Future modules and the unpopulated J8 header are excluded from purchase costs.
+This is a **100USD allocation**, not a100USD supplier quotation or verified landed total. Remaining charges are unquoted and may exceed the allowance. Stop before buying if the actual aggregate exceeds the cap; do not remove protection/cooling to compensate. Owned enclosed fallback drivers cost0USD to acquire, but their interface, power wiring and firmware are unqualified. The5USD line is a materials allowance, not a selected complete backup kit; it is intentionally excluded from the purchase importer.
 
-`LCSC_import.csv` is the 20-line supplier importer. `Final_BOM.csv` is the complete purchase list, including spares from minimum packs, the DNP fan header and reused items. `Solder_List.csv` lists what actually gets fitted. Purchase quantities are not fitted quantities.
+Without the current LCSC0.28USDpromotion, the displayed basis would be76.66USD and the remaining-charge allowance would reduce to18.34USD. No future coupon is required in this allocation. The earlier98.94USD manual plan and factory quotations are superseded budget scenarios preserved in history/alternate files, not a new final cost.
 
-This lower-cost option is **fully manual carrier assembly**. U7 is a 20-lead wide SOIC; U8 is a six-lead SOT-23. F1/F2 and D2 are also surface-mount. The drivers themselves arrive assembled. There is no factory assembly, stencil or assembly coupon in this budget. Assembly needs suitable tools, flux, magnification and short/continuity checks; header-only soldering experience does not establish that the small-chip work has been completed successfully.
+The build reuses the owned12V4Aadapter, ownedCNC/UnoA4988 setup, jumper wires and printing material. Motors/tools remain excluded from this carrier-parts budget. The entire motor system is not proven to fit48W; see POWER_AND_FALLBACK.md. Every carrier part, including U7/U8, is hand soldered in this option.
 
-The genuine bare Waveshare RP2040-Zero replaces the preheadered Zero-M. Add its male header rows 9+9+5 manually. The two-wire SUNON blower replaces the old 40mm fan: leave J8's header unpopulated, solder black to J8.1 and red to J8.2, and add a printed blower mount/duct and wire strain relief. F2 and D3 stay fitted. Full instructions are in `BUY_AND_SOLDER_MANUAL.md`.
-
-The $2 cooling-accessory line remains an **unselected reserve** until compatible heatsinks and their thermal interface are confirmed. Exact BTT V1.3/R110 delivery, adapter label/polarity/plug fit, current settings, board assembly, motor loading and temperatures require inspection/testing. Motors and tools are outside this controller budget. No new supply, motor cable or mounting-fastener pack is included. If new mounting hardware is necessary, reprice it before buying. Do not order if actual combined charges exceed $100.
-
-The owned adapter is allocated to this new carrier; the budget does not establish that it can also supply the existing CNC controller at the same time. The starting shared-input qualification envelope is at most 2.5A/30W, not a measured continuous rating or electronic current limiter. NEMA frame size alone does not establish a compatible motor. HOLD is a motion-control input, not an independent emergency stop or brake. Physical motor/arm commissioning and manufacturer fabrication acceptance remain separate from the completed digital design checks.
+The two cooling purchases are selected: LCSCC5250879/F12-04-05 five8.8x8.8x5mmheatsinks (fit3), and Adafruit1467/3M8810sheet0.95USD. Cut thermal adhesive to the mating area, keep metal clear of electrical pads, and perform physical fit/thermal/adhesion checks. No new separate cooling fan is omitted: the SUNON blower remains in the LCSC list.

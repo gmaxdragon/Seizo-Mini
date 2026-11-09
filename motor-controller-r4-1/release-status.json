@@ -33,7 +33,13 @@
   "Pi_application_integrated": false,
   "hardware_calibration": false,
   "active_assembly": "all manual including U7/U8",
-  "estimated_total_with_allowances_usd": 98.94,
+  "estimated_total_with_allowances_usd": null,
   "host_protocol_implemented": true,
-  "host_tests": 50
+  "host_tests": 50,
+  "budget_cap_allocation_usd": 100,
+  "displayed_amounts_usd": 76.38,
+  "NEMA23_fallback_material_allowance_usd": 5,
+  "NEMA23_fallback_verified": false,
+  "intended_motor_plan": "U1/U2:NEMA23;U3:fitted spare/no motor;existingCNC:threeNEMA17",
+  "shared_12V4A_supply_qualified": false
 }
